@@ -4,9 +4,10 @@ import nlopt
 import matplotlib.pyplot as mpl
 
 import disRel.lorentzfit as lf
+import util.chatter as chat
 
 
-def getFitted(datasource, wl_min, wl_max, wl_units, num_lorentzians = 4, num_repeat = 10):
+def getFitted(datasource : str, wl_r : tuple[float, float], wl_units : str, num_lorentzians = 4, num_repeat = 10, imaginary_weight = 4):
     
     mydata = np.genfromtxt(datasource, delimiter=",")[1:-1]
     n = mydata[:, 1] + 1j * mydata[:, 2]
@@ -14,20 +15,21 @@ def getFitted(datasource, wl_min, wl_max, wl_units, num_lorentzians = 4, num_rep
     
     # Fitting parameter: the instantaneous (infinite frequency) dielectric.
     # Should be > 1.0 for stability and chosen such that
-    # np.amin(np.real(eps)) is ~1.0. eps is defined below.
+    # np.amin(np.real(eps)) is     ~1.0.  eps is defined below.
     eps_inf = 1.1
 
     eps = np.square(n) - eps_inf
-
-    wl_scale = 1
-    if(wl_units == "um"):
-        wl_scale = 1e-3
     
-    # Fit only the data in the wavelength range of [wl_min, wl_max].
+    # this would be epic
+    # eps = np.float_power(eps, 1 / imaginary_weight)
+
+    wl_scale = wl_scale * chat.scaleNm(wl_units)
+    
+    # Fit only the data in the wavelength range of [wl_r[0], wl_r[1]].
     wl = wl_scale * mydata[:, 0]
-    start_idx = np.where(wl > wl_min)
+    start_idx = np.where(wl > wl_r[0])
     idx_start = start_idx[0][0]
-    end_idx = np.where(wl < wl_max)
+    end_idx = np.where(wl < wl_r[1])
     idx_end : int = end_idx[0][-1] + 1
 
     # The fitting function is ε(f) where f is the frequency, rather than ε(λ).
