@@ -10,17 +10,17 @@ def saveFigure(tm_freqs, te_freqs, tm_gaps, te_gaps):
     #     ax.scatter([xz]*len(tez), tez, color='red', facecolors='none')
     ax.plot(tm_freqs, color='blue')
     ax.plot(te_freqs, color='red')
-    ax.set_ylim([2, 3]) #Height
+    ax.set_ylim([400, 600]) #Height
     ax.set_xlim([x[0], x[-1]])
 
     # Plot gaps
-    for gap in tm_gaps:
-        if gap[0] > 1:
-            ax.fill_between(x, gap[1], gap[2], color='blue', alpha=0.2)
+    # for gap in tm_gaps:
+    #     if gap[0] > 1:
+    #         ax.fill_between(x, gap[1], gap[2], color='blue', alpha=0.2)
 
-    for gap in te_gaps:
-        if gap[0] > 1:
-            ax.fill_between(x, gap[1], gap[2], color='red', alpha=0.2)
+    # for gap in te_gaps:
+    #     if gap[0] > 1:
+    #         ax.fill_between(x, gap[1], gap[2], color='red', alpha=0.2)
 
 
     # Plot labels
@@ -32,7 +32,7 @@ def saveFigure(tm_freqs, te_freqs, tm_gaps, te_gaps):
     tick_labs = ['K', 'Γ', 'M']
     ax.set_xticks(tick_locs)
     ax.set_xticklabels(tick_labs, size=16)
-    ax.set_ylabel('frequency (c/a)', size=16)
+    ax.set_ylabel('Wavelength (nm)', size=16)
     ax.grid(True)
 
     fig.savefig("band_structure.png", dpi=150, bbox_inches="tight")

@@ -14,8 +14,8 @@ import simulation.mpbsolver as hexSolver
 import simulation.tdsolver  as tdSolver
 
 def main():
-    # fdsim()
-    tdsim()
+    fdsim()
+    # tdsim()
     
 def tdsim():
     
@@ -32,12 +32,14 @@ def tdsim():
 
 def fdsim():
     
-    latticeConstant = 0.455 # um
+    latticeConstant = 0.400 # um
     
-    te_freqs, te_gaps = recalc(latticeConstant)
+    # te_freqs, te_gaps = recalc(latticeConstant)
     
-    # te_freqs = np.load("bin\\simresults\\te_freqs.npy")
-    # te_gaps = np.load("bin\\simresults\\te_gaps.npy")
+    te_freqs = np.load("bin\\simresults\\te_freqs.npy")
+    te_gaps = np.load("bin\\simresults\\te_gaps.npy")
+    
+    te_freqs = ((latticeConstant / 3e8) / te_freqs) * 1e12
     
     plots.bandvisualizer.saveFigure(te_freqs, te_freqs, te_gaps, te_gaps)
     
@@ -49,7 +51,7 @@ def fdsim():
     
 def recalc(latticeConstant):
     
-    silMat = pi.getFitted("data/AspnesCrystallineNanometers.csv", 0.4, 0.7, "um")
+    silMat = pi.getFitted("data/AspnesCrystallineNanometers.csv", (0.4, 0.8), "um", 6, 15)
     
     #silMat = mp.Medium(epsilon = 18.7)
     hexSim =  hexSolver.create2DHexSolver(silMat, latticeConstant)

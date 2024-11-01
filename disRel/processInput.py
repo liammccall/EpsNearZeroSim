@@ -23,7 +23,7 @@ def getFitted(datasource : str, wl_r : tuple[float, float], wl_units : str, num_
     # this would be epic
     # eps = np.float_power(eps, 1 / imaginary_weight)
 
-    wl_scale = wl_scale * chat.scaleNm(wl_units)
+    wl_scale = chat.scaleNm(wl_units)
     
     # Fit only the data in the wavelength range of [wl_r[0], wl_r[1]].
     wl = wl_scale * mydata[:, 0]
