@@ -14,18 +14,53 @@ import simulation.mpbsolver as hexSolver
 import simulation.tdsolver  as tdSolver
 
 def main():
-    fdsim()
-    # tdsim()
+    # fdsim()
+    tdsim()
     
 def tdsim():
     
-    silMat = pi.getFitted("data/AspnesCrystallineNanometers.csv", 0.4, 0.7, "um", 1, 1)
+    latticeConstant = 0.400
     
-    sim = tdSolver.create2dHexSolver(silMat, 1) # ?
+    silMat = pi.getFitted("data/AspnesCrystallineNanometers.csv", [0.4, 0.7], "um", 1, 1)
+    
+    sim = tdSolver.create2dHexSolver(silMat, latticeConstant, 10) # ?
     
     
-    f = plt.figure(dpi=150)
-    sim.plot2D(ax=f.gca())
+    k_points = [
+        latticeConstant * mp.Vector3(y=0.5),  # M
+        latticeConstant * mp.Vector3(),  # Gamma
+        latticeConstant * mp.Vector3(1 / -3, 1 / 3),  # K
+    ]
+
+    k_interp = 5  # number of k_points to interpolate
+    k_points = mp.interpolate(k_interp, k_points)
+    
+    freqs = sim.run_k_points(50, k_points)
+    
+    # np.save("bin\\simresults\\td\\freqs", freqs)
+    
+    xGrid = np.linspace(0, 1, len(freqs))
+    
+    fig = plt.figure(dpi=100, figsize=(5, 5))
+    
+    for i in range(len(freqs)):
+        for ii in range(len(freqs[i])):
+            plt.scatter(xGrid[i], np.real(freqs[i][ii]), color="b")
+            
+    plt.xlim(0, 1)
+    plt.grid(True)
+    plt.xlabel("$k_x(2\pi)$")
+    plt.ylabel("$\omega(2\pi c)$")
+    plt.tight_layout()
+    
+    
+    fig.savefig("tdout.png", dpi=150, bbox_inches="tight")
+    
+    eps_data = sim.get_array(center=mp.Vector3(), size=sim.cell_size, component=mp.Dielectric)
+    plt.figure()
+    plt.imshow(eps_data.transpose(), interpolation='spline36', cmap='binary')
+    plt.axis('off')
+    
     plt.show()
     
         
@@ -69,9 +104,6 @@ def recalc(latticeConstant):
     # hexSim._output_scalar_field("n", "te")
     
     # hexSim.output_field_to_file(mp.Ez, "field")
-    
-    field : mpb.MPBArray = hexSim.get_efield(5)
-    
     
     
     np.save("bin\\simresults\\te_freqs", te_freqs)

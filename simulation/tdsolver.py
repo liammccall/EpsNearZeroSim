@@ -1,7 +1,8 @@
 import meep as mp
 import math
+from numpy import random
 
-def create2dHexSolver(silMat, latticeConstant):
+def create2dHexSolver(silMat, latticeConstant : float, numSources : int):
     
     #phase decoherence look at website
     #simulate dipole
@@ -61,14 +62,22 @@ def create2dHexSolver(silMat, latticeConstant):
         ),
     ]
 
-    fcen = 2  # pulse center frequency
-    df = 1.5  # pulse freq. width: large df = short impulse
+    
+    sources = []
+    
+    rng = random.default_rng()
 
-    s = mp.Source(
-        src=mp.GaussianSource(fcen, fwidth=df),
-        component=mp.Hz,
-        center=mp.Vector3(0.1234),
-    )
+    for i in range(numSources):
+        
+        fcen = 5 - 2 * rng.random() # pulse center frequency
+        df = 1.5  # pulse freq. width: large df = short impulse
+
+        s = mp.Source(
+            src=mp.GaussianSource(fcen, fwidth=df),
+            component=mp.Hz,
+            center=mp.Vector3(0 + latticeConstant * (0.5 - rng.random()), 0 + latticeConstant * (0.5 - rng.random()), 0),
+        )
+        sources.append(s)
 
     # sym = mp.Periodic(direction=mp.Y, phase=-1)
 
@@ -76,10 +85,10 @@ def create2dHexSolver(silMat, latticeConstant):
         cell_size=cell,
         symmetries=[mp.Mirror(direction = mp.ALL, phase=-1)],
         geometry=geometry,
-        sources=[s],
+        sources=sources,
         resolution=200,
     )
-
+    
     # 
 
     kx = False  # if true, do run at specified kx and get fields

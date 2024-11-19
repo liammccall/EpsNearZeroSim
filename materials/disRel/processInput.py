@@ -57,59 +57,7 @@ def getFitted(datasource : str, wl_r : tuple[float, float], wl_units : str, num_
 
     # Find the best performing set of parameters.
     idx_opt = np.where(np.min(mins) == mins)[0][0]
-    popt_str = "( " + ", ".join(f"{prm:.4f}" for prm in ps[idx_opt]) + " )"
-    print(f"optimal:, {popt_str}, {mins[idx_opt]:.6f}")
-
-    # Define a `Medium` class object using the optimal fitting parameters.
-    E_susceptibilities = []
-
-    for n in range(num_lorentzians):
-        mymaterial_freq = ps[idx_opt][3 * n + 1]
-        mymaterial_gamma = ps[idx_opt][3 * n + 2]
-
-        if mymaterial_freq == 0:
-            mymaterial_sigma = ps[idx_opt][3 * n + 0]
-            E_susceptibilities.append(
-                mp.DrudeSusceptibility(
-                    frequency=1.0, gamma=mymaterial_gamma, sigma=mymaterial_sigma
-                )
-            )
-        else:
-            mymaterial_sigma = ps[idx_opt][3 * n + 0] / mymaterial_freq**2
-            E_susceptibilities.append(
-                mp.LorentzianSusceptibility(
-                    frequency=mymaterial_freq,
-                    gamma=mymaterial_gamma,
-                    sigma=mymaterial_sigma,
-                )
-            )
-
-    mymaterial = mp.Medium(epsilon=eps_inf, E_susceptibilities=E_susceptibilities)
-
-    # Plot the fit and the actual data for comparison.
-    mymaterial_eps = [mymaterial.epsilon(f)[0][0] for f in freqs_reduced]
-
-    fig, ax = mpl.subplots(ncols=2)
-
-   # ax[0].plot(wl_reduced, np.real(lf.lorentzfunc()))
-    ax[0].plot(wl_reduced, np.real(eps_reduced) + eps_inf, "bo-", label="actual")
-    ax[0].plot(wl_reduced, np.real(mymaterial_eps), "ro-", label="fit")
-    ax[0].set_xlabel("wavelength (nm)")
-    ax[0].set_ylabel(r"real($\epsilon$)")
-    ax[0].legend()
-
-    ax[1].plot(wl_reduced, np.imag(eps_reduced), "bo-", label="actual")
-    ax[1].plot(wl_reduced, np.imag(mymaterial_eps), "ro-", label="fit")
-    ax[1].set_xlabel("wavelength (nm)")
-    ax[1].set_ylabel(r"imag($\epsilon$)")
-    ax[1].legend()
-
-    fig.suptitle(
-        f"Comparison of Actual Material Data and Fit\n"
-        f"using Drude-Lorentzian Susceptibility"
-    )
-
-    fig.subplots_adjust(wspace=0.3)
-    fig.savefig("eps_fit_sample.png", dpi=150, bbox_inches="tight")
-
-    return mymaterial
+    
+    return ps, idx_opt
+    # popt_str = "( " + ", ".join(f"{prm:.4f}" for prm in ps[idx_opt]) + " )"    
+    # print(f"optimal:, {popt_str}, {mins[idx_opt]:.6f}")
