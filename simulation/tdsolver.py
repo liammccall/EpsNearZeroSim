@@ -64,13 +64,23 @@ def create2dHexSolver(silMat, latticeConstant : float, numSources : int):
 
     
     sources = []
+        
+    # fcen = 1 / latticeConstant #- 2 * rng.random() # pulse center frequency
+    # df = 0.5  # pulse freq. width: large df = short impulse
+
+    # s = mp.Source(
+    #     src=mp.GaussianSource(fcen, fwidth=df),
+    #     component=mp.Ez,
+    #     center=mp.Vector3(0, 0, 0),
+    # )
+    # sources.append(s)
     
     rng = random.default_rng()
 
     for i in range(numSources):
         
-        fcen = 5 - 2 * rng.random() # pulse center frequency
-        df = 1.5  # pulse freq. width: large df = short impulse
+        fcen = 2.2 #- 2 * rng.random() # pulse center frequency
+        df = 0.5  # pulse freq. width: large df = short impulse
 
         s = mp.Source(
             src=mp.GaussianSource(fcen, fwidth=df),
@@ -83,10 +93,10 @@ def create2dHexSolver(silMat, latticeConstant : float, numSources : int):
 
     return mp.Simulation(
         cell_size=cell,
-        symmetries=[mp.Mirror(direction = mp.ALL, phase=-1)],
+        symmetries=[mp.Mirror(direction = mp.ALL, phase=1)],
         geometry=geometry,
         sources=sources,
-        resolution=200,
+        resolution=150,
     )
     
     # 

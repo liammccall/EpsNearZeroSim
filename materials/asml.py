@@ -2,7 +2,7 @@ import meep as mp
 import numpy as np
 import matplotlib as mpl
 
-import disRel.processInput as pi
+import materials.disRel.processInput as pi
 
 def fitMaterial(datasource : str, wl_r : tuple[float, float], wl_units : str,
                 num_lorentzians = 4, num_repeat = 10, imaginary_weight = 4, name : str = ""):
@@ -33,7 +33,7 @@ def fitMaterial(datasource : str, wl_r : tuple[float, float], wl_units : str,
                 )
             )
 
-    np.save("bin\\mats\\" + name, (ps, idx_opt))
+    # np.save("bin\\mats\\" + name, (ps, idx_opt))
     
     return mp.Medium(epsilon=eps_inf, E_susceptibilities=E_susceptibilities)
     

@@ -5,8 +5,7 @@ from meep import mpb
 import os
 import io
 
-import disRel.lorentzfit as lf
-import disRel.processInput as pi
+import materials.asml as asml
 
 import plots.bandvisualizer
 
@@ -21,7 +20,7 @@ def tdsim():
     
     latticeConstant = 0.400
     
-    silMat = pi.getFitted("data/AspnesCrystallineNanometers.csv", [0.4, 0.7], "um", 1, 1)
+    silMat = asml.fitMaterial("data/AspnesCrystallineNanometers.csv", [0.4, 0.7], "um", 1, 1)
     
     sim = tdSolver.create2dHexSolver(silMat, latticeConstant, 10) # ?
     
@@ -32,7 +31,7 @@ def tdsim():
         latticeConstant * mp.Vector3(1 / -3, 1 / 3),  # K
     ]
 
-    k_interp = 5  # number of k_points to interpolate
+    k_interp = 9 # number of k_points to interpolate
     k_points = mp.interpolate(k_interp, k_points)
     
     freqs = sim.run_k_points(50, k_points)

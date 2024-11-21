@@ -3,7 +3,7 @@ import meep as mp
 import nlopt
 import matplotlib.pyplot as mpl
 
-import disRel.lorentzfit as lf
+import materials.disRel.lorentzfit as lf
 import util.chatter as chat
 
 
