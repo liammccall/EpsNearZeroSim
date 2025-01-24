@@ -22,7 +22,7 @@ def tdsim():
     
     silMat = asml.fitMaterial("data/AspnesCrystallineNanometers.csv", [0.4, 0.7], "um", 1, 1)
     
-    sim = tdSolver.create2dHexSolver(silMat, latticeConstant, 10) # ?
+    sim = tdSolver.create2dHexSolver(silMat, latticeConstant, 30) # ?
     
     
     k_points = [
@@ -31,10 +31,10 @@ def tdsim():
         latticeConstant * mp.Vector3(1 / -3, 1 / 3),  # K
     ]
 
-    k_interp = 9 # number of k_points to interpolate
+    k_interp = 10 # number of k_points to interpolate
     k_points = mp.interpolate(k_interp, k_points)
     
-    freqs = sim.run_k_points(50, k_points)
+    freqs = sim.run_k_points(200, k_points)
     
     # np.save("bin\\simresults\\td\\freqs", freqs)
     
@@ -44,11 +44,11 @@ def tdsim():
     
     for i in range(len(freqs)):
         for ii in range(len(freqs[i])):
-            plt.scatter(xGrid[i], np.real(freqs[i][ii]), color="b")
+            plt.scatter(xGrid[i], 1000 / np.real(freqs[i][ii]), color="b")
             
     plt.xlim(0, 1)
     plt.grid(True)
-    plt.xlabel("$k_x(2\pi)$")
+    plt.xlabel("$K-\Gamma-M$")
     plt.ylabel("$\omega(2\pi c)$")
     plt.tight_layout()
     
