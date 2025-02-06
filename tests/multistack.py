@@ -21,7 +21,7 @@ auK = 2.455
 auC = 2 * math.pi * freq * auK / auN
 auWidth = 10
 
-simLength = 10 / freq
+simLength = 4 / freq
 timeRes = simLength / 1000
 
 
@@ -67,16 +67,20 @@ geometry = []
 for i in range(0, 3, 1):
     geometry.extend(createLayer(0, i))
 
+source_pos = mp.Vector3(-100, 0)
+
+df = freq
+
 sources = [
     mp.Source(
-        mp.ContinuousSource(frequency=freq), component=mp.Ez, center=mp.Vector3(-100, 0)
+        mp.GaussianSource(frequency=freq, fwidth=df, cutoff=1), component=mp.Ez, center=source_pos
     )
 ]
 
 pml_layers = [mp.PML(200)]
 
 
-resolution = 1
+resolution = 0.1
 
 sim = mp.Simulation(
     cell_size=cell,
@@ -86,6 +90,17 @@ sim = mp.Simulation(
     resolution=resolution,
     Courant=0.2
 )
+
+dna_length = 7.3
+
+#Find flux around emitter
+total_flux = mp.FluxRegion(center=source_pos, size=mp.Vector3(2 * dna_length, 2 * dna_length), weight = -1.0)
+
+acceptor_box = sim.add_flux(freq, 0, 1,        
+            mp.FluxRegion(source_pos + mp.Vector3(y = dna_length), size=mp.Vector3(2 * dna_length)),
+            mp.FluxRegion(source_pos + mp.Vector3(y = -dna_length), size=mp.Vector3(2 * dna_length), weight=-1),
+            mp.FluxRegion(source_pos + mp.Vector3(dna_length), size=mp.Vector3(y=2 * dna_length)),
+            mp.FluxRegion(source_pos + mp.Vector3(-dna_length), size=mp.Vector3(y=2 * dna_length), weight=-1))
 
 import matplotlib.animation as ani
 import matplotlib.pyplot as plt
@@ -138,8 +153,13 @@ Animate = mp.Animate2D(fields=mp.Ez, f=f, realtime=False, normalize=False, plot_
                            field_parameters={'alpha':0.8, 'cmap':'prism', 'interpolation':'spline36'})
 plt.close()
 
-sim.run(mp.at_every(timeRes, Animate), until=simLength)
+sim.run(mp.at_every(timeRes, Animate), 
+        until=simLength)# until_after_sources=mp.stop_when_fields_decayed(1, mp.Ez, source_pos + mp.Vector3(dna_length), 1e-8))
 plt.close()
+
+
+print(source_pos + mp.Vector3(y = dna_length))
+print(mp.get_fluxes(acceptor_box))
 
 filename = "plots/multistack.mp4"
 Animate.to_mp4(10, filename)
