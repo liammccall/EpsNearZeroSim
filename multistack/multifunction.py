@@ -10,8 +10,8 @@ wvls = [[500, "plots/multistack500.mp4"],
         [550, "plots/multistack550.mp4"], 
         [560, "plots/multistack560.mp4"]]
 
-def multi(wvl, source_dist, filename):
-    cell = mp.Vector3(1000, 1000, 0)
+def multi(wvl, source_dist, filename, emptyspace = False):
+    cell = mp.Vector3(1000, 600, 0)
 
     #all nm
     freq = 1/wvl
@@ -71,9 +71,9 @@ def multi(wvl, source_dist, filename):
         ]
 
     geometry = []
-
-    for i in range(0, 3, 1):
-        geometry.extend(createLayer(0, i))
+    if not emptyspace:
+        for i in range(0, 3, 1):
+            geometry.extend(createLayer(0, i))
 
     # geometry = []
 
@@ -87,7 +87,8 @@ def multi(wvl, source_dist, filename):
         )
     ]
 
-    pml_layers = [mp.PML(200)]
+    pml_thickness = 200
+    pml_layers = [mp.PML(pml_thickness)]
 
 
     resolution = 1
@@ -104,16 +105,34 @@ def multi(wvl, source_dist, filename):
     dna_length = 2.1#7.3
 
     #Find flux around emitter
-    total_flux = mp.FluxRegion(center=source_pos, size=mp.Vector3(2 * dna_length, 2 * dna_length), weight = -1.0)
+    total_flux = sim.add_flux(freq, 0, 1,
+                              mp.FluxRegion(mp.Vector3(y = cell.y / 2 - pml_thickness), size = mp.Vector3(x = cell.x - 2 * pml_thickness)),
+                              mp.FluxRegion(mp.Vector3(y = cell.y / 2 - pml_thickness), size = mp.Vector3(x = cell.x - 2 * pml_thickness), weight = -1),
+                              mp.FluxRegion(mp.Vector3(x = cell.x / 2 - pml_thickness), size = mp.Vector3(y = cell.y - 2 * pml_thickness)),
+                              mp.FluxRegion(mp.Vector3(x = cell.x / 2 - pml_thickness), size = mp.Vector3(y = cell.y - 2 * pml_thickness), weight = -1))
 
     acceptor_box = sim.add_flux(freq, 0, 1,        
                 mp.FluxRegion(source_pos + mp.Vector3(y = dna_length), size=mp.Vector3(2 * dna_length)),
                 mp.FluxRegion(source_pos + mp.Vector3(y = -dna_length), size=mp.Vector3(2 * dna_length), weight=-1),
                 mp.FluxRegion(source_pos + mp.Vector3(dna_length), size=mp.Vector3(y=2 * dna_length)),
                 mp.FluxRegion(source_pos + mp.Vector3(-dna_length), size=mp.Vector3(y=2 * dna_length), weight=-1))
-
-    ez_data = []
     
-    sim.run(until_after_sources=mp.stop_when_fields_decayed(1, mp.Ez, source_pos + mp.Vector3(dna_length), 1e-8))
     
-    return mp.get_fluxes(acceptor_box)
+    def func(pos, efield):
+        return efield
+    
+    nETR_values = []
+    
+    def record_fields(sim):
+    
+        nETR = sim.integrate_field_function([mp.Ez], func, 
+                                        where = mp.Volume(source_pos  + mp.Vector3(dna_length),
+                                                          size = mp.Vector3(1, 1, mp.inf),
+                                                          is_cylindrical=True))
+        nETR_values.append(nETR)
+        
+    
+    sim.run(mp.at_every(0.1, record_fields)
+        ,until_after_sources=mp.stop_when_fields_decayed(1, mp.Ez, source_pos + mp.Vector3(dna_length), 1e-8))
+    
+    return sum(nETR_values)# mp.get_fluxes(acceptor_box), mp.get_fluxes(total_flux)

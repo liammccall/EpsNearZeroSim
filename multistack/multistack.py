@@ -166,5 +166,5 @@ print(mp.get_fluxes(acceptor_box))
 #Baseline 7.3 = 56.34635510923425
 #Baseline 2.1 = 82.93935471195395
 
-filename = "plots/multistack.mp4"
+filename = "plots/multistackrb.mp4"
 Animate.to_mp4(10, filename)
