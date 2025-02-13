@@ -2,7 +2,7 @@
 import meep as mp
 import math
 
-cell = mp.Vector3(1000, 1000, 0)
+cell = mp.Vector3(1000, 1000, 1000)
 
 #all nm
 wvl = 532
@@ -21,8 +21,8 @@ auK = 2.455
 auC = 2 * math.pi * freq * auK / auN
 auWidth = 10
 
-simLength = 4 / freq
-timeRes = simLength / 1000
+simLength = 2 / freq
+timeRes = simLength / 100
 
 
 #Uncomment to include APTMS 1 nm layers
@@ -67,20 +67,22 @@ geometry = []
 for i in range(0, 3, 1):
     geometry.extend(createLayer(0, i))
 
-source_pos = mp.Vector3(-100, 0)
+# geometry = []
+
+source_pos = mp.Vector3(-15, 0)
 
 df = freq
 
 sources = [
     mp.Source(
-        mp.GaussianSource(frequency=freq, fwidth=df, cutoff=1), component=mp.Ez, center=source_pos
+        mp.GaussianSource(frequency=freq, fwidth=df, cutoff=5), component=mp.Ez, center=source_pos
     )
 ]
 
 pml_layers = [mp.PML(200)]
 
 
-resolution = 0.1
+resolution = 1
 
 sim = mp.Simulation(
     cell_size=cell,
@@ -91,14 +93,16 @@ sim = mp.Simulation(
     Courant=0.2
 )
 
-dna_length = 7.3
+dna_length = 2.1#7.3
 
 #Find flux around emitter
 total_flux = mp.FluxRegion(center=source_pos, size=mp.Vector3(2 * dna_length, 2 * dna_length), weight = -1.0)
 
 acceptor_box = sim.add_flux(freq, 0, 1,        
             mp.FluxRegion(source_pos + mp.Vector3(y = dna_length), size=mp.Vector3(2 * dna_length)),
-            mp.FluxRegion(source_pos + mp.Vector3(y = -dna_length), size=mp.Vector3(2 * dna_length), weight=-1),
+            mp.FluxRegion(source_pos + mp.Vector3(y = -dna_length), size=mp.Vector3(2 * dna_length), weight=-1),      
+            mp.FluxRegion(source_pos + mp.Vector3(z = dna_length), size=mp.Vector3(2 * dna_length)),
+            mp.FluxRegion(source_pos + mp.Vector3(z = -dna_length), size=mp.Vector3(2 * dna_length), weight=-1),
             mp.FluxRegion(source_pos + mp.Vector3(dna_length), size=mp.Vector3(y=2 * dna_length)),
             mp.FluxRegion(source_pos + mp.Vector3(-dna_length), size=mp.Vector3(y=2 * dna_length), weight=-1))
 
@@ -121,12 +125,11 @@ import numpy as np
 # plt.axis("off")
 # plt.show()
 
-sim.reset_meep()
 f = plt.figure(dpi=100)
 
 def zoomin(ax):
-    ax.set_xlim(-100, 100)
-    ax.set_ylim(-100, 100)
+    # ax.set_xlim(-500, 500)
+    # ax.set_ylim(-500, 500)
     return ax
 
 ez_data = []
@@ -149,17 +152,19 @@ fig, ax = plt.subplots()
 
 # ani = ani.FuncAnimation(fig, animate, frames=range(len(ez_data)), interval=50, blit=True)
 # plt.show()
-Animate = mp.Animate2D(fields=mp.Ez, f=f, realtime=False, normalize=False, plot_modifiers=[zoomin], 
-                           field_parameters={'alpha':0.8, 'cmap':'prism', 'interpolation':'spline36'})
+Animate = mp.Animate2D(fields=mp.Ez, f=f, realtime=False, normalize=False, plot_modifiers=[zoomin],
+                       output_plane=mp.Volume(mp.Vector3(), mp.Vector3(mp.inf, mp.inf, 0)), 
+                           field_parameters={'alpha':0.8, 'cmap':'RdBu', 'interpolation':'spline36'})
 plt.close()
 
 sim.run(mp.at_every(timeRes, Animate), 
-        until=simLength)# until_after_sources=mp.stop_when_fields_decayed(1, mp.Ez, source_pos + mp.Vector3(dna_length), 1e-8))
+        until_after_sources=mp.stop_when_fields_decayed(1, mp.Ez, source_pos + mp.Vector3(dna_length), 1e-8))
 plt.close()
 
 
-print(source_pos + mp.Vector3(y = dna_length))
 print(mp.get_fluxes(acceptor_box))
+#Baseline 7.3 = 56.34635510923425
+#Baseline 2.1 = 82.93935471195395
 
 filename = "plots/multistack.mp4"
 Animate.to_mp4(10, filename)

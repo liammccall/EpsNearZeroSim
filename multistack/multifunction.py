@@ -10,13 +10,10 @@ wvls = [[500, "plots/multistack500.mp4"],
         [550, "plots/multistack550.mp4"], 
         [560, "plots/multistack560.mp4"]]
 
-def multi(wvl, filename):
-    # From the Meep tutorial: plotting permittivity and fields of a straight waveguide
-
+def multi(wvl, source_dist, filename):
     cell = mp.Vector3(1000, 1000, 0)
 
     #all nm
-    #wvl = 532
     freq = 1/wvl
 
     tio2N = 2.67
@@ -32,8 +29,8 @@ def multi(wvl, filename):
     auC = 2 * math.pi * freq * auK / auN
     auWidth = 10
 
-    simLength = 10 / freq
-    timeRes = simLength / 1000
+    # simLength = 2 / freq
+    # timeRes = simLength / 100
 
 
     #Uncomment to include APTMS 1 nm layers
@@ -78,9 +75,15 @@ def multi(wvl, filename):
     for i in range(0, 3, 1):
         geometry.extend(createLayer(0, i))
 
+    # geometry = []
+
+    source_pos = mp.Vector3(source_dist, 0)
+
+    df = freq
+
     sources = [
         mp.Source(
-            mp.ContinuousSource(frequency=freq), component=mp.Ez, center=mp.Vector3(-100, 0)
+            mp.GaussianSource(frequency=freq, fwidth=df, cutoff=5), component=mp.Ez, center=source_pos
         )
     ]
 
@@ -98,24 +101,19 @@ def multi(wvl, filename):
         Courant=0.2
     )
 
-    import matplotlib.pyplot as plt
-    
-    f = plt.figure()
+    dna_length = 2.1#7.3
 
-    def zoomin(ax):
-        ax.set_xlim(-100, 100)
-        ax.set_ylim(-100, 100)
-        return ax
-    
-    Animate = mp.Animate2D(fields=mp.Ez, f=f, realtime=False, normalize=False, plot_modifiers=[zoomin], 
-                               field_parameters={'alpha':0.8, 'cmap':'prism', 'interpolation':'spline36'})
-    plt.close()
+    #Find flux around emitter
+    total_flux = mp.FluxRegion(center=source_pos, size=mp.Vector3(2 * dna_length, 2 * dna_length), weight = -1.0)
 
-    sim.run(mp.at_every(timeRes, Animate), until=simLength)
-    plt.close()
+    acceptor_box = sim.add_flux(freq, 0, 1,        
+                mp.FluxRegion(source_pos + mp.Vector3(y = dna_length), size=mp.Vector3(2 * dna_length)),
+                mp.FluxRegion(source_pos + mp.Vector3(y = -dna_length), size=mp.Vector3(2 * dna_length), weight=-1),
+                mp.FluxRegion(source_pos + mp.Vector3(dna_length), size=mp.Vector3(y=2 * dna_length)),
+                mp.FluxRegion(source_pos + mp.Vector3(-dna_length), size=mp.Vector3(y=2 * dna_length), weight=-1))
 
-    # filename = "plots/multistack.mp4"
-    Animate.to_mp4(10, filename)
+    ez_data = []
     
-for combi in wvls:
-    multi(combi[0], combi[1])
+    sim.run(until_after_sources=mp.stop_when_fields_decayed(1, mp.Ez, source_pos + mp.Vector3(dna_length), 1e-8))
+    
+    return mp.get_fluxes(acceptor_box)
