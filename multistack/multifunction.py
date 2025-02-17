@@ -91,7 +91,7 @@ def multi(wvl, source_dist, filename, emptyspace = False):
     pml_layers = [mp.PML(pml_thickness)]
 
 
-    resolution = 0.1
+    resolution = 1
 
     sim = mp.Simulation(
         cell_size=cell,
@@ -102,7 +102,7 @@ def multi(wvl, source_dist, filename, emptyspace = False):
         Courant=0.2
     )
 
-    dna_length = 7.3
+    dna_length = 2.1
 
     #Find flux around emitter
     total_flux = sim.add_flux(freq, 0, 1,
@@ -121,18 +121,31 @@ def multi(wvl, source_dist, filename, emptyspace = False):
     def func(pos, efield):
         return efield
     
-    nETR_values = []
+    nETR_x_values = []
+    nETR_y_values = []
+    nETR_z_values = []
     
     def record_fields(sim):
     
-        nETR = sim.integrate_field_function([mp.Ez], func, 
+        nETR_x = sim.integrate_field_function([mp.Ex], func, 
                                         where = mp.Volume(source_pos  + mp.Vector3(dna_length),
                                                           size = mp.Vector3(1, 1, mp.inf),
                                                           is_cylindrical=True))
-        nETR_values.append(nETR)
+        nETR_y = sim.integrate_field_function([mp.Ey], func, 
+                                        where = mp.Volume(source_pos  + mp.Vector3(dna_length),
+                                                          size = mp.Vector3(1, 1, mp.inf),
+                                                          is_cylindrical=True))
+        nETR_z = sim.integrate_field_function([mp.Ez], func, 
+                                        where = mp.Volume(source_pos  + mp.Vector3(dna_length),
+                                                          size = mp.Vector3(1, 1, mp.inf),
+                                                          is_cylindrical=True))
+    
+        nETR_x_values.append(nETR_x)
+        nETR_y_values.append(nETR_y)
+        nETR_z_values.append(nETR_z)
         
     
     sim.run(mp.at_every(0.1, record_fields)
         ,until_after_sources=mp.stop_when_fields_decayed(1, mp.Ez, source_pos + mp.Vector3(dna_length), 1e-8))
     
-    return sum(nETR_values)# mp.get_fluxes(acceptor_box), mp.get_fluxes(total_flux)
+    return sum(nETR_x_values), sum(nETR_y_values), sum(nETR_z_values) # mp.get_fluxes(acceptor_box), mp.get_fluxes(total_flux)
