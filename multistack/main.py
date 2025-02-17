@@ -14,29 +14,43 @@ def nostdout():
     sys.stdout = save_stdout
 
 def main():
-    distances = np.linspace(5, 100, 100)
-    total_fluxes = []
+    distances = np.linspace(10, 100, 100)
+    total_fluxes_real = []
+    total_fluxes_imag = []
     radiative_fluxes = []
     for dist in distances:
         
         print(dist)
         
         with nostdout():
-            total = np.abs(multifunction.multi(532, dist, ""))
+            num = multifunction.multi(532, dist, "")
+            total = np.power(np.real(num), 2)
+            total_im = np.power(np.imag(num), 2)
             
-        total_fluxes.append(total)
+        total_fluxes_real.append(total)
+        total_fluxes_imag.append(total_im)
     
-    baseline_total= multifunction.multi(532, 0, "", True)
+    baseline_total = multifunction.multi(532, 0, "", True)
     
-    total_fluxes = total_fluxes / np.abs(baseline_total)
+    # total_fluxes_real = total_fluxes_real / np.real(baseline_total)
+    # total_fluxes_imag = total_fluxes_imag / np.imag(baseline_total)
     
     # np.save("baseline_total_rad.npy", [baseline_total, baseline_rad])
     
-    np.save("total_fluxes.npy", total_fluxes)
+    np.save("total_e_real.npy", total_fluxes_real)
+    np.save("total_e_imag.npy", total_fluxes_imag)
     
     fig, ax = plt.subplots()
-    ax.plot(distances, total_fluxes)
-    fig.savefig("single_eplot.png")
+    ax.plot(distances, total_fluxes_real)
+    ax.axhline(np.power(np.real(baseline_total), 2))
+    fig.savefig("single_eplot_real.png")
+
+    fig, ax = plt.subplots()
+    ax.plot(distances, total_fluxes_imag)
+    ax.axhline(np.power(np.imag(baseline_total), 2))
+    fig.savefig("single_eplot_imag.png")
+
+    np.save("baseline_total.npy", [baseline_total])
     
     # nonradiative_enhancement = total_fluxes - radiative_fluxes / (baseline_total - baseline_rad)
     # fig, ax = plt.subplots()
