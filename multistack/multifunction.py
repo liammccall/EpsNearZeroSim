@@ -72,7 +72,7 @@ def multi(wvl, source_dist, filename, emptyspace = False):
 
     geometry = []
     if not emptyspace:
-        for i in range(0, 3, 1):
+        for i in range(0, 2, 1):
             geometry.extend(createLayer(0, i))
 
     # geometry = []
@@ -91,7 +91,7 @@ def multi(wvl, source_dist, filename, emptyspace = False):
     pml_layers = [mp.PML(pml_thickness)]
 
 
-    resolution = 1
+    resolution = 0.1
 
     sim = mp.Simulation(
         cell_size=cell,
@@ -102,7 +102,7 @@ def multi(wvl, source_dist, filename, emptyspace = False):
         Courant=0.2
     )
 
-    dna_length = 2.1#7.3
+    dna_length = 7.3
 
     #Find flux around emitter
     total_flux = sim.add_flux(freq, 0, 1,
