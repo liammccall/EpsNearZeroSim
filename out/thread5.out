@@ -1,0 +1,54 @@
+3.5
+-----------
+Initializing structure...
+time for choose_chunkdivision = 0.00454187 s
+Working in 2D dimensions.
+Computational cell is 500 x 500 x 0 with resolution 5
+     block, center = (3.5,0,0)
+          size (12,1e+20,1e+20)
+          axes (1,0,0), (0,1,0), (0,0,1)
+          dielectric constant epsilon diagonal = (2.67,2.67,2.67)
+     block, center = (15.5,0,0)
+          size (10,1e+20,1e+20)
+          axes (1,0,0), (0,1,0), (0,0,1)
+          dielectric constant epsilon diagonal = (0.43,0.43,0.43)
+     block, center = (25.5,0,0)
+          size (12,1e+20,1e+20)
+          axes (1,0,0), (0,1,0), (0,0,1)
+          dielectric constant epsilon diagonal = (2.67,2.67,2.67)
+     block, center = (37.5,0,0)
+          size (10,1e+20,1e+20)
+          axes (1,0,0), (0,1,0), (0,0,1)
+          dielectric constant epsilon diagonal = (0.43,0.43,0.43)
+     block, center = (47.5,0,0)
+          size (12,1e+20,1e+20)
+          axes (1,0,0), (0,1,0), (0,0,1)
+          dielectric constant epsilon diagonal = (2.67,2.67,2.67)
+     block, center = (59.5,0,0)
+          size (10,1e+20,1e+20)
+          axes (1,0,0), (0,1,0), (0,0,1)
+          dielectric constant epsilon diagonal = (0.43,0.43,0.43)
+     block, center = (69.5,0,0)
+          size (12,1e+20,1e+20)
+          axes (1,0,0), (0,1,0), (0,0,1)
+          dielectric constant epsilon diagonal = (2.67,2.67,2.67)
+     block, center = (81.5,0,0)
+          size (10,1e+20,1e+20)
+          axes (1,0,0), (0,1,0), (0,0,1)
+          dielectric constant epsilon diagonal = (0.43,0.43,0.43)
+subpixel-averaging is 98.5313% done, 0.0596316 s remaining
+subpixel-averaging is 83.9341% done, 0.765696 s remaining
+subpixel-averaging is 80.0622% done, 0.996199 s remaining
+time for set_epsilon = 36.5408 s
+time for set_conductivity = 0.922891 s
+time for set_conductivity = 1.01582 s
+time for set_conductivity = 1.15394 s
+-----------
+Meep progress: 0.02/5.0 = 0.4% done in 4.4s, 1087.2s to go
+on time step 2 (time=0.02), 2.18317 s/step
+Meep progress: 0.06/5.0 = 1.2% done in 8.6s, 707.1s to go
+on time step 6 (time=0.06), 1.05529 s/step
+Meep progress: 0.11/5.0 = 2.2% done in 12.8s, 570.5s to go
+on time step 11 (time=0.11), 0.84907 s/step
+Meep progress: 0.16/5.0 = 3.2% done in 17.0s, 514.1s to go
+on time step 16 (time=0.16), 0.83155 s/step

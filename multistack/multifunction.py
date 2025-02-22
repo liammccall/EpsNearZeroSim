@@ -11,7 +11,7 @@ wvls = [[500, "plots/multistack500.mp4"],
         [560, "plots/multistack560.mp4"]]
 
 def multi(wvl, source_dist, filename, emptyspace = False):
-    cell = mp.Vector3(1000, 600, 0)
+    cell = mp.Vector3(500, 400, 0)
 
     #all nm
     freq = 1/wvl
@@ -70,24 +70,25 @@ def multi(wvl, source_dist, filename, emptyspace = False):
             # )
         ]
 
-    geometry = []
-    if not emptyspace:
-        for i in range(0, 2, 1):
-            geometry.extend(createLayer(0, i))
-
-    # geometry = []
 
     source_pos = mp.Vector3(source_dist, 0)
+    
+    geometry = []
+    if not emptyspace:
+        for i in range(0, 3, 1):
+            geometry.extend(createLayer(-source_pos.x, i))
+
+    # geometry = []
 
     df = freq
 
     sources = [
         mp.Source(
-            mp.GaussianSource(frequency=freq, fwidth=df, cutoff=5), component=mp.Ez, center=source_pos
+            mp.GaussianSource(frequency=freq, fwidth=df, cutoff=5), component=mp.Ez, center=mp.Vector3()
         )
     ]
 
-    pml_thickness = 200
+    pml_thickness = 100
     pml_layers = [mp.PML(pml_thickness)]
 
 
@@ -102,7 +103,7 @@ def multi(wvl, source_dist, filename, emptyspace = False):
         Courant=0.2
     )
 
-    dna_length = 2.1
+    dna_length = 7.3
 
     #Find flux around emitter
     total_flux = sim.add_flux(freq, 0, 1,
@@ -112,10 +113,10 @@ def multi(wvl, source_dist, filename, emptyspace = False):
                               mp.FluxRegion(mp.Vector3(x = cell.x / 2 - pml_thickness), size = mp.Vector3(y = cell.y - 2 * pml_thickness), weight = -1))
 
     acceptor_box = sim.add_flux(freq, 0, 1,        
-                mp.FluxRegion(source_pos + mp.Vector3(y = dna_length), size=mp.Vector3(2 * dna_length)),
-                mp.FluxRegion(source_pos + mp.Vector3(y = -dna_length), size=mp.Vector3(2 * dna_length), weight=-1),
-                mp.FluxRegion(source_pos + mp.Vector3(dna_length), size=mp.Vector3(y=2 * dna_length)),
-                mp.FluxRegion(source_pos + mp.Vector3(-dna_length), size=mp.Vector3(y=2 * dna_length), weight=-1))
+                mp.FluxRegion(mp.Vector3(y = dna_length), size=mp.Vector3(2 * dna_length)),
+                mp.FluxRegion(mp.Vector3(y = -dna_length), size=mp.Vector3(2 * dna_length), weight=-1),
+                mp.FluxRegion(mp.Vector3(dna_length), size=mp.Vector3(y=2 * dna_length)),
+                mp.FluxRegion(mp.Vector3(-dna_length), size=mp.Vector3(y=2 * dna_length), weight=-1))
     
     
     def func(pos, efield):
@@ -125,27 +126,32 @@ def multi(wvl, source_dist, filename, emptyspace = False):
     nETR_y_values = []
     nETR_z_values = []
     
+    # dft = mp.dft_ldos(center=mp.Vector3(dna_length), frequencies=[freq])
+    
+    dft_ldos_values = []
+    
     def record_fields(sim):
     
         nETR_x = sim.integrate_field_function([mp.Ex], func, 
-                                        where = mp.Volume(source_pos  + mp.Vector3(dna_length),
+                                        where = mp.Volume(mp.Vector3(dna_length),
                                                           size = mp.Vector3(1, 1, mp.inf),
                                                           is_cylindrical=True))
         nETR_y = sim.integrate_field_function([mp.Ey], func, 
-                                        where = mp.Volume(source_pos  + mp.Vector3(dna_length),
+                                        where = mp.Volume(mp.Vector3(dna_length),
                                                           size = mp.Vector3(1, 1, mp.inf),
                                                           is_cylindrical=True))
         nETR_z = sim.integrate_field_function([mp.Ez], func, 
-                                        where = mp.Volume(source_pos  + mp.Vector3(dna_length),
+                                        where = mp.Volume(mp.Vector3(dna_length),
                                                           size = mp.Vector3(1, 1, mp.inf),
                                                           is_cylindrical=True))
+        dft_ldos = sim.integrate_field_function(mp.dft_ldos(), )
     
         nETR_x_values.append(nETR_x)
         nETR_y_values.append(nETR_y)
         nETR_z_values.append(nETR_z)
         
+    # mp.dft_ldos()
+    sim.run(mp.dft_ldos(freq, freq + 1, 1),#mp.at_every(0.1, record_fields), 
+        until_after_sources=mp.stop_when_fields_decayed(1, mp.Ez, mp.Vector3(dna_length), 1e-8))
     
-    sim.run(mp.at_every(0.1, record_fields)
-        ,until_after_sources=mp.stop_when_fields_decayed(1, mp.Ez, source_pos + mp.Vector3(dna_length), 1e-8))
-    
-    return sum(nETR_x_values), sum(nETR_y_values), sum(nETR_z_values) # mp.get_fluxes(acceptor_box), mp.get_fluxes(total_flux)
+    return sim.ldos_data[0] #sum(nETR_x_values), sum(nETR_y_values), sum(nETR_z_values) # mp.get_fluxes(acceptor_box), mp.get_fluxes(total_flux)
