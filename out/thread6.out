@@ -1,0 +1,52 @@
+5.75
+-----------
+Initializing structure...
+time for choose_chunkdivision = 0.00447512 s
+Working in 2D dimensions.
+Computational cell is 500 x 500 x 0 with resolution 5
+     block, center = (5.75,0,0)
+          size (12,1e+20,1e+20)
+          axes (1,0,0), (0,1,0), (0,0,1)
+          dielectric constant epsilon diagonal = (2.67,2.67,2.67)
+     block, center = (17.75,0,0)
+          size (10,1e+20,1e+20)
+          axes (1,0,0), (0,1,0), (0,0,1)
+          dielectric constant epsilon diagonal = (0.43,0.43,0.43)
+     block, center = (27.75,0,0)
+          size (12,1e+20,1e+20)
+          axes (1,0,0), (0,1,0), (0,0,1)
+          dielectric constant epsilon diagonal = (2.67,2.67,2.67)
+     block, center = (39.75,0,0)
+          size (10,1e+20,1e+20)
+          axes (1,0,0), (0,1,0), (0,0,1)
+          dielectric constant epsilon diagonal = (0.43,0.43,0.43)
+     block, center = (49.75,0,0)
+          size (12,1e+20,1e+20)
+          axes (1,0,0), (0,1,0), (0,0,1)
+          dielectric constant epsilon diagonal = (2.67,2.67,2.67)
+     block, center = (61.75,0,0)
+          size (10,1e+20,1e+20)
+          axes (1,0,0), (0,1,0), (0,0,1)
+          dielectric constant epsilon diagonal = (0.43,0.43,0.43)
+     block, center = (71.75,0,0)
+          size (12,1e+20,1e+20)
+          axes (1,0,0), (0,1,0), (0,0,1)
+          dielectric constant epsilon diagonal = (2.67,2.67,2.67)
+     block, center = (83.75,0,0)
+          size (10,1e+20,1e+20)
+          axes (1,0,0), (0,1,0), (0,0,1)
+          dielectric constant epsilon diagonal = (0.43,0.43,0.43)
+subpixel-averaging is 77.748% done, 1.14623 s remaining
+subpixel-averaging is 83.8895% done, 0.768318 s remaining
+subpixel-averaging is 78.4156% done, 1.10171 s remaining
+time for set_epsilon = 37.0443 s
+time for set_conductivity = 0.974769 s
+time for set_conductivity = 0.97288 s
+time for set_conductivity = 1.09303 s
+-----------
+Meep progress: 0.02/5.0 = 0.4% done in 4.3s, 1069.8s to go
+on time step 2 (time=0.02), 2.14815 s/step
+Meep progress: 0.08/5.0 = 1.6% done in 8.8s, 540.2s to go
+on time step 8 (time=0.08), 0.747996 s/step
+Meep progress: 0.13/5.0 = 2.6% done in 12.9s, 481.6s to go
+on time step 13 (time=0.13), 0.814012 s/step
