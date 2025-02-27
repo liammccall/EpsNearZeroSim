@@ -72,10 +72,11 @@ def main():
     # Each MPI process runs its own worker function
     procs = worker_process(distances_split, rank)
 
-    # Gather results at rank 0
-    results = comm.gather(procs, root=0)
-
     if rank == 0:
+
+        # Gather results at rank 0
+        results = comm.gather(procs, root=0)
+        print("gathered")
         
         reset_stdout()
         
