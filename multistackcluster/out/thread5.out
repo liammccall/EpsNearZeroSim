@@ -1,216 +1,2573 @@
 5
 um
-[[ 68.05555556  58.20955199   0.        ]
- [ 68.05555556  35.07014166   0.        ]
- [ 68.05555556 127.62872824   0.        ]
- [ 68.05555556 236.79337346   0.        ]
- [ 68.05555556 348.60127563   0.        ]
- [ 68.05555556 342.47588091   0.        ]
- [ 68.05555556 256.51349071   0.        ]
- [ 69.44444444 175.29881293   0.        ]
- [ 69.44444444  52.96340301   0.        ]
- [ 69.44444444 207.78438068   0.        ]
- [ 69.44444444  58.20955199   0.        ]
- [ 69.44444444  35.07014166   0.        ]
- [ 69.44444444 127.62872824   0.        ]
- [ 69.44444444 236.79337346   0.        ]
- [ 69.44444444 348.60127563   0.        ]
- [ 69.44444444 342.47588091   0.        ]
- [ 69.44444444 256.51349071   0.        ]
- [ 70.83333333 175.29881293   0.        ]
- [ 70.83333333  52.96340301   0.        ]
- [ 70.83333333 207.78438068   0.        ]
- [ 70.83333333  58.20955199   0.        ]
- [ 70.83333333  35.07014166   0.        ]
- [ 70.83333333 127.62872824   0.        ]
- [ 70.83333333 236.79337346   0.        ]
- [ 70.83333333 348.60127563   0.        ]
- [ 70.83333333 342.47588091   0.        ]
- [ 70.83333333 256.51349071   0.        ]
- [ 72.22222222 175.29881293   0.        ]
- [ 72.22222222  52.96340301   0.        ]
- [ 72.22222222 207.78438068   0.        ]
- [ 72.22222222  58.20955199   0.        ]
- [ 72.22222222  35.07014166   0.        ]
- [ 72.22222222 127.62872824   0.        ]
- [ 72.22222222 236.79337346   0.        ]
- [ 72.22222222 348.60127563   0.        ]
- [ 72.22222222 342.47588091   0.        ]
- [ 72.22222222 256.51349071   0.        ]
- [ 73.61111111 175.29881293   0.        ]
- [ 73.61111111  52.96340301   0.        ]
- [ 73.61111111 207.78438068   0.        ]
- [ 73.61111111  58.20955199   0.        ]
- [ 73.61111111  35.07014166   0.        ]
- [ 73.61111111 127.62872824   0.        ]
- [ 73.61111111 236.79337346   0.        ]
- [ 73.61111111 348.60127563   0.        ]
- [ 73.61111111 342.47588091   0.        ]]
-68.05555555555556 nm from emitter at 58.209551994356545 degrees
+[[100.         225.02777778   0.        ]
+ [100.         225.05555556   0.        ]
+ [100.         225.08333333   0.        ]
+ ...
+ [100.         269.94444444   0.        ]
+ [100.         269.97222222   0.        ]
+ [100.         270.           0.        ]]
+100.0 nm from emitter at 225.02777777777777 degrees
 -----------
 Initializing structure...
-ldos0:, 0.0018796992481203006, 0.0009898924065432101
+ldos0:, 0.0018796992481203006, 0.0010508798083380404
 run 0 finished at t = 1500.0 (1500 timesteps)
-[0.0009898924065432101]
-68.05555555555556 nm from emitter at 35.0701416645081 degrees
+[0.0010508798083380404]
+100.0 nm from emitter at 225.05555555555554 degrees
 -----------
 Initializing structure...
-ldos0:, 0.0018796992481203006, 0.000950969787774813
+ldos0:, 0.0018796992481203006, 0.0010506866519622575
 run 0 finished at t = 1500.0 (1500 timesteps)
-[0.000950969787774813]
-68.05555555555556 nm from emitter at 127.62872824161276 degrees
+[0.0010506866519622575]
+100.0 nm from emitter at 225.08333333333331 degrees
 -----------
 Initializing structure...
-ldos0:, 0.0018796992481203006, 0.001214995599493026
+ldos0:, 0.0018796992481203006, 0.0010505972712698802
 run 0 finished at t = 1500.0 (1500 timesteps)
-[0.001214995599493026]
-68.05555555555556 nm from emitter at 236.79337346148242 degrees
+[0.0010505972712698802]
+100.0 nm from emitter at 225.1111111111111 degrees
 -----------
 Initializing structure...
-ldos0:, 0.0018796992481203006, 0.000834750466623551
+ldos0:, 0.0018796992481203006, 0.0010506672020078405
 run 0 finished at t = 1500.0 (1500 timesteps)
-[0.000834750466623551]
-68.05555555555556 nm from emitter at 348.6012756318342 degrees
+[0.0010506672020078405]
+100.0 nm from emitter at 225.13888888888889 degrees
 -----------
 Initializing structure...
-ldos0:, 0.0018796992481203006, 0.0008065561620297307
+ldos0:, 0.0018796992481203006, 0.001050826347864838
 run 0 finished at t = 1500.0 (1500 timesteps)
-[0.0008065561620297307]
-68.05555555555556 nm from emitter at 342.4758809120342 degrees
+[0.001050826347864838]
+100.0 nm from emitter at 225.16666666666666 degrees
 -----------
 Initializing structure...
-ldos0:, 0.0018796992481203006, 0.0009901265234886758
+ldos0:, 0.0018796992481203006, 0.0010505219332214303
 run 0 finished at t = 1500.0 (1500 timesteps)
-[0.0009901265234886758]
-68.05555555555556 nm from emitter at 256.51349070593875 degrees
+[0.0010505219332214303]
+100.0 nm from emitter at 225.19444444444443 degrees
 -----------
 Initializing structure...
-ldos0:, 0.0018796992481203006, 0.0010594579705006046
+ldos0:, 0.0018796992481203006, 0.0010516738815445066
 run 0 finished at t = 1500.0 (1500 timesteps)
-[0.0010594579705006046]
-69.44444444444444 nm from emitter at 175.2988129331858 degrees
+[0.0010516738815445066]
+100.0 nm from emitter at 225.2222222222222 degrees
 -----------
 Initializing structure...
-ldos0:, 0.0018796992481203006, 0.0008058167441150886
+ldos0:, 0.0018796992481203006, 0.0010531940618211909
 run 0 finished at t = 1500.0 (1500 timesteps)
-[0.0008058167441150886]
-69.44444444444444 nm from emitter at 52.96340301023871 degrees
+[0.0010531940618211909]
+100.0 nm from emitter at 225.25 degrees
 -----------
 Initializing structure...
-ldos0:, 0.0018796992481203006, 0.0009628371313127288
+ldos0:, 0.0018796992481203006, 0.0010543187710767249
 run 0 finished at t = 1500.0 (1500 timesteps)
-[0.0009628371313127288]
-69.44444444444444 nm from emitter at 207.78438068446 degrees
+[0.0010543187710767249]
+100.0 nm from emitter at 225.27777777777777 degrees
 -----------
 Initializing structure...
-ldos0:, 0.0018796992481203006, 0.0008199991208240125
+ldos0:, 0.0018796992481203006, 0.0010546045752707523
 run 0 finished at t = 1500.0 (1500 timesteps)
-[0.0008199991208240125]
-69.44444444444444 nm from emitter at 58.209551994356545 degrees
+[0.0010546045752707523]
+100.0 nm from emitter at 225.30555555555554 degrees
 -----------
 Initializing structure...
-ldos0:, 0.0018796992481203006, 0.0009887796887535472
+ldos0:, 0.0018796992481203006, 0.001054174003344694
 run 0 finished at t = 1500.0 (1500 timesteps)
-[0.0009887796887535472]
-69.44444444444444 nm from emitter at 35.0701416645081 degrees
+[0.001054174003344694]
+100.0 nm from emitter at 225.33333333333331 degrees
 -----------
 Initializing structure...
-ldos0:, 0.0018796992481203006, 0.0009475119923000134
+ldos0:, 0.0018796992481203006, 0.0010540041810943555
 run 0 finished at t = 1500.0 (1500 timesteps)
-[0.0009475119923000134]
-69.44444444444444 nm from emitter at 127.62872824161276 degrees
+[0.0010540041810943555]
+100.0 nm from emitter at 225.3611111111111 degrees
 -----------
 Initializing structure...
-ldos0:, 0.0018796992481203006, 0.0012376144172831813
+ldos0:, 0.0018796992481203006, 0.001053366586633967
 run 0 finished at t = 1500.0 (1500 timesteps)
-[0.0012376144172831813]
-69.44444444444444 nm from emitter at 236.79337346148242 degrees
+[0.001053366586633967]
+100.0 nm from emitter at 225.38888888888889 degrees
 -----------
 Initializing structure...
-ldos0:, 0.0018796992481203006, 0.0008310559566252275
+ldos0:, 0.0018796992481203006, 0.001052760919936318
 run 0 finished at t = 1500.0 (1500 timesteps)
-[0.0008310559566252275]
-69.44444444444444 nm from emitter at 348.6012756318342 degrees
+[0.001052760919936318]
+100.0 nm from emitter at 225.41666666666666 degrees
 -----------
 Initializing structure...
-ldos0:, 0.0018796992481203006, 0.0008068208859600173
+ldos0:, 0.0018796992481203006, 0.0010522633322308773
 run 0 finished at t = 1500.0 (1500 timesteps)
-[0.0008068208859600173]
-69.44444444444444 nm from emitter at 342.4758809120342 degrees
+[0.0010522633322308773]
+100.0 nm from emitter at 225.44444444444443 degrees
 -----------
 Initializing structure...
-ldos0:, 0.0018796992481203006, 0.0009953652526251155
+ldos0:, 0.0018796992481203006, 0.001051489228911281
 run 0 finished at t = 1500.0 (1500 timesteps)
-[0.0009953652526251155]
-69.44444444444444 nm from emitter at 256.51349070593875 degrees
+[0.001051489228911281]
+100.0 nm from emitter at 225.4722222222222 degrees
 -----------
 Initializing structure...
-ldos0:, 0.0018796992481203006, 0.0010167904215098596
+ldos0:, 0.0018796992481203006, 0.0010510764241950775
 run 0 finished at t = 1500.0 (1500 timesteps)
-[0.0010167904215098596]
-70.83333333333333 nm from emitter at 175.2988129331858 degrees
+[0.0010510764241950775]
+100.0 nm from emitter at 225.5 degrees
 -----------
 Initializing structure...
-ldos0:, 0.0018796992481203006, 0.0008056998974631687
+ldos0:, 0.0018796992481203006, 0.0010500888853540772
 run 0 finished at t = 1500.0 (1500 timesteps)
-[0.0008056998974631687]
-70.83333333333333 nm from emitter at 52.96340301023871 degrees
+[0.0010500888853540772]
+100.0 nm from emitter at 225.52777777777777 degrees
 -----------
 Initializing structure...
-ldos0:, 0.0018796992481203006, 0.0009822785421718227
+ldos0:, 0.0018796992481203006, 0.0010496733158055068
 run 0 finished at t = 1500.0 (1500 timesteps)
-[0.0009822785421718227]
-70.83333333333333 nm from emitter at 207.78438068446 degrees
+[0.0010496733158055068]
+100.0 nm from emitter at 225.55555555555554 degrees
 -----------
 Initializing structure...
-ldos0:, 0.0018796992481203006, 0.0008209553766458997
+ldos0:, 0.0018796992481203006, 0.0010497138343486334
 run 0 finished at t = 1500.0 (1500 timesteps)
-[0.0008209553766458997]
-70.83333333333333 nm from emitter at 58.209551994356545 degrees
+[0.0010497138343486334]
+100.0 nm from emitter at 225.58333333333331 degrees
 -----------
 Initializing structure...
-ldos0:, 0.0018796992481203006, 0.0009918459120057978
+ldos0:, 0.0018796992481203006, 0.001049524688017988
 run 0 finished at t = 1500.0 (1500 timesteps)
-[0.0009918459120057978]
-70.83333333333333 nm from emitter at 35.0701416645081 degrees
+[0.001049524688017988]
+100.0 nm from emitter at 225.6111111111111 degrees
 -----------
 Initializing structure...
-ldos0:, 0.0018796992481203006, 0.0009376013593369865
+ldos0:, 0.0018796992481203006, 0.0010502560875365534
 run 0 finished at t = 1500.0 (1500 timesteps)
-[0.0009376013593369865]
-70.83333333333333 nm from emitter at 127.62872824161276 degrees
+[0.0010502560875365534]
+100.0 nm from emitter at 225.63888888888889 degrees
 -----------
 Initializing structure...
-ldos0:, 0.0018796992481203006, 0.0012254131523115161
+ldos0:, 0.0018796992481203006, 0.0010502843372680393
 run 0 finished at t = 1500.0 (1500 timesteps)
-[0.0012254131523115161]
-70.83333333333333 nm from emitter at 236.79337346148242 degrees
+[0.0010502843372680393]
+100.0 nm from emitter at 225.66666666666666 degrees
 -----------
 Initializing structure...
-ldos0:, 0.0018796992481203006, 0.0008364348575356083
+ldos0:, 0.0018796992481203006, 0.00104949593385515
 run 0 finished at t = 1500.0 (1500 timesteps)
-[0.0008364348575356083]
-70.83333333333333 nm from emitter at 348.6012756318342 degrees
+[0.00104949593385515]
+100.0 nm from emitter at 225.69444444444443 degrees
 -----------
 Initializing structure...
-ldos0:, 0.0018796992481203006, 0.0008069330543799731
+ldos0:, 0.0018796992481203006, 0.0010498819885991504
 run 0 finished at t = 1500.0 (1500 timesteps)
-[0.0008069330543799731]
-70.83333333333333 nm from emitter at 342.4758809120342 degrees
+[0.0010498819885991504]
+100.0 nm from emitter at 225.7222222222222 degrees
 -----------
 Initializing structure...
-ldos0:, 0.0018796992481203006, 0.0009806293617674912
+ldos0:, 0.0018796992481203006, 0.0010506233280582313
 run 0 finished at t = 1500.0 (1500 timesteps)
-[0.0009806293617674912]
-70.83333333333333 nm from emitter at 256.51349070593875 degrees
+[0.0010506233280582313]
+100.0 nm from emitter at 225.75 degrees
 -----------
 Initializing structure...
-ldos0:, 0.0018796992481203006, 0.0009942133193224499
+ldos0:, 0.0018796992481203006, 0.0010501796434689591
 run 0 finished at t = 1500.0 (1500 timesteps)
-[0.0009942133193224499]
-72.22222222222223 nm from emitter at 175.2988129331858 degrees
+[0.0010501796434689591]
+100.0 nm from emitter at 225.77777777777777 degrees
 -----------
 Initializing structure...
-ldos0:, 0.0018796992481203006, 0.0008057945924618796
+ldos0:, 0.0018796992481203006, 0.0010498545066179633
 run 0 finished at t = 1500.0 (1500 timesteps)
-[0.0008057945924618796]
+[0.0010498545066179633]
+100.0 nm from emitter at 225.80555555555554 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010490484500276028
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010490484500276028]
+100.0 nm from emitter at 225.83333333333331 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010498482692747326
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010498482692747326]
+100.0 nm from emitter at 225.8611111111111 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.001048145867824344
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.001048145867824344]
+100.0 nm from emitter at 225.88888888888889 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.001048315824789732
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.001048315824789732]
+100.0 nm from emitter at 225.91666666666666 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010474448861061058
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010474448861061058]
+100.0 nm from emitter at 225.94444444444443 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010485009400840908
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010485009400840908]
+100.0 nm from emitter at 225.9722222222222 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010477248658563917
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010477248658563917]
+100.0 nm from emitter at 226.0 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010477927593548998
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010477927593548998]
+100.0 nm from emitter at 226.02777777777777 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010466949756252
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010466949756252]
+100.0 nm from emitter at 226.05555555555554 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010466401572343644
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010466401572343644]
+100.0 nm from emitter at 226.08333333333331 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.001045768298074946
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.001045768298074946]
+100.0 nm from emitter at 226.1111111111111 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010456898282646448
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010456898282646448]
+100.0 nm from emitter at 226.13888888888889 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010473837064644
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010473837064644]
+100.0 nm from emitter at 226.16666666666666 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010465469807994943
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010465469807994943]
+100.0 nm from emitter at 226.19444444444443 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.001046564401420836
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.001046564401420836]
+100.0 nm from emitter at 226.2222222222222 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.001045241714844056
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.001045241714844056]
+100.0 nm from emitter at 226.25 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010449273343634772
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010449273343634772]
+100.0 nm from emitter at 226.27777777777777 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010436022187808901
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010436022187808901]
+100.0 nm from emitter at 226.30555555555554 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010428823770854282
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010428823770854282]
+100.0 nm from emitter at 226.33333333333331 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010420022858764625
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010420022858764625]
+100.0 nm from emitter at 226.3611111111111 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010427287289815836
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010427287289815836]
+100.0 nm from emitter at 226.38888888888889 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.00104231509186341
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.00104231509186341]
+100.0 nm from emitter at 226.41666666666666 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010440905587043568
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010440905587043568]
+100.0 nm from emitter at 226.44444444444443 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010421539180904458
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010421539180904458]
+100.0 nm from emitter at 226.4722222222222 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.001041866037189843
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.001041866037189843]
+100.0 nm from emitter at 226.5 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010423104662152403
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010423104662152403]
+100.0 nm from emitter at 226.52777777777777 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.001042104815254771
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.001042104815254771]
+100.0 nm from emitter at 226.55555555555554 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010427177647897887
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010427177647897887]
+100.0 nm from emitter at 226.58333333333331 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010420685062353249
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010420685062353249]
+100.0 nm from emitter at 226.6111111111111 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010417456378747848
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010417456378747848]
+100.0 nm from emitter at 226.63888888888889 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010401131992834427
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010401131992834427]
+100.0 nm from emitter at 226.66666666666666 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010397283281444517
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010397283281444517]
+100.0 nm from emitter at 226.69444444444443 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010392712466579497
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010392712466579497]
+100.0 nm from emitter at 226.7222222222222 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010390308861468207
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010390308861468207]
+100.0 nm from emitter at 226.75 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010392426906668424
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010392426906668424]
+100.0 nm from emitter at 226.77777777777777 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010389626810296709
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010389626810296709]
+100.0 nm from emitter at 226.80555555555554 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010387244066104634
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010387244066104634]
+100.0 nm from emitter at 226.83333333333331 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010416368207470735
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010416368207470735]
+100.0 nm from emitter at 226.8611111111111 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010419878583171778
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010419878583171778]
+100.0 nm from emitter at 226.88888888888889 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010394723444460316
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010394723444460316]
+100.0 nm from emitter at 226.91666666666666 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010392121511769506
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010392121511769506]
+100.0 nm from emitter at 226.94444444444443 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010394216519262196
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010394216519262196]
+100.0 nm from emitter at 226.9722222222222 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010405714302818524
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010405714302818524]
+100.0 nm from emitter at 227.0 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010405863245790128
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010405863245790128]
+100.0 nm from emitter at 227.02777777777777 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010403398630291403
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010403398630291403]
+100.0 nm from emitter at 227.05555555555554 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010406570563821441
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010406570563821441]
+100.0 nm from emitter at 227.08333333333331 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010409254572612012
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010409254572612012]
+100.0 nm from emitter at 227.1111111111111 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010436320573452165
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010436320573452165]
+100.0 nm from emitter at 227.13888888888889 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.001044934335774468
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.001044934335774468]
+100.0 nm from emitter at 227.16666666666666 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010461352355827039
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010461352355827039]
+100.0 nm from emitter at 227.19444444444443 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.001045589958248838
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.001045589958248838]
+100.0 nm from emitter at 227.2222222222222 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.001045250149681468
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.001045250149681468]
+100.0 nm from emitter at 227.25 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010412919535788816
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010412919535788816]
+100.0 nm from emitter at 227.27777777777777 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010429236627951522
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010429236627951522]
+100.0 nm from emitter at 227.30555555555554 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.001042823062984572
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.001042823062984572]
+100.0 nm from emitter at 227.33333333333331 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.001042612250294926
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.001042612250294926]
+100.0 nm from emitter at 227.3611111111111 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010410427647516974
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010410427647516974]
+100.0 nm from emitter at 227.38888888888889 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010401227471359274
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010401227471359274]
+100.0 nm from emitter at 227.41666666666666 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010416655277599492
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010416655277599492]
+100.0 nm from emitter at 227.44444444444443 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010396756923473425
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010396756923473425]
+100.0 nm from emitter at 227.4722222222222 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010400715384282712
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010400715384282712]
+100.0 nm from emitter at 227.5 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010404973177900172
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010404973177900172]
+100.0 nm from emitter at 227.52777777777777 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010396269625862096
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010396269625862096]
+100.0 nm from emitter at 227.55555555555554 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010393628627565982
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010393628627565982]
+100.0 nm from emitter at 227.58333333333331 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010403550082963094
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010403550082963094]
+100.0 nm from emitter at 227.6111111111111 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.001042263031166804
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.001042263031166804]
+100.0 nm from emitter at 227.63888888888889 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010424229833200555
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010424229833200555]
+100.0 nm from emitter at 227.66666666666666 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.001043057077468922
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.001043057077468922]
+100.0 nm from emitter at 227.69444444444443 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010442632608035766
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010442632608035766]
+100.0 nm from emitter at 227.7222222222222 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010436860034101344
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010436860034101344]
+100.0 nm from emitter at 227.75 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010446422819895883
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010446422819895883]
+100.0 nm from emitter at 227.77777777777777 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010400537213200575
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010400537213200575]
+100.0 nm from emitter at 227.80555555555554 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010412537407076163
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010412537407076163]
+100.0 nm from emitter at 227.83333333333331 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010421139803534938
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010421139803534938]
+100.0 nm from emitter at 227.8611111111111 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010422244676988497
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010422244676988497]
+100.0 nm from emitter at 227.88888888888889 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010422112115131353
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010422112115131353]
+100.0 nm from emitter at 227.91666666666666 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010419875438208276
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010419875438208276]
+100.0 nm from emitter at 227.94444444444443 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010419794757877538
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010419794757877538]
+100.0 nm from emitter at 227.9722222222222 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010433514021405553
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010433514021405553]
+100.0 nm from emitter at 228.0 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010433096194795194
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010433096194795194]
+100.0 nm from emitter at 228.02777777777777 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.001043664598170416
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.001043664598170416]
+100.0 nm from emitter at 228.05555555555554 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010437160233649307
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010437160233649307]
+100.0 nm from emitter at 228.08333333333331 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.001045449722310338
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.001045449722310338]
+100.0 nm from emitter at 228.1111111111111 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010453735639451788
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010453735639451788]
+100.0 nm from emitter at 228.13888888888889 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.001044692672307093
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.001044692672307093]
+100.0 nm from emitter at 228.16666666666666 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010464489032458019
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010464489032458019]
+100.0 nm from emitter at 228.19444444444443 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010449391735407548
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010449391735407548]
+100.0 nm from emitter at 228.2222222222222 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.001045604508274012
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.001045604508274012]
+100.0 nm from emitter at 228.25 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010488700465486568
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010488700465486568]
+100.0 nm from emitter at 228.27777777777777 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010505813483473563
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010505813483473563]
+100.0 nm from emitter at 228.30555555555554 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.001052110460588548
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.001052110460588548]
+100.0 nm from emitter at 228.33333333333331 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010533393023629454
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010533393023629454]
+100.0 nm from emitter at 228.3611111111111 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010526993950633803
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010526993950633803]
+100.0 nm from emitter at 228.38888888888889 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010530126022848896
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010530126022848896]
+100.0 nm from emitter at 228.41666666666666 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010535512278892084
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010535512278892084]
+100.0 nm from emitter at 228.44444444444443 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010547093215803299
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010547093215803299]
+100.0 nm from emitter at 228.4722222222222 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010548120037800791
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010548120037800791]
+100.0 nm from emitter at 228.5 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010548751187382977
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010548751187382977]
+100.0 nm from emitter at 228.52777777777777 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.001053685585581466
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.001053685585581466]
+100.0 nm from emitter at 228.55555555555554 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010536174552318238
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010536174552318238]
+100.0 nm from emitter at 228.58333333333331 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.001048797191250984
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.001048797191250984]
+100.0 nm from emitter at 228.6111111111111 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.001047127126748623
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.001047127126748623]
+100.0 nm from emitter at 228.63888888888889 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010447652916400593
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010447652916400593]
+100.0 nm from emitter at 228.66666666666666 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.001045283736277079
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.001045283736277079]
+100.0 nm from emitter at 228.69444444444443 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010465011845049853
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010465011845049853]
+100.0 nm from emitter at 228.7222222222222 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.00104674037020411
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.00104674037020411]
+100.0 nm from emitter at 228.75 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.001047626498322318
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.001047626498322318]
+100.0 nm from emitter at 228.77777777777777 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010611423466245812
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010611423466245812]
+100.0 nm from emitter at 228.80555555555554 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010615024947743007
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010615024947743007]
+100.0 nm from emitter at 228.83333333333331 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010619470731521087
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010619470731521087]
+100.0 nm from emitter at 228.8611111111111 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010607659634954125
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010607659634954125]
+100.0 nm from emitter at 228.88888888888889 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010606292031036702
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010606292031036702]
+100.0 nm from emitter at 228.91666666666666 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.001058768590567468
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.001058768590567468]
+100.0 nm from emitter at 228.94444444444443 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010587516039785303
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010587516039785303]
+100.0 nm from emitter at 228.9722222222222 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.001058845524139603
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.001058845524139603]
+100.0 nm from emitter at 229.0 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.001059186986159189
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.001059186986159189]
+100.0 nm from emitter at 229.02777777777777 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010594494208592078
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010594494208592078]
+100.0 nm from emitter at 229.05555555555554 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010613769210200473
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010613769210200473]
+100.0 nm from emitter at 229.08333333333331 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010627689183901204
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010627689183901204]
+100.0 nm from emitter at 229.1111111111111 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010625376735659544
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010625376735659544]
+100.0 nm from emitter at 229.13888888888889 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010617070852022923
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010617070852022923]
+100.0 nm from emitter at 229.16666666666666 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010619034338502182
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010619034338502182]
+100.0 nm from emitter at 229.19444444444443 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.001062205150224467
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.001062205150224467]
+100.0 nm from emitter at 229.2222222222222 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010621678669868987
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010621678669868987]
+100.0 nm from emitter at 229.25 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010630843762799887
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010630843762799887]
+100.0 nm from emitter at 229.27777777777777 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010632654404071603
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010632654404071603]
+100.0 nm from emitter at 229.30555555555554 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010636703562330904
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010636703562330904]
+100.0 nm from emitter at 229.33333333333331 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010648922804313721
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010648922804313721]
+100.0 nm from emitter at 229.3611111111111 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010650725997830557
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010650725997830557]
+100.0 nm from emitter at 229.38888888888889 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010629680714048903
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010629680714048903]
+100.0 nm from emitter at 229.41666666666666 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010635813142044715
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010635813142044715]
+100.0 nm from emitter at 229.44444444444443 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010635250960013762
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010635250960013762]
+100.0 nm from emitter at 229.4722222222222 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010635808530730405
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010635808530730405]
+100.0 nm from emitter at 229.5 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.001063926298287394
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.001063926298287394]
+100.0 nm from emitter at 229.52777777777777 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010637792453266374
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010637792453266374]
+100.0 nm from emitter at 229.55555555555554 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010702907000751465
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010702907000751465]
+100.0 nm from emitter at 229.58333333333331 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010675544569428573
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010675544569428573]
+100.0 nm from emitter at 229.6111111111111 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.001067485672799249
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.001067485672799249]
+100.0 nm from emitter at 229.63888888888889 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010679664863713382
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010679664863713382]
+100.0 nm from emitter at 229.66666666666666 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010698002599121505
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010698002599121505]
+100.0 nm from emitter at 229.69444444444443 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010695767788707203
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010695767788707203]
+100.0 nm from emitter at 229.7222222222222 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010693285058669118
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010693285058669118]
+100.0 nm from emitter at 229.75 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010690813012899378
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010690813012899378]
+100.0 nm from emitter at 229.77777777777777 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010696630400594859
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010696630400594859]
+100.0 nm from emitter at 229.80555555555554 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010699109323366331
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010699109323366331]
+100.0 nm from emitter at 229.83333333333331 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010695026527211533
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010695026527211533]
+100.0 nm from emitter at 229.8611111111111 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.001069824612265356
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.001069824612265356]
+100.0 nm from emitter at 229.88888888888889 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010680642083240742
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010680642083240742]
+100.0 nm from emitter at 229.91666666666666 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010666493418468393
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010666493418468393]
+100.0 nm from emitter at 229.94444444444443 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010662921691596758
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010662921691596758]
+100.0 nm from emitter at 229.9722222222222 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010667229551385349
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010667229551385349]
+100.0 nm from emitter at 230.0 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010695139661640375
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010695139661640375]
+100.0 nm from emitter at 230.02777777777777 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010637806343755758
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010637806343755758]
+100.0 nm from emitter at 230.05555555555554 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010637946415776932
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010637946415776932]
+100.0 nm from emitter at 230.08333333333331 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.001064581615075176
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.001064581615075176]
+100.0 nm from emitter at 230.1111111111111 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010639124200919896
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010639124200919896]
+100.0 nm from emitter at 230.13888888888889 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010640956952610516
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010640956952610516]
+100.0 nm from emitter at 230.16666666666666 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010643896385494303
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010643896385494303]
+100.0 nm from emitter at 230.19444444444443 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010646881895491362
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010646881895491362]
+100.0 nm from emitter at 230.2222222222222 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.001067124340718586
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.001067124340718586]
+100.0 nm from emitter at 230.25 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.001067262393523843
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.001067262393523843]
+100.0 nm from emitter at 230.27777777777777 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.001067048485534346
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.001067048485534346]
+100.0 nm from emitter at 230.30555555555554 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010666716846086165
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010666716846086165]
+100.0 nm from emitter at 230.33333333333331 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010671325321442377
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010671325321442377]
+100.0 nm from emitter at 230.3611111111111 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010670180082206757
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010670180082206757]
+100.0 nm from emitter at 230.38888888888889 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010672813213229151
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010672813213229151]
+100.0 nm from emitter at 230.41666666666666 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010669144987513956
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010669144987513956]
+100.0 nm from emitter at 230.44444444444443 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010673067056330074
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010673067056330074]
+100.0 nm from emitter at 230.4722222222222 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010673916518587337
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010673916518587337]
+100.0 nm from emitter at 230.5 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010680943652690482
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010680943652690482]
+100.0 nm from emitter at 230.52777777777777 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010678407665232837
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010678407665232837]
+100.0 nm from emitter at 230.55555555555554 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010679167631479337
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010679167631479337]
+100.0 nm from emitter at 230.58333333333331 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.001061955715080107
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.001061955715080107]
+100.0 nm from emitter at 230.6111111111111 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010624781115972754
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010624781115972754]
+100.0 nm from emitter at 230.63888888888889 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.001062751581877006
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.001062751581877006]
+100.0 nm from emitter at 230.66666666666666 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010618220066301145
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010618220066301145]
+100.0 nm from emitter at 230.69444444444443 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010620086259687715
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010620086259687715]
+100.0 nm from emitter at 230.7222222222222 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010623862404172755
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010623862404172755]
+100.0 nm from emitter at 230.75 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.001062538650223512
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.001062538650223512]
+100.0 nm from emitter at 230.77777777777777 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010687334820578482
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010687334820578482]
+100.0 nm from emitter at 230.80555555555554 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010664846404460206
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010664846404460206]
+100.0 nm from emitter at 230.83333333333331 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010666527908876392
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010666527908876392]
+100.0 nm from emitter at 230.8611111111111 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010640736248444934
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010640736248444934]
+100.0 nm from emitter at 230.88888888888889 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.001064419782474154
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.001064419782474154]
+100.0 nm from emitter at 230.91666666666666 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010647133124213012
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010647133124213012]
+100.0 nm from emitter at 230.94444444444443 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.001064226260963906
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.001064226260963906]
+100.0 nm from emitter at 230.9722222222222 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010637130929485395
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010637130929485395]
+100.0 nm from emitter at 231.0 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010646967369967101
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010646967369967101]
+100.0 nm from emitter at 231.02777777777777 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.001064500710416337
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.001064500710416337]
+100.0 nm from emitter at 231.05555555555554 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010651293916332564
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010651293916332564]
+100.0 nm from emitter at 231.08333333333331 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010651211346887329
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010651211346887329]
+100.0 nm from emitter at 231.1111111111111 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010637076102071458
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010637076102071458]
+100.0 nm from emitter at 231.13888888888889 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010662329213409181
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010662329213409181]
+100.0 nm from emitter at 231.16666666666666 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010669285278122897
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010669285278122897]
+100.0 nm from emitter at 231.19444444444443 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010676303093211945
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010676303093211945]
+100.0 nm from emitter at 231.2222222222222 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010669825789395148
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010669825789395148]
+100.0 nm from emitter at 231.25 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.001067266152025775
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.001067266152025775]
+100.0 nm from emitter at 231.27777777777777 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.001067247773531036
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.001067247773531036]
+100.0 nm from emitter at 231.30555555555554 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010675748297083597
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010675748297083597]
+100.0 nm from emitter at 231.33333333333331 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010674270573950964
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010674270573950964]
+100.0 nm from emitter at 231.3611111111111 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010672336675000718
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010672336675000718]
+100.0 nm from emitter at 231.38888888888889 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010667597834066748
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010667597834066748]
+100.0 nm from emitter at 231.41666666666666 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.001066683023260156
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.001066683023260156]
+100.0 nm from emitter at 231.44444444444443 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010664229272682939
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010664229272682939]
+100.0 nm from emitter at 231.4722222222222 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010652660022894798
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010652660022894798]
+100.0 nm from emitter at 231.5 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.001065206996139185
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.001065206996139185]
+100.0 nm from emitter at 231.52777777777777 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010656217853001033
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010656217853001033]
+100.0 nm from emitter at 231.55555555555554 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010643508821920888
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010643508821920888]
+100.0 nm from emitter at 231.58333333333331 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010617928228074454
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010617928228074454]
+100.0 nm from emitter at 231.6111111111111 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.001063906336958605
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.001063906336958605]
+100.0 nm from emitter at 231.63888888888889 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010633995240093858
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010633995240093858]
+100.0 nm from emitter at 231.66666666666666 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010656392813464485
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010656392813464485]
+100.0 nm from emitter at 231.69444444444443 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010660367979946606
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010660367979946606]
+100.0 nm from emitter at 231.7222222222222 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010638486803523383
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010638486803523383]
+100.0 nm from emitter at 231.75 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.001062700545635534
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.001062700545635534]
+100.0 nm from emitter at 231.77777777777777 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.00106356660485421
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.00106356660485421]
+100.0 nm from emitter at 231.80555555555554 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010581286056291423
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010581286056291423]
+100.0 nm from emitter at 231.83333333333331 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010585236916041778
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010585236916041778]
+100.0 nm from emitter at 231.8611111111111 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.001059330682185439
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.001059330682185439]
+100.0 nm from emitter at 231.88888888888889 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010580519381715784
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010580519381715784]
+100.0 nm from emitter at 231.91666666666666 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010584395583305814
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010584395583305814]
+100.0 nm from emitter at 231.94444444444443 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010584742364613173
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010584742364613173]
+100.0 nm from emitter at 231.9722222222222 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010588320841102537
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010588320841102537]
+100.0 nm from emitter at 232.0 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.001058026652091953
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.001058026652091953]
+100.0 nm from emitter at 232.02777777777777 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010648846711206884
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010648846711206884]
+100.0 nm from emitter at 232.05555555555554 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.001065230256473325
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.001065230256473325]
+100.0 nm from emitter at 232.08333333333331 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010623776678234565
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010623776678234565]
+100.0 nm from emitter at 232.1111111111111 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.001063711376483948
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.001063711376483948]
+100.0 nm from emitter at 232.13888888888889 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.001063827301604423
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.001063827301604423]
+100.0 nm from emitter at 232.16666666666666 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010702933604211308
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010702933604211308]
+100.0 nm from emitter at 232.19444444444443 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010703109732052222
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010703109732052222]
+100.0 nm from emitter at 232.2222222222222 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.001071779704648096
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.001071779704648096]
+100.0 nm from emitter at 232.25 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010714704827871433
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010714704827871433]
+100.0 nm from emitter at 232.27777777777777 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.001071506878871887
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.001071506878871887]
+100.0 nm from emitter at 232.30555555555554 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.001072036657118623
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.001072036657118623]
+100.0 nm from emitter at 232.33333333333331 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.001072380860370765
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.001072380860370765]
+100.0 nm from emitter at 232.3611111111111 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.001071133371829721
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.001071133371829721]
+100.0 nm from emitter at 232.38888888888889 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010718959031439156
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010718959031439156]
+100.0 nm from emitter at 232.41666666666666 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010718113897327194
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010718113897327194]
+100.0 nm from emitter at 232.44444444444443 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010716333100845932
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010716333100845932]
+100.0 nm from emitter at 232.4722222222222 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010702726969436874
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010702726969436874]
+100.0 nm from emitter at 232.5 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010719824701328146
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010719824701328146]
+100.0 nm from emitter at 232.52777777777777 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010698525777967521
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010698525777967521]
+100.0 nm from emitter at 232.55555555555554 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.00106952174451405
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.00106952174451405]
+100.0 nm from emitter at 232.58333333333331 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010695915381168835
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010695915381168835]
+100.0 nm from emitter at 232.6111111111111 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010697531305036956
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010697531305036956]
+100.0 nm from emitter at 232.63888888888889 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.001073252308941066
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.001073252308941066]
+100.0 nm from emitter at 232.66666666666666 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010730665140936202
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010730665140936202]
+100.0 nm from emitter at 232.69444444444443 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010732479709392605
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010732479709392605]
+100.0 nm from emitter at 232.7222222222222 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010743828003803287
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010743828003803287]
+100.0 nm from emitter at 232.75 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010747589651176012
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010747589651176012]
+100.0 nm from emitter at 232.77777777777777 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010744548269813314
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010744548269813314]
+100.0 nm from emitter at 232.80555555555554 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010747536263370039
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010747536263370039]
+100.0 nm from emitter at 232.83333333333331 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010758735359717774
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010758735359717774]
+100.0 nm from emitter at 232.8611111111111 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010769666906429367
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010769666906429367]
+100.0 nm from emitter at 232.88888888888889 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010752369100591574
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010752369100591574]
+100.0 nm from emitter at 232.91666666666666 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010752020780093138
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010752020780093138]
+100.0 nm from emitter at 232.94444444444443 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010593146475376938
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010593146475376938]
+100.0 nm from emitter at 232.9722222222222 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.001058892341877154
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.001058892341877154]
+100.0 nm from emitter at 233.0 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010583394906531678
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010583394906531678]
+100.0 nm from emitter at 233.02777777777777 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010590120095866034
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010590120095866034]
+100.0 nm from emitter at 233.05555555555554 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010597007259817944
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010597007259817944]
+100.0 nm from emitter at 233.08333333333331 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010535496672312507
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010535496672312507]
+100.0 nm from emitter at 233.1111111111111 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010536978767572008
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010536978767572008]
+100.0 nm from emitter at 233.13888888888889 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.001056470822852685
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.001056470822852685]
+100.0 nm from emitter at 233.16666666666666 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010547914441481196
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010547914441481196]
+100.0 nm from emitter at 233.19444444444443 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010554829543580565
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010554829543580565]
+100.0 nm from emitter at 233.2222222222222 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010557907508030157
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010557907508030157]
+100.0 nm from emitter at 233.25 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010559088459955166
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010559088459955166]
+100.0 nm from emitter at 233.27777777777777 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.001055593853982647
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.001055593853982647]
+100.0 nm from emitter at 233.30555555555554 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010556557222908486
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010556557222908486]
+100.0 nm from emitter at 233.33333333333331 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.001057774465234171
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.001057774465234171]
+100.0 nm from emitter at 233.3611111111111 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010585921655798783
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010585921655798783]
+100.0 nm from emitter at 233.38888888888889 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.001058244026724999
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.001058244026724999]
+100.0 nm from emitter at 233.41666666666666 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010581243742054075
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010581243742054075]
+100.0 nm from emitter at 233.44444444444443 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.001058467757728133
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.001058467757728133]
+100.0 nm from emitter at 233.4722222222222 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.00105881183643991
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.00105881183643991]
+100.0 nm from emitter at 233.5 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010591689798559894
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010591689798559894]
+100.0 nm from emitter at 233.52777777777777 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.001057482528443213
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.001057482528443213]
+100.0 nm from emitter at 233.55555555555554 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010583180142416677
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010583180142416677]
+100.0 nm from emitter at 233.58333333333331 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.001057812677392288
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.001057812677392288]
+100.0 nm from emitter at 233.6111111111111 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010573342637559984
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010573342637559984]
+100.0 nm from emitter at 233.63888888888889 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010569217880244126
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010569217880244126]
+100.0 nm from emitter at 233.66666666666666 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010591992175560895
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010591992175560895]
+100.0 nm from emitter at 233.69444444444443 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010593058457632578
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010593058457632578]
+100.0 nm from emitter at 233.7222222222222 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010591431483982852
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010591431483982852]
+100.0 nm from emitter at 233.75 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.001059803083363968
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.001059803083363968]
+100.0 nm from emitter at 233.77777777777777 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010592224350983578
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010592224350983578]
+100.0 nm from emitter at 233.80555555555554 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010601828860855383
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010601828860855383]
+100.0 nm from emitter at 233.83333333333331 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.001060245724331487
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.001060245724331487]
+100.0 nm from emitter at 233.8611111111111 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.001060027495467517
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.001060027495467517]
+100.0 nm from emitter at 233.88888888888889 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.001057762131115983
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.001057762131115983]
+100.0 nm from emitter at 233.91666666666666 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.001056668859779709
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.001056668859779709]
+100.0 nm from emitter at 233.94444444444443 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010570455690759291
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010570455690759291]
+100.0 nm from emitter at 233.9722222222222 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010549515499828394
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010549515499828394]
+100.0 nm from emitter at 234.0 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010598172264599018
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010598172264599018]
+100.0 nm from emitter at 234.02777777777777 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.001060015668897069
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.001060015668897069]
+100.0 nm from emitter at 234.05555555555554 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.001059807613722012
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.001059807613722012]
+100.0 nm from emitter at 234.08333333333331 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.001059823618962216
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.001059823618962216]
+100.0 nm from emitter at 234.1111111111111 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010590786150268207
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010590786150268207]
+100.0 nm from emitter at 234.13888888888889 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.001058038622682036
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.001058038622682036]
+100.0 nm from emitter at 234.16666666666666 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010586290822749878
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010586290822749878]
+100.0 nm from emitter at 234.19444444444443 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010598750797166684
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010598750797166684]
+100.0 nm from emitter at 234.2222222222222 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010598845400026122
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010598845400026122]
+100.0 nm from emitter at 234.25 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010597382933338103
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010597382933338103]
+100.0 nm from emitter at 234.27777777777777 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010606100356392732
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010606100356392732]
+100.0 nm from emitter at 234.30555555555554 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010610737671589497
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010610737671589497]
+100.0 nm from emitter at 234.33333333333331 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.001059247108764925
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.001059247108764925]
+100.0 nm from emitter at 234.3611111111111 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010603733049794348
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010603733049794348]
+100.0 nm from emitter at 234.38888888888889 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010596814496201573
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010596814496201573]
+100.0 nm from emitter at 234.41666666666666 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.001060063065084684
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.001060063065084684]
+100.0 nm from emitter at 234.44444444444443 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010598217508504598
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010598217508504598]
+100.0 nm from emitter at 234.4722222222222 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010598360772267929
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010598360772267929]
+100.0 nm from emitter at 234.5 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010600286613428678
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010600286613428678]
+100.0 nm from emitter at 234.52777777777777 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010606588012481472
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010606588012481472]
+100.0 nm from emitter at 234.55555555555554 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010605798037309488
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010605798037309488]
+100.0 nm from emitter at 234.58333333333331 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010612186383312002
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010612186383312002]
+100.0 nm from emitter at 234.6111111111111 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010623808571761152
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010623808571761152]
+100.0 nm from emitter at 234.63888888888889 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.001062588953213118
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.001062588953213118]
+100.0 nm from emitter at 234.66666666666666 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010619555142596642
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010619555142596642]
+100.0 nm from emitter at 234.69444444444443 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010626178682879624
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010626178682879624]
+100.0 nm from emitter at 234.7222222222222 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010622336347885276
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010622336347885276]
+100.0 nm from emitter at 234.75 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.001062653310797508
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.001062653310797508]
+100.0 nm from emitter at 234.77777777777777 degrees
+-----------
+Initializing structure...
+Meep progress: 558.0/1500.0 = 37.2% done in 4.0s, 6.8s to go
+ldos0:, 0.0018796992481203006, 0.0010611330936692628
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010611330936692628]
+100.0 nm from emitter at 234.80555555555554 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010623270914596394
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010623270914596394]
+100.0 nm from emitter at 234.83333333333331 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010549624261378255
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010549624261378255]
+100.0 nm from emitter at 234.8611111111111 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.001054894218693704
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.001054894218693704]
+100.0 nm from emitter at 234.88888888888889 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010538734031747782
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010538734031747782]
+100.0 nm from emitter at 234.91666666666666 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010521059172436586
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010521059172436586]
+100.0 nm from emitter at 234.94444444444443 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010519000288286941
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010519000288286941]
+100.0 nm from emitter at 234.9722222222222 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010534677069899525
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010534677069899525]
+100.0 nm from emitter at 235.0 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010539814450776885
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010539814450776885]
+100.0 nm from emitter at 235.02777777777777 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010542220544860444
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010542220544860444]
+100.0 nm from emitter at 235.05555555555554 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010540125399044534
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010540125399044534]
+100.0 nm from emitter at 235.08333333333331 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010526954392294312
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010526954392294312]
+100.0 nm from emitter at 235.1111111111111 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010534829529862686
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010534829529862686]
+100.0 nm from emitter at 235.13888888888889 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010531463883610718
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010531463883610718]
+100.0 nm from emitter at 235.16666666666666 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010544008589978815
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010544008589978815]
+100.0 nm from emitter at 235.19444444444443 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010541242563725452
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010541242563725452]
+100.0 nm from emitter at 235.2222222222222 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.001054564616728695
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.001054564616728695]
+100.0 nm from emitter at 235.25 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.001055090363135951
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.001055090363135951]
+100.0 nm from emitter at 235.27777777777777 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010542989223906096
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010542989223906096]
+100.0 nm from emitter at 235.30555555555554 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010548023506540855
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010548023506540855]
+100.0 nm from emitter at 235.33333333333331 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010636209369882504
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010636209369882504]
+100.0 nm from emitter at 235.3611111111111 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.001062952739118931
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.001062952739118931]
+100.0 nm from emitter at 235.38888888888889 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010630324178220443
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010630324178220443]
+100.0 nm from emitter at 235.41666666666666 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010634501105519785
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010634501105519785]
+100.0 nm from emitter at 235.44444444444443 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010644126831706605
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010644126831706605]
+100.0 nm from emitter at 235.4722222222222 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010619829018280414
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010619829018280414]
+100.0 nm from emitter at 235.5 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010618559198119317
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010618559198119317]
+100.0 nm from emitter at 235.52777777777777 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010575712146828817
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010575712146828817]
+100.0 nm from emitter at 235.55555555555554 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010579653785652908
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010579653785652908]
+100.0 nm from emitter at 235.58333333333331 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010578710366401889
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010578710366401889]
+100.0 nm from emitter at 235.6111111111111 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010573910977621447
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010573910977621447]
+100.0 nm from emitter at 235.63888888888889 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.001056795454280712
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.001056795454280712]
+100.0 nm from emitter at 235.66666666666666 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010583976461310506
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010583976461310506]
+100.0 nm from emitter at 235.69444444444443 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010594143214590983
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010594143214590983]
+100.0 nm from emitter at 235.7222222222222 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010595920969452433
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010595920969452433]
+100.0 nm from emitter at 235.75 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010657223343237161
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010657223343237161]
+100.0 nm from emitter at 235.77777777777777 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010676301639093587
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010676301639093587]
+100.0 nm from emitter at 235.80555555555554 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.001063930381931166
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.001063930381931166]
+100.0 nm from emitter at 235.83333333333331 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010700054286910301
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010700054286910301]
+100.0 nm from emitter at 235.8611111111111 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010712798689481945
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010712798689481945]
+100.0 nm from emitter at 235.88888888888889 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010715514437617739
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010715514437617739]
+100.0 nm from emitter at 235.91666666666666 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010722125606988302
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010722125606988302]
+100.0 nm from emitter at 235.94444444444443 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.001070835643753731
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.001070835643753731]
+100.0 nm from emitter at 235.9722222222222 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.001063531041679696
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.001063531041679696]
+100.0 nm from emitter at 236.0 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.001063271782415525
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.001063271782415525]
+100.0 nm from emitter at 236.02777777777777 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010616247607018218
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010616247607018218]
+100.0 nm from emitter at 236.05555555555554 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010599374036124266
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010599374036124266]
+100.0 nm from emitter at 236.08333333333331 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010593083108412103
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010593083108412103]
+100.0 nm from emitter at 236.1111111111111 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010585567188158133
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010585567188158133]
+100.0 nm from emitter at 236.13888888888889 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.001060423542480126
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.001060423542480126]
+100.0 nm from emitter at 236.16666666666666 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010590113397222919
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010590113397222919]
+100.0 nm from emitter at 236.19444444444443 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.001057874943479293
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.001057874943479293]
+100.0 nm from emitter at 236.2222222222222 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010580843638354094
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010580843638354094]
+100.0 nm from emitter at 236.25 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010584805721373946
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010584805721373946]
+100.0 nm from emitter at 236.27777777777777 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010598215407226755
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010598215407226755]
+100.0 nm from emitter at 236.30555555555554 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010599146253384803
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010599146253384803]
+100.0 nm from emitter at 236.33333333333331 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.001060014670024419
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.001060014670024419]
+100.0 nm from emitter at 236.3611111111111 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.00106011419559372
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.00106011419559372]
+100.0 nm from emitter at 236.38888888888889 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.001059667464902202
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.001059667464902202]
+100.0 nm from emitter at 236.41666666666666 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010600098182022546
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010600098182022546]
+100.0 nm from emitter at 236.44444444444443 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010624058160118035
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010624058160118035]
+100.0 nm from emitter at 236.4722222222222 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010623464344756371
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010623464344756371]
+100.0 nm from emitter at 236.5 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.001062025617338873
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.001062025617338873]
+100.0 nm from emitter at 236.52777777777777 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010615530557836876
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010615530557836876]
+100.0 nm from emitter at 236.55555555555554 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.001062123962035744
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.001062123962035744]
+100.0 nm from emitter at 236.58333333333331 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010627021490269921
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010627021490269921]
+100.0 nm from emitter at 236.6111111111111 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010642213724915113
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010642213724915113]
+100.0 nm from emitter at 236.63888888888889 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010617851715672018
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010617851715672018]
+100.0 nm from emitter at 236.66666666666666 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010661039500488192
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010661039500488192]
+100.0 nm from emitter at 236.69444444444443 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.001066437460642132
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.001066437460642132]
+100.0 nm from emitter at 236.7222222222222 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010661566082529213
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010661566082529213]
+100.0 nm from emitter at 236.75 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010666228849300356
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010666228849300356]
+100.0 nm from emitter at 236.77777777777777 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010658793811307724
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010658793811307724]
+100.0 nm from emitter at 236.80555555555554 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010624772700407728
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010624772700407728]
+100.0 nm from emitter at 236.83333333333331 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010622317088798236
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010622317088798236]
+100.0 nm from emitter at 236.8611111111111 degrees
+-----------
+Initializing structure...
+ldos0:, 0.0018796992481203006, 0.0010645078138326767
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010645078138326767]
+100.0 nm from emitter at 236.88888888888889 degrees
