@@ -1,50 +1,104 @@
 import numpy as np
 import multifunction
 import matplotlib.pyplot as plt
-
-import contextlib
 import io
 import sys
+import multiprocessing
+import argparse
+import os
+from mpi4py import MPI
+import numpy as np
+import os
+import sys
 
-@contextlib.contextmanager
-def nostdout():
-    save_stdout = sys.stdout
-    sys.stdout = io.StringIO()
-    yield
-    sys.stdout = save_stdout
+og_std = sys.stdout
+
+def setup_stdout(thread_id):
+    """Redirects stdout to a file for each thread."""
+    os.makedirs("out", exist_ok=True)
+    og_std = sys.stdout
+    sys.stdout = open(f"out/thread{thread_id}.out", "w")
+
+def reset_stdout():
+    """Back to main stdout."""
+    sys.stdout.close
+    sys.stdout = og_std
+    
+def setup_stdout(thread_id):
+    """Redirects stdout to a file for each thread."""
+    os.makedirs("out", exist_ok=True)
+    sys.stdout = open(f"out/thread{thread_id}.out", "w")
+
+def compute_ldos(dist, geometry, thread_id):
+    print(dist)
+    return multifunction.multi(dist, f"plots/{dist}_E_{thread_id}.mp4", returnval="LDOS", emptyspace=geometry)
+
+def worker_process(distances, rank):
+    """Worker function executed by each MPI process."""
+    return [compute_ldos(dist[0], dist[1], rank) for dist in distances]
 
 def main():
-    distances = np.linspace(5, 100, 100)
-    ldos=[]
-    for dist in distances:
-        
-        print(dist)
-        
-        with nostdout():
-            numx = multifunction.multi(532, dist, "")
-            ldos.append(numx)
+    comm = MPI.COMM_WORLD
+    rank = comm.Get_rank()
+    size = comm.Get_size()
+    start = 1
+    end = 100
+    res = [4]#[20, 10, 5, 5]
     
-    baseline = multifunction.multi(532, 0, "", True)
+    distances = []
+    points = np.linspace(start, end, len(res) + 1)
     
-    # total_fluxes_real = total_fluxes_real / np.real(baseline_total)
-    # total_fluxes_imag = total_fluxes_imag / np.imag(baseline_total)
-    
-    # np.save("baseline_total_rad.npy", [baseline_total, baseline_rad])
-    
-    # np.save("total_e_real.npy", total_fluxes_real)
-    # np.save("total_e_imag.npy", total_fluxes_imag)
-    
-    fig, ax = plt.subplots()
-    ax.plot(distances, np.divide(ldos,baseline))
-    # ax.axhline(np.power(np.real(baseline), 2))
-    fig.savefig("ldos.png")
+    for idx, point in enumerate(points[:-1]):
+        distances.extend(np.linspace(point, points[idx + 1], res[idx])[:-1])
 
-    # np.save("baseline_total.npy", [baseline_total])
+    distances.append(end)
     
-    # nonradiative_enhancement = total_fluxes - radiative_fluxes / (baseline_total - baseline_rad)
-    # fig, ax = plt.subplots()
-    # ax.plot(distances, nonradiative_enhancement)
-    # fig.savefig("nonradiative_fluxplot.png")
+    distances = [[x, False] for x in distances]
+    distances.append([0, True])
+
+    # Distribute distances across MPI ranks
+    distances_split = np.array_split(distances, size)[rank]
     
+    print(rank)
+    setup_stdout(rank)
+    
+    print(rank)
+    print("um")
+    print(distances_split)
+
+    # Each MPI process runs its own worker function
+    procs = worker_process(distances_split, rank)
+
+    # Gather results at rank 0
+    results = comm.gather(procs, root=0)
+
+    if rank == 0:
+        
+        reset_stdout()
+        
+        def flatten(arr):
+            return [x for xl in arr for x in xl]
+        
+        # print(results)
+        
+        # flatldos = flatten(results)
+        flatldos = flatten(results)
+        ldos = flatldos[:-1]
+        baseline = flatldos[-1]
+        distances = [pair[0] for pair in distances[:-1]]
+        
+        print(flatldos)
+        print(distances)
+
+        fig, ax = plt.subplots()
+        ax.plot(distances, np.divide(ldos, baseline))
+        fig.savefig("ldos.png")
+
+        os.makedirs("bin", exist_ok=True)
+        np.save("bin/ldos", ldos)
+        np.save("bin/distances", distances)
+        print(ldos)
+        print(distances)
+
 if __name__ == "__main__":
     main()
