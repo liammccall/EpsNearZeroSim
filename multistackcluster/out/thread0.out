@@ -1,0 +1,1836 @@
+0
+um
+[[ 50.         315.22746899   0.        ]
+ [ 50.         206.44116041   0.        ]
+ [ 50.         263.46228476   0.        ]
+ [ 50.         264.23663691   0.        ]
+ [ 50.          37.79491658   0.        ]
+ [ 50.         123.35179761   0.        ]
+ [ 50.         321.07200471   0.        ]
+ [ 50.         133.89409373   0.        ]
+ [ 50.          17.30252029   0.        ]
+ [ 50.         129.94880639   0.        ]
+ [ 50.65789474 315.22746899   0.        ]
+ [ 50.65789474 206.44116041   0.        ]
+ [ 50.65789474 263.46228476   0.        ]
+ [ 50.65789474 264.23663691   0.        ]
+ [ 50.65789474  37.79491658   0.        ]
+ [ 50.65789474 123.35179761   0.        ]
+ [ 50.65789474 321.07200471   0.        ]
+ [ 50.65789474 133.89409373   0.        ]
+ [ 50.65789474  17.30252029   0.        ]
+ [ 50.65789474 129.94880639   0.        ]
+ [ 51.31578947 315.22746899   0.        ]
+ [ 51.31578947 206.44116041   0.        ]
+ [ 51.31578947 263.46228476   0.        ]
+ [ 51.31578947 264.23663691   0.        ]
+ [ 51.31578947  37.79491658   0.        ]
+ [ 51.31578947 123.35179761   0.        ]
+ [ 51.31578947 321.07200471   0.        ]
+ [ 51.31578947 133.89409373   0.        ]
+ [ 51.31578947  17.30252029   0.        ]
+ [ 51.31578947 129.94880639   0.        ]
+ [ 51.97368421 315.22746899   0.        ]
+ [ 51.97368421 206.44116041   0.        ]
+ [ 51.97368421 263.46228476   0.        ]
+ [ 51.97368421 264.23663691   0.        ]
+ [ 51.97368421  37.79491658   0.        ]
+ [ 51.97368421 123.35179761   0.        ]
+ [ 51.97368421 321.07200471   0.        ]
+ [ 51.97368421 133.89409373   0.        ]
+ [ 51.97368421  17.30252029   0.        ]
+ [ 51.97368421 129.94880639   0.        ]
+ [ 52.63157895 315.22746899   0.        ]
+ [ 52.63157895 206.44116041   0.        ]
+ [ 52.63157895 263.46228476   0.        ]
+ [ 52.63157895 264.23663691   0.        ]
+ [ 52.63157895  37.79491658   0.        ]
+ [ 52.63157895 123.35179761   0.        ]
+ [ 52.63157895 321.07200471   0.        ]]
+50.0 nm from emitter at 315.22746898792235 degrees
+-----------
+Initializing structure...
+Splitting into 8 chunks by voxels
+time for choose_chunkdivision = 0.00376488 s
+Working in 2D dimensions.
+Computational cell is 600 x 600 x 0 with resolution 0.1
+     block, center = (22.0072,-21.8331,0)
+          size (12,1e+20,1e+20)
+          axes (0.709908,-0.704294,0), (0.704294,0.709908,0), (0,0,1)
+          dielectric constant epsilon diagonal = (2.67,2.67,2.67)
+     block, center = (30.5261,-30.2846,0)
+          size (10,1e+20,1e+20)
+          axes (0.709908,-0.704294,0), (0.704294,0.709908,0), (0,0,1)
+          dielectric constant epsilon diagonal = (0.43,0.43,0.43)
+     block, center = (37.6251,-37.3276,0)
+          size (12,1e+20,1e+20)
+          axes (0.709908,-0.704294,0), (0.704294,0.709908,0), (0,0,1)
+          dielectric constant epsilon diagonal = (2.67,2.67,2.67)
+     block, center = (46.1441,-45.7791,0)
+          size (10,1e+20,1e+20)
+          axes (0.709908,-0.704294,0), (0.704294,0.709908,0), (0,0,1)
+          dielectric constant epsilon diagonal = (0.43,0.43,0.43)
+     block, center = (53.2431,-52.822,0)
+          size (12,1e+20,1e+20)
+          axes (0.709908,-0.704294,0), (0.704294,0.709908,0), (0,0,1)
+          dielectric constant epsilon diagonal = (2.67,2.67,2.67)
+     block, center = (61.762,-61.2736,0)
+          size (10,1e+20,1e+20)
+          axes (0.709908,-0.704294,0), (0.704294,0.709908,0), (0,0,1)
+          dielectric constant epsilon diagonal = (0.43,0.43,0.43)
+time for set_epsilon = 0.0448763 s
+time for set_conductivity = 0.000252378 s
+time for set_conductivity = 0.000274727 s
+time for set_conductivity = 0.000257163 s
+-----------
+ldos0:, 0.0018796992481203006, 0.0009898924065432101
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0009898924065432101]
+50.0 nm from emitter at 206.44116040833933 degrees
+-----------
+Initializing structure...
+Splitting into 8 chunks by voxels
+time for choose_chunkdivision = 0.000472146 s
+Working in 2D dimensions.
+Computational cell is 600 x 600 x 0 with resolution 0.1
+     block, center = (-27.7572,-13.8036,0)
+          size (12,1e+20,1e+20)
+          axes (-0.895392,-0.445279,0), (0.445279,-0.895392,0), (0,0,1)
+          dielectric constant epsilon diagonal = (2.67,2.67,2.67)
+     block, center = (-38.5019,-19.147,0)
+          size (10,1e+20,1e+20)
+          axes (-0.895392,-0.445279,0), (0.445279,-0.895392,0), (0,0,1)
+          dielectric constant epsilon diagonal = (0.43,0.43,0.43)
+     block, center = (-47.4558,-23.5998,0)
+          size (12,1e+20,1e+20)
+          axes (-0.895392,-0.445279,0), (0.445279,-0.895392,0), (0,0,1)
+          dielectric constant epsilon diagonal = (2.67,2.67,2.67)
+     block, center = (-58.2005,-28.9431,0)
+          size (10,1e+20,1e+20)
+          axes (-0.895392,-0.445279,0), (0.445279,-0.895392,0), (0,0,1)
+          dielectric constant epsilon diagonal = (0.43,0.43,0.43)
+     block, center = (-67.1544,-33.3959,0)
+          size (12,1e+20,1e+20)
+          axes (-0.895392,-0.445279,0), (0.445279,-0.895392,0), (0,0,1)
+          dielectric constant epsilon diagonal = (2.67,2.67,2.67)
+     block, center = (-77.8991,-38.7392,0)
+          size (10,1e+20,1e+20)
+          axes (-0.895392,-0.445279,0), (0.445279,-0.895392,0), (0,0,1)
+          dielectric constant epsilon diagonal = (0.43,0.43,0.43)
+time for set_epsilon = 0.0319333 s
+time for set_conductivity = 0.000726806 s
+time for set_conductivity = 0.000259493 s
+time for set_conductivity = 0.000267785 s
+-----------
+ldos0:, 0.0018796992481203006, 0.000950969787774813
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.000950969787774813]
+50.0 nm from emitter at 263.46228476082564 degrees
+-----------
+Initializing structure...
+Splitting into 8 chunks by voxels
+time for choose_chunkdivision = 0.000648877 s
+Working in 2D dimensions.
+Computational cell is 600 x 600 x 0 with resolution 0.1
+     block, center = (-3.52957,-30.7984,0)
+          size (12,1e+20,1e+20)
+          axes (-0.113857,-0.993497,0), (0.993497,-0.113857,0), (0,0,1)
+          dielectric constant epsilon diagonal = (2.67,2.67,2.67)
+     block, center = (-4.89586,-42.7204,0)
+          size (10,1e+20,1e+20)
+          axes (-0.113857,-0.993497,0), (0.993497,-0.113857,0), (0,0,1)
+          dielectric constant epsilon diagonal = (0.43,0.43,0.43)
+     block, center = (-6.03443,-52.6553,0)
+          size (12,1e+20,1e+20)
+          axes (-0.113857,-0.993497,0), (0.993497,-0.113857,0), (0,0,1)
+          dielectric constant epsilon diagonal = (2.67,2.67,2.67)
+     block, center = (-7.40072,-64.5773,0)
+          size (10,1e+20,1e+20)
+          axes (-0.113857,-0.993497,0), (0.993497,-0.113857,0), (0,0,1)
+          dielectric constant epsilon diagonal = (0.43,0.43,0.43)
+     block, center = (-8.53929,-74.5123,0)
+          size (12,1e+20,1e+20)
+          axes (-0.113857,-0.993497,0), (0.993497,-0.113857,0), (0,0,1)
+          dielectric constant epsilon diagonal = (2.67,2.67,2.67)
+     block, center = (-9.90558,-86.4342,0)
+          size (10,1e+20,1e+20)
+          axes (-0.113857,-0.993497,0), (0.993497,-0.113857,0), (0,0,1)
+          dielectric constant epsilon diagonal = (0.43,0.43,0.43)
+time for set_epsilon = 0.0316395 s
+time for set_conductivity = 0.000271528 s
+time for set_conductivity = 0.000254787 s
+time for set_conductivity = 0.000276264 s
+-----------
+ldos0:, 0.0018796992481203006, 0.001214995599493026
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.001214995599493026]
+50.0 nm from emitter at 264.2366369095144 degrees
+-----------
+Initializing structure...
+Splitting into 8 chunks by voxels
+time for choose_chunkdivision = 0.000471484 s
+Working in 2D dimensions.
+Computational cell is 600 x 600 x 0 with resolution 0.1
+     block, center = (-3.11302,-30.8433,0)
+          size (12,1e+20,1e+20)
+          axes (-0.10042,-0.994945,0), (0.994945,-0.10042,0), (0,0,1)
+          dielectric constant epsilon diagonal = (2.67,2.67,2.67)
+     block, center = (-4.31806,-42.7826,0)
+          size (10,1e+20,1e+20)
+          axes (-0.10042,-0.994945,0), (0.994945,-0.10042,0), (0,0,1)
+          dielectric constant epsilon diagonal = (0.43,0.43,0.43)
+     block, center = (-5.32227,-52.7321,0)
+          size (12,1e+20,1e+20)
+          axes (-0.10042,-0.994945,0), (0.994945,-0.10042,0), (0,0,1)
+          dielectric constant epsilon diagonal = (2.67,2.67,2.67)
+     block, center = (-6.52731,-64.6714,0)
+          size (10,1e+20,1e+20)
+          axes (-0.10042,-0.994945,0), (0.994945,-0.10042,0), (0,0,1)
+          dielectric constant epsilon diagonal = (0.43,0.43,0.43)
+     block, center = (-7.53151,-74.6209,0)
+          size (12,1e+20,1e+20)
+          axes (-0.10042,-0.994945,0), (0.994945,-0.10042,0), (0,0,1)
+          dielectric constant epsilon diagonal = (2.67,2.67,2.67)
+     block, center = (-8.73655,-86.5602,0)
+          size (10,1e+20,1e+20)
+          axes (-0.10042,-0.994945,0), (0.994945,-0.10042,0), (0,0,1)
+          dielectric constant epsilon diagonal = (0.43,0.43,0.43)
+time for set_epsilon = 0.0243916 s
+time for set_conductivity = 0.000261984 s
+time for set_conductivity = 0.000266679 s
+time for set_conductivity = 0.000275526 s
+-----------
+ldos0:, 0.0018796992481203006, 0.000834750466623551
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.000834750466623551]
+50.0 nm from emitter at 37.794916583098775 degrees
+-----------
+Initializing structure...
+Splitting into 8 chunks by voxels
+time for choose_chunkdivision = 0.000494898 s
+Working in 2D dimensions.
+Computational cell is 600 x 600 x 0 with resolution 0.1
+     block, center = (24.4965,18.9979,0)
+          size (12,1e+20,1e+20)
+          axes (0.790209,0.612837,0), (-0.612837,0.790209,0), (0,0,1)
+          dielectric constant epsilon diagonal = (2.67,2.67,2.67)
+     block, center = (33.979,26.352,0)
+          size (10,1e+20,1e+20)
+          axes (0.790209,0.612837,0), (-0.612837,0.790209,0), (0,0,1)
+          dielectric constant epsilon diagonal = (0.43,0.43,0.43)
+     block, center = (41.8811,32.4804,0)
+          size (12,1e+20,1e+20)
+          axes (0.790209,0.612837,0), (-0.612837,0.790209,0), (0,0,1)
+          dielectric constant epsilon diagonal = (2.67,2.67,2.67)
+     block, center = (51.3636,39.8344,0)
+          size (10,1e+20,1e+20)
+          axes (0.790209,0.612837,0), (-0.612837,0.790209,0), (0,0,1)
+          dielectric constant epsilon diagonal = (0.43,0.43,0.43)
+     block, center = (59.2657,45.9628,0)
+          size (12,1e+20,1e+20)
+          axes (0.790209,0.612837,0), (-0.612837,0.790209,0), (0,0,1)
+          dielectric constant epsilon diagonal = (2.67,2.67,2.67)
+     block, center = (68.7482,53.3168,0)
+          size (10,1e+20,1e+20)
+          axes (0.790209,0.612837,0), (-0.612837,0.790209,0), (0,0,1)
+          dielectric constant epsilon diagonal = (0.43,0.43,0.43)
+time for set_epsilon = 0.00807581 s
+time for set_conductivity = 0.00112569 s
+time for set_conductivity = 0.000269222 s
+time for set_conductivity = 0.000249633 s
+-----------
+ldos0:, 0.0018796992481203006, 0.0008065561620297307
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0008065561620297307]
+50.0 nm from emitter at 123.35179760972689 degrees
+-----------
+Initializing structure...
+Splitting into 8 chunks by voxels
+time for choose_chunkdivision = 0.00128252 s
+Working in 2D dimensions.
+Computational cell is 600 x 600 x 0 with resolution 0.1
+     block, center = (-17.0431,25.8946,0)
+          size (12,1e+20,1e+20)
+          axes (-0.549778,0.835311,0), (-0.835311,-0.549778,0), (0,0,1)
+          dielectric constant epsilon diagonal = (2.67,2.67,2.67)
+     block, center = (-23.6405,35.9184,0)
+          size (10,1e+20,1e+20)
+          axes (-0.549778,0.835311,0), (-0.835311,-0.549778,0), (0,0,1)
+          dielectric constant epsilon diagonal = (0.43,0.43,0.43)
+     block, center = (-29.1382,44.2715,0)
+          size (12,1e+20,1e+20)
+          axes (-0.549778,0.835311,0), (-0.835311,-0.549778,0), (0,0,1)
+          dielectric constant epsilon diagonal = (2.67,2.67,2.67)
+     block, center = (-35.7356,54.2952,0)
+          size (10,1e+20,1e+20)
+          axes (-0.549778,0.835311,0), (-0.835311,-0.549778,0), (0,0,1)
+          dielectric constant epsilon diagonal = (0.43,0.43,0.43)
+     block, center = (-41.2334,62.6483,0)
+          size (12,1e+20,1e+20)
+          axes (-0.549778,0.835311,0), (-0.835311,-0.549778,0), (0,0,1)
+          dielectric constant epsilon diagonal = (2.67,2.67,2.67)
+     block, center = (-47.8307,72.672,0)
+          size (10,1e+20,1e+20)
+          axes (-0.549778,0.835311,0), (-0.835311,-0.549778,0), (0,0,1)
+          dielectric constant epsilon diagonal = (0.43,0.43,0.43)
+time for set_epsilon = 0.0349487 s
+time for set_conductivity = 0.000257511 s
+time for set_conductivity = 0.000254528 s
+time for set_conductivity = 0.000393993 s
+-----------
+ldos0:, 0.0018796992481203006, 0.0009901265234886758
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0009901265234886758]
+50.0 nm from emitter at 321.0720047115301 degrees
+-----------
+Initializing structure...
+Splitting into 8 chunks by voxels
+time for choose_chunkdivision = 0.00104665 s
+Working in 2D dimensions.
+Computational cell is 600 x 600 x 0 with resolution 0.1
+     block, center = (24.116,-19.4786,0)
+          size (12,1e+20,1e+20)
+          axes (0.777936,-0.628343,0), (0.628343,0.777936,0), (0,0,1)
+          dielectric constant epsilon diagonal = (2.67,2.67,2.67)
+     block, center = (33.4513,-27.0188,0)
+          size (10,1e+20,1e+20)
+          axes (0.777936,-0.628343,0), (0.628343,0.777936,0), (0,0,1)
+          dielectric constant epsilon diagonal = (0.43,0.43,0.43)
+     block, center = (41.2306,-33.3022,0)
+          size (12,1e+20,1e+20)
+          axes (0.777936,-0.628343,0), (0.628343,0.777936,0), (0,0,1)
+          dielectric constant epsilon diagonal = (2.67,2.67,2.67)
+     block, center = (50.5659,-40.8423,0)
+          size (10,1e+20,1e+20)
+          axes (0.777936,-0.628343,0), (0.628343,0.777936,0), (0,0,1)
+          dielectric constant epsilon diagonal = (0.43,0.43,0.43)
+     block, center = (58.3452,-47.1257,0)
+          size (12,1e+20,1e+20)
+          axes (0.777936,-0.628343,0), (0.628343,0.777936,0), (0,0,1)
+          dielectric constant epsilon diagonal = (2.67,2.67,2.67)
+     block, center = (67.6805,-54.6659,0)
+          size (10,1e+20,1e+20)
+          axes (0.777936,-0.628343,0), (0.628343,0.777936,0), (0,0,1)
+          dielectric constant epsilon diagonal = (0.43,0.43,0.43)
+time for set_epsilon = 0.0348498 s
+time for set_conductivity = 0.000239745 s
+time for set_conductivity = 0.000231347 s
+time for set_conductivity = 0.000238812 s
+-----------
+ldos0:, 0.0018796992481203006, 0.0010594579705006046
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010594579705006046]
+50.0 nm from emitter at 133.89409372810528 degrees
+-----------
+Initializing structure...
+Splitting into 8 chunks by voxels
+time for choose_chunkdivision = 0.000497562 s
+Working in 2D dimensions.
+Computational cell is 600 x 600 x 0 with resolution 0.1
+     block, center = (-21.4932,22.3393,0)
+          size (12,1e+20,1e+20)
+          axes (-0.693328,0.720623,0), (-0.720623,-0.693328,0), (0,0,1)
+          dielectric constant epsilon diagonal = (2.67,2.67,2.67)
+     block, center = (-29.8131,30.9868,0)
+          size (10,1e+20,1e+20)
+          axes (-0.693328,0.720623,0), (-0.720623,-0.693328,0), (0,0,1)
+          dielectric constant epsilon diagonal = (0.43,0.43,0.43)
+     block, center = (-36.7464,38.193,0)
+          size (12,1e+20,1e+20)
+          axes (-0.693328,0.720623,0), (-0.720623,-0.693328,0), (0,0,1)
+          dielectric constant epsilon diagonal = (2.67,2.67,2.67)
+     block, center = (-45.0663,46.8405,0)
+          size (10,1e+20,1e+20)
+          axes (-0.693328,0.720623,0), (-0.720623,-0.693328,0), (0,0,1)
+          dielectric constant epsilon diagonal = (0.43,0.43,0.43)
+     block, center = (-51.9996,54.0467,0)
+          size (12,1e+20,1e+20)
+          axes (-0.693328,0.720623,0), (-0.720623,-0.693328,0), (0,0,1)
+          dielectric constant epsilon diagonal = (2.67,2.67,2.67)
+     block, center = (-60.3195,62.6942,0)
+          size (10,1e+20,1e+20)
+          axes (-0.693328,0.720623,0), (-0.720623,-0.693328,0), (0,0,1)
+          dielectric constant epsilon diagonal = (0.43,0.43,0.43)
+time for set_epsilon = 0.0208094 s
+time for set_conductivity = 0.000343791 s
+time for set_conductivity = 0.000255777 s
+time for set_conductivity = 0.00277168 s
+-----------
+ldos0:, 0.0018796992481203006, 0.0008058167441150886
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0008058167441150886]
+50.0 nm from emitter at 17.30252029384569 degrees
+-----------
+Initializing structure...
+Splitting into 8 chunks by voxels
+time for choose_chunkdivision = 0.000618196 s
+Working in 2D dimensions.
+Computational cell is 600 x 600 x 0 with resolution 0.1
+     block, center = (29.5972,9.21992,0)
+          size (12,1e+20,1e+20)
+          axes (0.954748,0.297417,0), (-0.297417,0.954748,0), (0,0,1)
+          dielectric constant epsilon diagonal = (2.67,2.67,2.67)
+     block, center = (41.0542,12.7889,0)
+          size (10,1e+20,1e+20)
+          axes (0.954748,0.297417,0), (-0.297417,0.954748,0), (0,0,1)
+          dielectric constant epsilon diagonal = (0.43,0.43,0.43)
+     block, center = (50.6016,15.7631,0)
+          size (12,1e+20,1e+20)
+          axes (0.954748,0.297417,0), (-0.297417,0.954748,0), (0,0,1)
+          dielectric constant epsilon diagonal = (2.67,2.67,2.67)
+     block, center = (62.0586,19.3321,0)
+          size (10,1e+20,1e+20)
+          axes (0.954748,0.297417,0), (-0.297417,0.954748,0), (0,0,1)
+          dielectric constant epsilon diagonal = (0.43,0.43,0.43)
+     block, center = (71.6061,22.3063,0)
+          size (12,1e+20,1e+20)
+          axes (0.954748,0.297417,0), (-0.297417,0.954748,0), (0,0,1)
+          dielectric constant epsilon diagonal = (2.67,2.67,2.67)
+     block, center = (83.0631,25.8753,0)
+          size (10,1e+20,1e+20)
+          axes (0.954748,0.297417,0), (-0.297417,0.954748,0), (0,0,1)
+          dielectric constant epsilon diagonal = (0.43,0.43,0.43)
+time for set_epsilon = 0.0323184 s
+time for set_conductivity = 0.00028092 s
+time for set_conductivity = 0.000262707 s
+time for set_conductivity = 0.00027033 s
+-----------
+ldos0:, 0.0018796992481203006, 0.0009628371313127288
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0009628371313127288]
+50.0 nm from emitter at 129.9488063864481 degrees
+-----------
+Initializing structure...
+Splitting into 8 chunks by voxels
+time for choose_chunkdivision = 0.000670731 s
+Working in 2D dimensions.
+Computational cell is 600 x 600 x 0 with resolution 0.1
+     block, center = (-19.9052,23.7652,0)
+          size (12,1e+20,1e+20)
+          axes (-0.642103,0.766618,0), (-0.766618,-0.642103,0), (0,0,1)
+          dielectric constant epsilon diagonal = (2.67,2.67,2.67)
+     block, center = (-27.6104,32.9646,0)
+          size (10,1e+20,1e+20)
+          axes (-0.642103,0.766618,0), (-0.766618,-0.642103,0), (0,0,1)
+          dielectric constant epsilon diagonal = (0.43,0.43,0.43)
+     block, center = (-34.0315,40.6308,0)
+          size (12,1e+20,1e+20)
+          axes (-0.642103,0.766618,0), (-0.766618,-0.642103,0), (0,0,1)
+          dielectric constant epsilon diagonal = (2.67,2.67,2.67)
+     block, center = (-41.7367,49.8302,0)
+          size (10,1e+20,1e+20)
+          axes (-0.642103,0.766618,0), (-0.766618,-0.642103,0), (0,0,1)
+          dielectric constant epsilon diagonal = (0.43,0.43,0.43)
+     block, center = (-48.1577,57.4964,0)
+          size (12,1e+20,1e+20)
+          axes (-0.642103,0.766618,0), (-0.766618,-0.642103,0), (0,0,1)
+          dielectric constant epsilon diagonal = (2.67,2.67,2.67)
+     block, center = (-55.863,66.6958,0)
+          size (10,1e+20,1e+20)
+          axes (-0.642103,0.766618,0), (-0.766618,-0.642103,0), (0,0,1)
+          dielectric constant epsilon diagonal = (0.43,0.43,0.43)
+time for set_epsilon = 0.0268185 s
+time for set_conductivity = 0.000251352 s
+time for set_conductivity = 0.000243424 s
+time for set_conductivity = 0.000253767 s
+-----------
+ldos0:, 0.0018796992481203006, 0.0008199991208240125
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0008199991208240125]
+50.6578947368421 nm from emitter at 315.22746898792235 degrees
+-----------
+Initializing structure...
+Splitting into 8 chunks by voxels
+time for choose_chunkdivision = 0.000479873 s
+Working in 2D dimensions.
+Computational cell is 600 x 600 x 0 with resolution 0.1
+     block, center = (22.2407,-22.0648,0)
+          size (12,1e+20,1e+20)
+          axes (0.709908,-0.704294,0), (0.704294,0.709908,0), (0,0,1)
+          dielectric constant epsilon diagonal = (2.67,2.67,2.67)
+     block, center = (30.7596,-30.5163,0)
+          size (10,1e+20,1e+20)
+          axes (0.709908,-0.704294,0), (0.704294,0.709908,0), (0,0,1)
+          dielectric constant epsilon diagonal = (0.43,0.43,0.43)
+     block, center = (37.8587,-37.5593,0)
+          size (12,1e+20,1e+20)
+          axes (0.709908,-0.704294,0), (0.704294,0.709908,0), (0,0,1)
+          dielectric constant epsilon diagonal = (2.67,2.67,2.67)
+     block, center = (46.3776,-46.0108,0)
+          size (10,1e+20,1e+20)
+          axes (0.709908,-0.704294,0), (0.704294,0.709908,0), (0,0,1)
+          dielectric constant epsilon diagonal = (0.43,0.43,0.43)
+     block, center = (53.4767,-53.0537,0)
+          size (12,1e+20,1e+20)
+          axes (0.709908,-0.704294,0), (0.704294,0.709908,0), (0,0,1)
+          dielectric constant epsilon diagonal = (2.67,2.67,2.67)
+     block, center = (61.9956,-61.5052,0)
+          size (10,1e+20,1e+20)
+          axes (0.709908,-0.704294,0), (0.704294,0.709908,0), (0,0,1)
+          dielectric constant epsilon diagonal = (0.43,0.43,0.43)
+time for set_epsilon = 0.0380358 s
+time for set_conductivity = 0.000771988 s
+time for set_conductivity = 0.00024464 s
+time for set_conductivity = 0.000236793 s
+-----------
+ldos0:, 0.0018796992481203006, 0.0009887796887535472
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0009887796887535472]
+50.6578947368421 nm from emitter at 206.44116040833933 degrees
+-----------
+Initializing structure...
+Splitting into 8 chunks by voxels
+time for choose_chunkdivision = 0.000616363 s
+Working in 2D dimensions.
+Computational cell is 600 x 600 x 0 with resolution 0.1
+     block, center = (-28.0517,-13.9501,0)
+          size (12,1e+20,1e+20)
+          axes (-0.895392,-0.445279,0), (0.445279,-0.895392,0), (0,0,1)
+          dielectric constant epsilon diagonal = (2.67,2.67,2.67)
+     block, center = (-38.7964,-19.2934,0)
+          size (10,1e+20,1e+20)
+          axes (-0.895392,-0.445279,0), (0.445279,-0.895392,0), (0,0,1)
+          dielectric constant epsilon diagonal = (0.43,0.43,0.43)
+     block, center = (-47.7503,-23.7462,0)
+          size (12,1e+20,1e+20)
+          axes (-0.895392,-0.445279,0), (0.445279,-0.895392,0), (0,0,1)
+          dielectric constant epsilon diagonal = (2.67,2.67,2.67)
+     block, center = (-58.495,-29.0896,0)
+          size (10,1e+20,1e+20)
+          axes (-0.895392,-0.445279,0), (0.445279,-0.895392,0), (0,0,1)
+          dielectric constant epsilon diagonal = (0.43,0.43,0.43)
+     block, center = (-67.4489,-33.5424,0)
+          size (12,1e+20,1e+20)
+          axes (-0.895392,-0.445279,0), (0.445279,-0.895392,0), (0,0,1)
+          dielectric constant epsilon diagonal = (2.67,2.67,2.67)
+     block, center = (-78.1937,-38.8857,0)
+          size (10,1e+20,1e+20)
+          axes (-0.895392,-0.445279,0), (0.445279,-0.895392,0), (0,0,1)
+          dielectric constant epsilon diagonal = (0.43,0.43,0.43)
+time for set_epsilon = 0.0335156 s
+time for set_conductivity = 0.000255761 s
+time for set_conductivity = 0.000253601 s
+time for set_conductivity = 0.000268121 s
+-----------
+ldos0:, 0.0018796992481203006, 0.0009475119923000134
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0009475119923000134]
+50.6578947368421 nm from emitter at 263.46228476082564 degrees
+-----------
+Initializing structure...
+Splitting into 8 chunks by voxels
+time for choose_chunkdivision = 0.000617413 s
+Working in 2D dimensions.
+Computational cell is 600 x 600 x 0 with resolution 0.1
+     block, center = (-3.56703,-31.1252,0)
+          size (12,1e+20,1e+20)
+          axes (-0.113857,-0.993497,0), (0.993497,-0.113857,0), (0,0,1)
+          dielectric constant epsilon diagonal = (2.67,2.67,2.67)
+     block, center = (-4.93331,-43.0472,0)
+          size (10,1e+20,1e+20)
+          axes (-0.113857,-0.993497,0), (0.993497,-0.113857,0), (0,0,1)
+          dielectric constant epsilon diagonal = (0.43,0.43,0.43)
+     block, center = (-6.07189,-52.9822,0)
+          size (12,1e+20,1e+20)
+          axes (-0.113857,-0.993497,0), (0.993497,-0.113857,0), (0,0,1)
+          dielectric constant epsilon diagonal = (2.67,2.67,2.67)
+     block, center = (-7.43817,-64.9041,0)
+          size (10,1e+20,1e+20)
+          axes (-0.113857,-0.993497,0), (0.993497,-0.113857,0), (0,0,1)
+          dielectric constant epsilon diagonal = (0.43,0.43,0.43)
+     block, center = (-8.57674,-74.8391,0)
+          size (12,1e+20,1e+20)
+          axes (-0.113857,-0.993497,0), (0.993497,-0.113857,0), (0,0,1)
+          dielectric constant epsilon diagonal = (2.67,2.67,2.67)
+     block, center = (-9.94303,-86.7611,0)
+          size (10,1e+20,1e+20)
+          axes (-0.113857,-0.993497,0), (0.993497,-0.113857,0), (0,0,1)
+          dielectric constant epsilon diagonal = (0.43,0.43,0.43)
+time for set_epsilon = 0.0378888 s
+time for set_conductivity = 0.000265315 s
+time for set_conductivity = 0.000406155 s
+time for set_conductivity = 0.000276008 s
+-----------
+ldos0:, 0.0018796992481203006, 0.0012376144172831813
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0012376144172831813]
+50.6578947368421 nm from emitter at 264.2366369095144 degrees
+-----------
+Initializing structure...
+Splitting into 8 chunks by voxels
+time for choose_chunkdivision = 0.000953955 s
+Working in 2D dimensions.
+Computational cell is 600 x 600 x 0 with resolution 0.1
+     block, center = (-3.14606,-31.1706,0)
+          size (12,1e+20,1e+20)
+          axes (-0.10042,-0.994945,0), (0.994945,-0.10042,0), (0,0,1)
+          dielectric constant epsilon diagonal = (2.67,2.67,2.67)
+     block, center = (-4.3511,-43.1099,0)
+          size (10,1e+20,1e+20)
+          axes (-0.10042,-0.994945,0), (0.994945,-0.10042,0), (0,0,1)
+          dielectric constant epsilon diagonal = (0.43,0.43,0.43)
+     block, center = (-5.3553,-53.0594,0)
+          size (12,1e+20,1e+20)
+          axes (-0.10042,-0.994945,0), (0.994945,-0.10042,0), (0,0,1)
+          dielectric constant epsilon diagonal = (2.67,2.67,2.67)
+     block, center = (-6.56034,-64.9987,0)
+          size (10,1e+20,1e+20)
+          axes (-0.10042,-0.994945,0), (0.994945,-0.10042,0), (0,0,1)
+          dielectric constant epsilon diagonal = (0.43,0.43,0.43)
+     block, center = (-7.56454,-74.9482,0)
+          size (12,1e+20,1e+20)
+          axes (-0.10042,-0.994945,0), (0.994945,-0.10042,0), (0,0,1)
+          dielectric constant epsilon diagonal = (2.67,2.67,2.67)
+     block, center = (-8.76958,-86.8875,0)
+          size (10,1e+20,1e+20)
+          axes (-0.10042,-0.994945,0), (0.994945,-0.10042,0), (0,0,1)
+          dielectric constant epsilon diagonal = (0.43,0.43,0.43)
+time for set_epsilon = 0.0246255 s
+time for set_conductivity = 0.000257438 s
+time for set_conductivity = 0.00036003 s
+time for set_conductivity = 0.000250787 s
+-----------
+ldos0:, 0.0018796992481203006, 0.0008310559566252275
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0008310559566252275]
+50.6578947368421 nm from emitter at 37.794916583098775 degrees
+-----------
+Initializing structure...
+Splitting into 8 chunks by voxels
+time for choose_chunkdivision = 0.000941655 s
+Working in 2D dimensions.
+Computational cell is 600 x 600 x 0 with resolution 0.1
+     block, center = (24.7564,19.1995,0)
+          size (12,1e+20,1e+20)
+          axes (0.790209,0.612837,0), (-0.612837,0.790209,0), (0,0,1)
+          dielectric constant epsilon diagonal = (2.67,2.67,2.67)
+     block, center = (34.2389,26.5536,0)
+          size (10,1e+20,1e+20)
+          axes (0.790209,0.612837,0), (-0.612837,0.790209,0), (0,0,1)
+          dielectric constant epsilon diagonal = (0.43,0.43,0.43)
+     block, center = (42.141,32.6819,0)
+          size (12,1e+20,1e+20)
+          axes (0.790209,0.612837,0), (-0.612837,0.790209,0), (0,0,1)
+          dielectric constant epsilon diagonal = (2.67,2.67,2.67)
+     block, center = (51.6235,40.036,0)
+          size (10,1e+20,1e+20)
+          axes (0.790209,0.612837,0), (-0.612837,0.790209,0), (0,0,1)
+          dielectric constant epsilon diagonal = (0.43,0.43,0.43)
+     block, center = (59.5256,46.1644,0)
+          size (12,1e+20,1e+20)
+          axes (0.790209,0.612837,0), (-0.612837,0.790209,0), (0,0,1)
+          dielectric constant epsilon diagonal = (2.67,2.67,2.67)
+     block, center = (69.0082,53.5184,0)
+          size (10,1e+20,1e+20)
+          axes (0.790209,0.612837,0), (-0.612837,0.790209,0), (0,0,1)
+          dielectric constant epsilon diagonal = (0.43,0.43,0.43)
+time for set_epsilon = 0.00871388 s
+time for set_conductivity = 0.000260254 s
+time for set_conductivity = 0.000256281 s
+time for set_conductivity = 0.000272617 s
+-----------
+ldos0:, 0.0018796992481203006, 0.0008068208859600173
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0008068208859600173]
+50.6578947368421 nm from emitter at 123.35179760972689 degrees
+-----------
+Initializing structure...
+Splitting into 8 chunks by voxels
+time for choose_chunkdivision = 0.000888485 s
+Working in 2D dimensions.
+Computational cell is 600 x 600 x 0 with resolution 0.1
+     block, center = (-17.224,26.1694,0)
+          size (12,1e+20,1e+20)
+          axes (-0.549778,0.835311,0), (-0.835311,-0.549778,0), (0,0,1)
+          dielectric constant epsilon diagonal = (2.67,2.67,2.67)
+     block, center = (-23.8213,36.1931,0)
+          size (10,1e+20,1e+20)
+          axes (-0.549778,0.835311,0), (-0.835311,-0.549778,0), (0,0,1)
+          dielectric constant epsilon diagonal = (0.43,0.43,0.43)
+     block, center = (-29.3191,44.5462,0)
+          size (12,1e+20,1e+20)
+          axes (-0.549778,0.835311,0), (-0.835311,-0.549778,0), (0,0,1)
+          dielectric constant epsilon diagonal = (2.67,2.67,2.67)
+     block, center = (-35.9164,54.57,0)
+          size (10,1e+20,1e+20)
+          axes (-0.549778,0.835311,0), (-0.835311,-0.549778,0), (0,0,1)
+          dielectric constant epsilon diagonal = (0.43,0.43,0.43)
+     block, center = (-41.4142,62.9231,0)
+          size (12,1e+20,1e+20)
+          axes (-0.549778,0.835311,0), (-0.835311,-0.549778,0), (0,0,1)
+          dielectric constant epsilon diagonal = (2.67,2.67,2.67)
+     block, center = (-48.0116,72.9468,0)
+          size (10,1e+20,1e+20)
+          axes (-0.549778,0.835311,0), (-0.835311,-0.549778,0), (0,0,1)
+          dielectric constant epsilon diagonal = (0.43,0.43,0.43)
+time for set_epsilon = 0.0357239 s
+time for set_conductivity = 0.00024525 s
+time for set_conductivity = 0.000247516 s
+time for set_conductivity = 0.000245944 s
+-----------
+ldos0:, 0.0018796992481203006, 0.0009953652526251155
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0009953652526251155]
+50.6578947368421 nm from emitter at 321.0720047115301 degrees
+-----------
+Initializing structure...
+Splitting into 8 chunks by voxels
+time for choose_chunkdivision = 0.000961754 s
+Working in 2D dimensions.
+Computational cell is 600 x 600 x 0 with resolution 0.1
+     block, center = (24.3719,-19.6853,0)
+          size (12,1e+20,1e+20)
+          axes (0.777936,-0.628343,0), (0.628343,0.777936,0), (0,0,1)
+          dielectric constant epsilon diagonal = (2.67,2.67,2.67)
+     block, center = (33.7072,-27.2255,0)
+          size (10,1e+20,1e+20)
+          axes (0.777936,-0.628343,0), (0.628343,0.777936,0), (0,0,1)
+          dielectric constant epsilon diagonal = (0.43,0.43,0.43)
+     block, center = (41.4865,-33.5089,0)
+          size (12,1e+20,1e+20)
+          axes (0.777936,-0.628343,0), (0.628343,0.777936,0), (0,0,1)
+          dielectric constant epsilon diagonal = (2.67,2.67,2.67)
+     block, center = (50.8218,-41.049,0)
+          size (10,1e+20,1e+20)
+          axes (0.777936,-0.628343,0), (0.628343,0.777936,0), (0,0,1)
+          dielectric constant epsilon diagonal = (0.43,0.43,0.43)
+     block, center = (58.6011,-47.3324,0)
+          size (12,1e+20,1e+20)
+          axes (0.777936,-0.628343,0), (0.628343,0.777936,0), (0,0,1)
+          dielectric constant epsilon diagonal = (2.67,2.67,2.67)
+     block, center = (67.9364,-54.8726,0)
+          size (10,1e+20,1e+20)
+          axes (0.777936,-0.628343,0), (0.628343,0.777936,0), (0,0,1)
+          dielectric constant epsilon diagonal = (0.43,0.43,0.43)
+time for set_epsilon = 0.0374261 s
+time for set_conductivity = 0.000242837 s
+time for set_conductivity = 0.000237359 s
+time for set_conductivity = 0.000239932 s
+-----------
+ldos0:, 0.0018796992481203006, 0.0010167904215098596
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0010167904215098596]
+50.6578947368421 nm from emitter at 133.89409372810528 degrees
+-----------
+Initializing structure...
+Splitting into 8 chunks by voxels
+time for choose_chunkdivision = 0.00050804 s
+Working in 2D dimensions.
+Computational cell is 600 x 600 x 0 with resolution 0.1
+     block, center = (-21.7212,22.5763,0)
+          size (12,1e+20,1e+20)
+          axes (-0.693328,0.720623,0), (-0.720623,-0.693328,0), (0,0,1)
+          dielectric constant epsilon diagonal = (2.67,2.67,2.67)
+     block, center = (-30.0412,31.2238,0)
+          size (10,1e+20,1e+20)
+          axes (-0.693328,0.720623,0), (-0.720623,-0.693328,0), (0,0,1)
+          dielectric constant epsilon diagonal = (0.43,0.43,0.43)
+     block, center = (-36.9744,38.43,0)
+          size (12,1e+20,1e+20)
+          axes (-0.693328,0.720623,0), (-0.720623,-0.693328,0), (0,0,1)
+          dielectric constant epsilon diagonal = (2.67,2.67,2.67)
+     block, center = (-45.2944,47.0775,0)
+          size (10,1e+20,1e+20)
+          axes (-0.693328,0.720623,0), (-0.720623,-0.693328,0), (0,0,1)
+          dielectric constant epsilon diagonal = (0.43,0.43,0.43)
+     block, center = (-52.2276,54.2837,0)
+          size (12,1e+20,1e+20)
+          axes (-0.693328,0.720623,0), (-0.720623,-0.693328,0), (0,0,1)
+          dielectric constant epsilon diagonal = (2.67,2.67,2.67)
+     block, center = (-60.5476,62.9312,0)
+          size (10,1e+20,1e+20)
+          axes (-0.693328,0.720623,0), (-0.720623,-0.693328,0), (0,0,1)
+          dielectric constant epsilon diagonal = (0.43,0.43,0.43)
+time for set_epsilon = 0.0217001 s
+time for set_conductivity = 0.000249337 s
+time for set_conductivity = 0.000244199 s
+time for set_conductivity = 0.00025093 s
+-----------
+ldos0:, 0.0018796992481203006, 0.0008056998974631687
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0008056998974631687]
+50.6578947368421 nm from emitter at 17.30252029384569 degrees
+-----------
+Initializing structure...
+Splitting into 8 chunks by voxels
+time for choose_chunkdivision = 0.000702839 s
+Working in 2D dimensions.
+Computational cell is 600 x 600 x 0 with resolution 0.1
+     block, center = (29.9112,9.31776,0)
+          size (12,1e+20,1e+20)
+          axes (0.954748,0.297417,0), (-0.297417,0.954748,0), (0,0,1)
+          dielectric constant epsilon diagonal = (2.67,2.67,2.67)
+     block, center = (41.3682,12.8868,0)
+          size (10,1e+20,1e+20)
+          axes (0.954748,0.297417,0), (-0.297417,0.954748,0), (0,0,1)
+          dielectric constant epsilon diagonal = (0.43,0.43,0.43)
+     block, center = (50.9157,15.8609,0)
+          size (12,1e+20,1e+20)
+          axes (0.954748,0.297417,0), (-0.297417,0.954748,0), (0,0,1)
+          dielectric constant epsilon diagonal = (2.67,2.67,2.67)
+     block, center = (62.3727,19.4299,0)
+          size (10,1e+20,1e+20)
+          axes (0.954748,0.297417,0), (-0.297417,0.954748,0), (0,0,1)
+          dielectric constant epsilon diagonal = (0.43,0.43,0.43)
+     block, center = (71.9201,22.4041,0)
+          size (12,1e+20,1e+20)
+          axes (0.954748,0.297417,0), (-0.297417,0.954748,0), (0,0,1)
+          dielectric constant epsilon diagonal = (2.67,2.67,2.67)
+     block, center = (83.3771,25.9731,0)
+          size (10,1e+20,1e+20)
+          axes (0.954748,0.297417,0), (-0.297417,0.954748,0), (0,0,1)
+          dielectric constant epsilon diagonal = (0.43,0.43,0.43)
+time for set_epsilon = 0.0303157 s
+time for set_conductivity = 0.000262577 s
+time for set_conductivity = 0.000252059 s
+time for set_conductivity = 0.000259825 s
+-----------
+ldos0:, 0.0018796992481203006, 0.0009822785421718227
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0009822785421718227]
+50.6578947368421 nm from emitter at 129.9488063864481 degrees
+-----------
+Initializing structure...
+Splitting into 8 chunks by voxels
+time for choose_chunkdivision = 0.0014953 s
+Working in 2D dimensions.
+Computational cell is 600 x 600 x 0 with resolution 0.1
+     block, center = (-20.1164,24.0173,0)
+          size (12,1e+20,1e+20)
+          axes (-0.642103,0.766618,0), (-0.766618,-0.642103,0), (0,0,1)
+          dielectric constant epsilon diagonal = (2.67,2.67,2.67)
+     block, center = (-27.8216,33.2168,0)
+          size (10,1e+20,1e+20)
+          axes (-0.642103,0.766618,0), (-0.766618,-0.642103,0), (0,0,1)
+          dielectric constant epsilon diagonal = (0.43,0.43,0.43)
+     block, center = (-34.2427,40.883,0)
+          size (12,1e+20,1e+20)
+          axes (-0.642103,0.766618,0), (-0.766618,-0.642103,0), (0,0,1)
+          dielectric constant epsilon diagonal = (2.67,2.67,2.67)
+     block, center = (-41.9479,50.0824,0)
+          size (10,1e+20,1e+20)
+          axes (-0.642103,0.766618,0), (-0.766618,-0.642103,0), (0,0,1)
+          dielectric constant epsilon diagonal = (0.43,0.43,0.43)
+     block, center = (-48.3689,57.7486,0)
+          size (12,1e+20,1e+20)
+          axes (-0.642103,0.766618,0), (-0.766618,-0.642103,0), (0,0,1)
+          dielectric constant epsilon diagonal = (2.67,2.67,2.67)
+     block, center = (-56.0742,66.948,0)
+          size (10,1e+20,1e+20)
+          axes (-0.642103,0.766618,0), (-0.766618,-0.642103,0), (0,0,1)
+          dielectric constant epsilon diagonal = (0.43,0.43,0.43)
+time for set_epsilon = 0.030033 s
+time for set_conductivity = 0.000245505 s
+time for set_conductivity = 0.000368906 s
+time for set_conductivity = 0.000246769 s
+-----------
+ldos0:, 0.0018796992481203006, 0.0008209553766458997
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0008209553766458997]
+51.31578947368421 nm from emitter at 315.22746898792235 degrees
+-----------
+Initializing structure...
+Splitting into 8 chunks by voxels
+time for choose_chunkdivision = 0.00130264 s
+Working in 2D dimensions.
+Computational cell is 600 x 600 x 0 with resolution 0.1
+     block, center = (22.4742,-22.2965,0)
+          size (12,1e+20,1e+20)
+          axes (0.709908,-0.704294,0), (0.704294,0.709908,0), (0,0,1)
+          dielectric constant epsilon diagonal = (2.67,2.67,2.67)
+     block, center = (30.9931,-30.748,0)
+          size (10,1e+20,1e+20)
+          axes (0.709908,-0.704294,0), (0.704294,0.709908,0), (0,0,1)
+          dielectric constant epsilon diagonal = (0.43,0.43,0.43)
+     block, center = (38.0922,-37.7909,0)
+          size (12,1e+20,1e+20)
+          axes (0.709908,-0.704294,0), (0.704294,0.709908,0), (0,0,1)
+          dielectric constant epsilon diagonal = (2.67,2.67,2.67)
+     block, center = (46.6111,-46.2425,0)
+          size (10,1e+20,1e+20)
+          axes (0.709908,-0.704294,0), (0.704294,0.709908,0), (0,0,1)
+          dielectric constant epsilon diagonal = (0.43,0.43,0.43)
+     block, center = (53.7102,-53.2854,0)
+          size (12,1e+20,1e+20)
+          axes (0.709908,-0.704294,0), (0.704294,0.709908,0), (0,0,1)
+          dielectric constant epsilon diagonal = (2.67,2.67,2.67)
+     block, center = (62.2291,-61.7369,0)
+          size (10,1e+20,1e+20)
+          axes (0.709908,-0.704294,0), (0.704294,0.709908,0), (0,0,1)
+          dielectric constant epsilon diagonal = (0.43,0.43,0.43)
+time for set_epsilon = 0.0391507 s
+time for set_conductivity = 0.000238995 s
+time for set_conductivity = 0.000237922 s
+time for set_conductivity = 0.000284249 s
+-----------
+ldos0:, 0.0018796992481203006, 0.0009918459120057978
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0009918459120057978]
+51.31578947368421 nm from emitter at 206.44116040833933 degrees
+-----------
+Initializing structure...
+Splitting into 8 chunks by voxels
+time for choose_chunkdivision = 0.000575476 s
+Working in 2D dimensions.
+Computational cell is 600 x 600 x 0 with resolution 0.1
+     block, center = (-28.3462,-14.0966,0)
+          size (12,1e+20,1e+20)
+          axes (-0.895392,-0.445279,0), (0.445279,-0.895392,0), (0,0,1)
+          dielectric constant epsilon diagonal = (2.67,2.67,2.67)
+     block, center = (-39.0909,-19.4399,0)
+          size (10,1e+20,1e+20)
+          axes (-0.895392,-0.445279,0), (0.445279,-0.895392,0), (0,0,1)
+          dielectric constant epsilon diagonal = (0.43,0.43,0.43)
+     block, center = (-48.0449,-23.8927,0)
+          size (12,1e+20,1e+20)
+          axes (-0.895392,-0.445279,0), (0.445279,-0.895392,0), (0,0,1)
+          dielectric constant epsilon diagonal = (2.67,2.67,2.67)
+     block, center = (-58.7896,-29.2361,0)
+          size (10,1e+20,1e+20)
+          axes (-0.895392,-0.445279,0), (0.445279,-0.895392,0), (0,0,1)
+          dielectric constant epsilon diagonal = (0.43,0.43,0.43)
+     block, center = (-67.7435,-33.6888,0)
+          size (12,1e+20,1e+20)
+          axes (-0.895392,-0.445279,0), (0.445279,-0.895392,0), (0,0,1)
+          dielectric constant epsilon diagonal = (2.67,2.67,2.67)
+     block, center = (-78.4882,-39.0322,0)
+          size (10,1e+20,1e+20)
+          axes (-0.895392,-0.445279,0), (0.445279,-0.895392,0), (0,0,1)
+          dielectric constant epsilon diagonal = (0.43,0.43,0.43)
+time for set_epsilon = 0.0351882 s
+time for set_conductivity = 0.000254162 s
+time for set_conductivity = 0.0002519 s
+time for set_conductivity = 0.000255695 s
+-----------
+ldos0:, 0.0018796992481203006, 0.0009376013593369865
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0009376013593369865]
+51.31578947368421 nm from emitter at 263.46228476082564 degrees
+-----------
+Initializing structure...
+Splitting into 8 chunks by voxels
+time for choose_chunkdivision = 0.000641728 s
+Working in 2D dimensions.
+Computational cell is 600 x 600 x 0 with resolution 0.1
+     block, center = (-3.60448,-31.452,0)
+          size (12,1e+20,1e+20)
+          axes (-0.113857,-0.993497,0), (0.993497,-0.113857,0), (0,0,1)
+          dielectric constant epsilon diagonal = (2.67,2.67,2.67)
+     block, center = (-4.97077,-43.374,0)
+          size (10,1e+20,1e+20)
+          axes (-0.113857,-0.993497,0), (0.993497,-0.113857,0), (0,0,1)
+          dielectric constant epsilon diagonal = (0.43,0.43,0.43)
+     block, center = (-6.10934,-53.309,0)
+          size (12,1e+20,1e+20)
+          axes (-0.113857,-0.993497,0), (0.993497,-0.113857,0), (0,0,1)
+          dielectric constant epsilon diagonal = (2.67,2.67,2.67)
+     block, center = (-7.47562,-65.2309,0)
+          size (10,1e+20,1e+20)
+          axes (-0.113857,-0.993497,0), (0.993497,-0.113857,0), (0,0,1)
+          dielectric constant epsilon diagonal = (0.43,0.43,0.43)
+     block, center = (-8.6142,-75.1659,0)
+          size (12,1e+20,1e+20)
+          axes (-0.113857,-0.993497,0), (0.993497,-0.113857,0), (0,0,1)
+          dielectric constant epsilon diagonal = (2.67,2.67,2.67)
+     block, center = (-9.98048,-87.0879,0)
+          size (10,1e+20,1e+20)
+          axes (-0.113857,-0.993497,0), (0.993497,-0.113857,0), (0,0,1)
+          dielectric constant epsilon diagonal = (0.43,0.43,0.43)
+time for set_epsilon = 0.0343663 s
+time for set_conductivity = 0.000259514 s
+time for set_conductivity = 0.000354607 s
+time for set_conductivity = 0.000249743 s
+-----------
+ldos0:, 0.0018796992481203006, 0.0012254131523115161
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0012254131523115161]
+51.31578947368421 nm from emitter at 264.2366369095144 degrees
+-----------
+Initializing structure...
+Splitting into 8 chunks by voxels
+time for choose_chunkdivision = 0.000650876 s
+Working in 2D dimensions.
+Computational cell is 600 x 600 x 0 with resolution 0.1
+     block, center = (-3.17909,-31.4979,0)
+          size (12,1e+20,1e+20)
+          axes (-0.10042,-0.994945,0), (0.994945,-0.10042,0), (0,0,1)
+          dielectric constant epsilon diagonal = (2.67,2.67,2.67)
+     block, center = (-4.38413,-43.4372,0)
+          size (10,1e+20,1e+20)
+          axes (-0.10042,-0.994945,0), (0.994945,-0.10042,0), (0,0,1)
+          dielectric constant epsilon diagonal = (0.43,0.43,0.43)
+     block, center = (-5.38833,-53.3867,0)
+          size (12,1e+20,1e+20)
+          axes (-0.10042,-0.994945,0), (0.994945,-0.10042,0), (0,0,1)
+          dielectric constant epsilon diagonal = (2.67,2.67,2.67)
+     block, center = (-6.59337,-65.326,0)
+          size (10,1e+20,1e+20)
+          axes (-0.10042,-0.994945,0), (0.994945,-0.10042,0), (0,0,1)
+          dielectric constant epsilon diagonal = (0.43,0.43,0.43)
+     block, center = (-7.59757,-75.2755,0)
+          size (12,1e+20,1e+20)
+          axes (-0.10042,-0.994945,0), (0.994945,-0.10042,0), (0,0,1)
+          dielectric constant epsilon diagonal = (2.67,2.67,2.67)
+     block, center = (-8.80262,-87.2148,0)
+          size (10,1e+20,1e+20)
+          axes (-0.10042,-0.994945,0), (0.994945,-0.10042,0), (0,0,1)
+          dielectric constant epsilon diagonal = (0.43,0.43,0.43)
+time for set_epsilon = 0.0243217 s
+time for set_conductivity = 0.000253751 s
+time for set_conductivity = 0.00092337 s
+time for set_conductivity = 0.000403815 s
+-----------
+ldos0:, 0.0018796992481203006, 0.0008364348575356083
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0008364348575356083]
+51.31578947368421 nm from emitter at 37.794916583098775 degrees
+-----------
+Initializing structure...
+Splitting into 8 chunks by voxels
+time for choose_chunkdivision = 0.0006183 s
+Working in 2D dimensions.
+Computational cell is 600 x 600 x 0 with resolution 0.1
+     block, center = (25.0164,19.4011,0)
+          size (12,1e+20,1e+20)
+          axes (0.790209,0.612837,0), (-0.612837,0.790209,0), (0,0,1)
+          dielectric constant epsilon diagonal = (2.67,2.67,2.67)
+     block, center = (34.4989,26.7552,0)
+          size (10,1e+20,1e+20)
+          axes (0.790209,0.612837,0), (-0.612837,0.790209,0), (0,0,1)
+          dielectric constant epsilon diagonal = (0.43,0.43,0.43)
+     block, center = (42.401,32.8835,0)
+          size (12,1e+20,1e+20)
+          axes (0.790209,0.612837,0), (-0.612837,0.790209,0), (0,0,1)
+          dielectric constant epsilon diagonal = (2.67,2.67,2.67)
+     block, center = (51.8835,40.2376,0)
+          size (10,1e+20,1e+20)
+          axes (0.790209,0.612837,0), (-0.612837,0.790209,0), (0,0,1)
+          dielectric constant epsilon diagonal = (0.43,0.43,0.43)
+     block, center = (59.7856,46.366,0)
+          size (12,1e+20,1e+20)
+          axes (0.790209,0.612837,0), (-0.612837,0.790209,0), (0,0,1)
+          dielectric constant epsilon diagonal = (2.67,2.67,2.67)
+     block, center = (69.2681,53.72,0)
+          size (10,1e+20,1e+20)
+          axes (0.790209,0.612837,0), (-0.612837,0.790209,0), (0,0,1)
+          dielectric constant epsilon diagonal = (0.43,0.43,0.43)
+time for set_epsilon = 0.00888316 s
+time for set_conductivity = 0.000264036 s
+time for set_conductivity = 0.000252569 s
+time for set_conductivity = 0.000261418 s
+-----------
+ldos0:, 0.0018796992481203006, 0.0008069330543799731
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0008069330543799731]
+51.31578947368421 nm from emitter at 123.35179760972689 degrees
+-----------
+Initializing structure...
+Splitting into 8 chunks by voxels
+time for choose_chunkdivision = 0.000457982 s
+Working in 2D dimensions.
+Computational cell is 600 x 600 x 0 with resolution 0.1
+     block, center = (-17.4048,26.4442,0)
+          size (12,1e+20,1e+20)
+          axes (-0.549778,0.835311,0), (-0.835311,-0.549778,0), (0,0,1)
+          dielectric constant epsilon diagonal = (2.67,2.67,2.67)
+     block, center = (-24.0022,36.4679,0)
+          size (10,1e+20,1e+20)
+          axes (-0.549778,0.835311,0), (-0.835311,-0.549778,0), (0,0,1)
+          dielectric constant epsilon diagonal = (0.43,0.43,0.43)
+     block, center = (-29.4999,44.821,0)
+          size (12,1e+20,1e+20)
+          axes (-0.549778,0.835311,0), (-0.835311,-0.549778,0), (0,0,1)
+          dielectric constant epsilon diagonal = (2.67,2.67,2.67)
+     block, center = (-36.0973,54.8447,0)
+          size (10,1e+20,1e+20)
+          axes (-0.549778,0.835311,0), (-0.835311,-0.549778,0), (0,0,1)
+          dielectric constant epsilon diagonal = (0.43,0.43,0.43)
+     block, center = (-41.5951,63.1978,0)
+          size (12,1e+20,1e+20)
+          axes (-0.549778,0.835311,0), (-0.835311,-0.549778,0), (0,0,1)
+          dielectric constant epsilon diagonal = (2.67,2.67,2.67)
+     block, center = (-48.1924,73.2216,0)
+          size (10,1e+20,1e+20)
+          axes (-0.549778,0.835311,0), (-0.835311,-0.549778,0), (0,0,1)
+          dielectric constant epsilon diagonal = (0.43,0.43,0.43)
+time for set_epsilon = 0.0359841 s
+time for set_conductivity = 0.00028248 s
+time for set_conductivity = 0.000236186 s
+time for set_conductivity = 0.000239057 s
+-----------
+ldos0:, 0.0018796992481203006, 0.0009806293617674912
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0009806293617674912]
+51.31578947368421 nm from emitter at 321.0720047115301 degrees
+-----------
+Initializing structure...
+Splitting into 8 chunks by voxels
+time for choose_chunkdivision = 0.00101504 s
+Working in 2D dimensions.
+Computational cell is 600 x 600 x 0 with resolution 0.1
+     block, center = (24.6278,-19.892,0)
+          size (12,1e+20,1e+20)
+          axes (0.777936,-0.628343,0), (0.628343,0.777936,0), (0,0,1)
+          dielectric constant epsilon diagonal = (2.67,2.67,2.67)
+     block, center = (33.9631,-27.4321,0)
+          size (10,1e+20,1e+20)
+          axes (0.777936,-0.628343,0), (0.628343,0.777936,0), (0,0,1)
+          dielectric constant epsilon diagonal = (0.43,0.43,0.43)
+     block, center = (41.7424,-33.7156,0)
+          size (12,1e+20,1e+20)
+          axes (0.777936,-0.628343,0), (0.628343,0.777936,0), (0,0,1)
+          dielectric constant epsilon diagonal = (2.67,2.67,2.67)
+     block, center = (51.0777,-41.2557,0)
+          size (10,1e+20,1e+20)
+          axes (0.777936,-0.628343,0), (0.628343,0.777936,0), (0,0,1)
+          dielectric constant epsilon diagonal = (0.43,0.43,0.43)
+     block, center = (58.857,-47.5391,0)
+          size (12,1e+20,1e+20)
+          axes (0.777936,-0.628343,0), (0.628343,0.777936,0), (0,0,1)
+          dielectric constant epsilon diagonal = (2.67,2.67,2.67)
+     block, center = (68.1923,-55.0792,0)
+          size (10,1e+20,1e+20)
+          axes (0.777936,-0.628343,0), (0.628343,0.777936,0), (0,0,1)
+          dielectric constant epsilon diagonal = (0.43,0.43,0.43)
+time for set_epsilon = 0.0339167 s
+time for set_conductivity = 0.000234731 s
+time for set_conductivity = 0.000230861 s
+time for set_conductivity = 0.000246029 s
+-----------
+ldos0:, 0.0018796992481203006, 0.0009942133193224499
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0009942133193224499]
+51.31578947368421 nm from emitter at 133.89409372810528 degrees
+-----------
+Initializing structure...
+Splitting into 8 chunks by voxels
+time for choose_chunkdivision = 0.00133811 s
+Working in 2D dimensions.
+Computational cell is 600 x 600 x 0 with resolution 0.1
+     block, center = (-21.9493,22.8134,0)
+          size (12,1e+20,1e+20)
+          axes (-0.693328,0.720623,0), (-0.720623,-0.693328,0), (0,0,1)
+          dielectric constant epsilon diagonal = (2.67,2.67,2.67)
+     block, center = (-30.2692,31.4609,0)
+          size (10,1e+20,1e+20)
+          axes (-0.693328,0.720623,0), (-0.720623,-0.693328,0), (0,0,1)
+          dielectric constant epsilon diagonal = (0.43,0.43,0.43)
+     block, center = (-37.2025,38.6671,0)
+          size (12,1e+20,1e+20)
+          axes (-0.693328,0.720623,0), (-0.720623,-0.693328,0), (0,0,1)
+          dielectric constant epsilon diagonal = (2.67,2.67,2.67)
+     block, center = (-45.5224,47.3146,0)
+          size (10,1e+20,1e+20)
+          axes (-0.693328,0.720623,0), (-0.720623,-0.693328,0), (0,0,1)
+          dielectric constant epsilon diagonal = (0.43,0.43,0.43)
+     block, center = (-52.4557,54.5208,0)
+          size (12,1e+20,1e+20)
+          axes (-0.693328,0.720623,0), (-0.720623,-0.693328,0), (0,0,1)
+          dielectric constant epsilon diagonal = (2.67,2.67,2.67)
+     block, center = (-60.7756,63.1683,0)
+          size (10,1e+20,1e+20)
+          axes (-0.693328,0.720623,0), (-0.720623,-0.693328,0), (0,0,1)
+          dielectric constant epsilon diagonal = (0.43,0.43,0.43)
+time for set_epsilon = 0.022334 s
+time for set_conductivity = 0.00024797 s
+time for set_conductivity = 0.000251381 s
+time for set_conductivity = 0.000242551 s
+-----------
+ldos0:, 0.0018796992481203006, 0.0008057945924618796
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0008057945924618796]
+51.31578947368421 nm from emitter at 17.30252029384569 degrees
+-----------
+Initializing structure...
+Splitting into 8 chunks by voxels
+time for choose_chunkdivision = 0.000257895 s
+Working in 2D dimensions.
+Computational cell is 600 x 600 x 0 with resolution 0.1
+     block, center = (30.2253,9.41559,0)
+          size (12,1e+20,1e+20)
+          axes (0.954748,0.297417,0), (-0.297417,0.954748,0), (0,0,1)
+          dielectric constant epsilon diagonal = (2.67,2.67,2.67)
+     block, center = (41.6823,12.9846,0)
+          size (10,1e+20,1e+20)
+          axes (0.954748,0.297417,0), (-0.297417,0.954748,0), (0,0,1)
+          dielectric constant epsilon diagonal = (0.43,0.43,0.43)
+     block, center = (51.2298,15.9588,0)
+          size (12,1e+20,1e+20)
+          axes (0.954748,0.297417,0), (-0.297417,0.954748,0), (0,0,1)
+          dielectric constant epsilon diagonal = (2.67,2.67,2.67)
+     block, center = (62.6867,19.5278,0)
+          size (10,1e+20,1e+20)
+          axes (0.954748,0.297417,0), (-0.297417,0.954748,0), (0,0,1)
+          dielectric constant epsilon diagonal = (0.43,0.43,0.43)
+     block, center = (72.2342,22.5019,0)
+          size (12,1e+20,1e+20)
+          axes (0.954748,0.297417,0), (-0.297417,0.954748,0), (0,0,1)
+          dielectric constant epsilon diagonal = (2.67,2.67,2.67)
+     block, center = (83.6912,26.0709,0)
+          size (10,1e+20,1e+20)
+          axes (0.954748,0.297417,0), (-0.297417,0.954748,0), (0,0,1)
+          dielectric constant epsilon diagonal = (0.43,0.43,0.43)
+time for set_epsilon = 0.0328919 s
+time for set_conductivity = 0.00108604 s
+time for set_conductivity = 0.000251546 s
+time for set_conductivity = 0.000251675 s
+-----------
+ldos0:, 0.0018796992481203006, 0.0009709782688386225
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0009709782688386225]
+51.31578947368421 nm from emitter at 129.9488063864481 degrees
+-----------
+Initializing structure...
+Splitting into 8 chunks by voxels
+time for choose_chunkdivision = 0.000307106 s
+Working in 2D dimensions.
+Computational cell is 600 x 600 x 0 with resolution 0.1
+     block, center = (-20.3276,24.2695,0)
+          size (12,1e+20,1e+20)
+          axes (-0.642103,0.766618,0), (-0.766618,-0.642103,0), (0,0,1)
+          dielectric constant epsilon diagonal = (2.67,2.67,2.67)
+     block, center = (-28.0329,33.4689,0)
+          size (10,1e+20,1e+20)
+          axes (-0.642103,0.766618,0), (-0.766618,-0.642103,0), (0,0,1)
+          dielectric constant epsilon diagonal = (0.43,0.43,0.43)
+     block, center = (-34.4539,41.1351,0)
+          size (12,1e+20,1e+20)
+          axes (-0.642103,0.766618,0), (-0.766618,-0.642103,0), (0,0,1)
+          dielectric constant epsilon diagonal = (2.67,2.67,2.67)
+     block, center = (-42.1591,50.3346,0)
+          size (10,1e+20,1e+20)
+          axes (-0.642103,0.766618,0), (-0.766618,-0.642103,0), (0,0,1)
+          dielectric constant epsilon diagonal = (0.43,0.43,0.43)
+     block, center = (-48.5802,58.0007,0)
+          size (12,1e+20,1e+20)
+          axes (-0.642103,0.766618,0), (-0.766618,-0.642103,0), (0,0,1)
+          dielectric constant epsilon diagonal = (2.67,2.67,2.67)
+     block, center = (-56.2854,67.2002,0)
+          size (10,1e+20,1e+20)
+          axes (-0.642103,0.766618,0), (-0.766618,-0.642103,0), (0,0,1)
+          dielectric constant epsilon diagonal = (0.43,0.43,0.43)
+time for set_epsilon = 0.028447 s
+time for set_conductivity = 0.000242894 s
+time for set_conductivity = 0.000258438 s
+time for set_conductivity = 0.000250607 s
+-----------
+ldos0:, 0.0018796992481203006, 0.0008135093014806454
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0008135093014806454]
+51.973684210526315 nm from emitter at 315.22746898792235 degrees
+-----------
+Initializing structure...
+Splitting into 8 chunks by voxels
+time for choose_chunkdivision = 0.000654187 s
+Working in 2D dimensions.
+Computational cell is 600 x 600 x 0 with resolution 0.1
+     block, center = (22.7077,-22.5281,0)
+          size (12,1e+20,1e+20)
+          axes (0.709908,-0.704294,0), (0.704294,0.709908,0), (0,0,1)
+          dielectric constant epsilon diagonal = (2.67,2.67,2.67)
+     block, center = (31.2266,-30.9797,0)
+          size (10,1e+20,1e+20)
+          axes (0.709908,-0.704294,0), (0.704294,0.709908,0), (0,0,1)
+          dielectric constant epsilon diagonal = (0.43,0.43,0.43)
+     block, center = (38.3257,-38.0226,0)
+          size (12,1e+20,1e+20)
+          axes (0.709908,-0.704294,0), (0.704294,0.709908,0), (0,0,1)
+          dielectric constant epsilon diagonal = (2.67,2.67,2.67)
+     block, center = (46.8446,-46.4741,0)
+          size (10,1e+20,1e+20)
+          axes (0.709908,-0.704294,0), (0.704294,0.709908,0), (0,0,1)
+          dielectric constant epsilon diagonal = (0.43,0.43,0.43)
+     block, center = (53.9437,-53.5171,0)
+          size (12,1e+20,1e+20)
+          axes (0.709908,-0.704294,0), (0.704294,0.709908,0), (0,0,1)
+          dielectric constant epsilon diagonal = (2.67,2.67,2.67)
+     block, center = (62.4626,-61.9686,0)
+          size (10,1e+20,1e+20)
+          axes (0.709908,-0.704294,0), (0.704294,0.709908,0), (0,0,1)
+          dielectric constant epsilon diagonal = (0.43,0.43,0.43)
+time for set_epsilon = 0.037882 s
+time for set_conductivity = 0.000247004 s
+time for set_conductivity = 0.000245051 s
+time for set_conductivity = 0.000231488 s
+-----------
+ldos0:, 0.0018796992481203006, 0.0009987078886096576
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0009987078886096576]
+51.973684210526315 nm from emitter at 206.44116040833933 degrees
+-----------
+Initializing structure...
+Splitting into 8 chunks by voxels
+time for choose_chunkdivision = 0.000618514 s
+Working in 2D dimensions.
+Computational cell is 600 x 600 x 0 with resolution 0.1
+     block, center = (-28.6408,-14.2431,0)
+          size (12,1e+20,1e+20)
+          axes (-0.895392,-0.445279,0), (0.445279,-0.895392,0), (0,0,1)
+          dielectric constant epsilon diagonal = (2.67,2.67,2.67)
+     block, center = (-39.3855,-19.5864,0)
+          size (10,1e+20,1e+20)
+          axes (-0.895392,-0.445279,0), (0.445279,-0.895392,0), (0,0,1)
+          dielectric constant epsilon diagonal = (0.43,0.43,0.43)
+     block, center = (-48.3394,-24.0392,0)
+          size (12,1e+20,1e+20)
+          axes (-0.895392,-0.445279,0), (0.445279,-0.895392,0), (0,0,1)
+          dielectric constant epsilon diagonal = (2.67,2.67,2.67)
+     block, center = (-59.0841,-29.3825,0)
+          size (10,1e+20,1e+20)
+          axes (-0.895392,-0.445279,0), (0.445279,-0.895392,0), (0,0,1)
+          dielectric constant epsilon diagonal = (0.43,0.43,0.43)
+     block, center = (-68.038,-33.8353,0)
+          size (12,1e+20,1e+20)
+          axes (-0.895392,-0.445279,0), (0.445279,-0.895392,0), (0,0,1)
+          dielectric constant epsilon diagonal = (2.67,2.67,2.67)
+     block, center = (-78.7827,-39.1787,0)
+          size (10,1e+20,1e+20)
+          axes (-0.895392,-0.445279,0), (0.445279,-0.895392,0), (0,0,1)
+          dielectric constant epsilon diagonal = (0.43,0.43,0.43)
+time for set_epsilon = 0.0380716 s
+time for set_conductivity = 0.00025482 s
+time for set_conductivity = 0.000250962 s
+time for set_conductivity = 0.000252071 s
+-----------
+ldos0:, 0.0018796992481203006, 0.0009372258179440598
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0009372258179440598]
+51.973684210526315 nm from emitter at 263.46228476082564 degrees
+-----------
+Initializing structure...
+Splitting into 8 chunks by voxels
+time for choose_chunkdivision = 0.00056614 s
+Working in 2D dimensions.
+Computational cell is 600 x 600 x 0 with resolution 0.1
+     block, center = (-3.64193,-31.7788,0)
+          size (12,1e+20,1e+20)
+          axes (-0.113857,-0.993497,0), (0.993497,-0.113857,0), (0,0,1)
+          dielectric constant epsilon diagonal = (2.67,2.67,2.67)
+     block, center = (-5.00822,-43.7008,0)
+          size (10,1e+20,1e+20)
+          axes (-0.113857,-0.993497,0), (0.993497,-0.113857,0), (0,0,1)
+          dielectric constant epsilon diagonal = (0.43,0.43,0.43)
+     block, center = (-6.14679,-53.6358,0)
+          size (12,1e+20,1e+20)
+          axes (-0.113857,-0.993497,0), (0.993497,-0.113857,0), (0,0,1)
+          dielectric constant epsilon diagonal = (2.67,2.67,2.67)
+     block, center = (-7.51308,-65.5577,0)
+          size (10,1e+20,1e+20)
+          axes (-0.113857,-0.993497,0), (0.993497,-0.113857,0), (0,0,1)
+          dielectric constant epsilon diagonal = (0.43,0.43,0.43)
+     block, center = (-8.65165,-75.4927,0)
+          size (12,1e+20,1e+20)
+          axes (-0.113857,-0.993497,0), (0.993497,-0.113857,0), (0,0,1)
+          dielectric constant epsilon diagonal = (2.67,2.67,2.67)
+     block, center = (-10.0179,-87.4147,0)
+          size (10,1e+20,1e+20)
+          axes (-0.113857,-0.993497,0), (0.993497,-0.113857,0), (0,0,1)
+          dielectric constant epsilon diagonal = (0.43,0.43,0.43)
+time for set_epsilon = 0.031898 s
+time for set_conductivity = 0.000263411 s
+time for set_conductivity = 0.00028508 s
+time for set_conductivity = 0.000637738 s
+-----------
+ldos0:, 0.0018796992481203006, 0.0011828900376758464
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0011828900376758464]
+51.973684210526315 nm from emitter at 264.2366369095144 degrees
+-----------
+Initializing structure...
+Splitting into 8 chunks by voxels
+time for choose_chunkdivision = 0.000628168 s
+Working in 2D dimensions.
+Computational cell is 600 x 600 x 0 with resolution 0.1
+     block, center = (-3.21212,-31.8252,0)
+          size (12,1e+20,1e+20)
+          axes (-0.10042,-0.994945,0), (0.994945,-0.10042,0), (0,0,1)
+          dielectric constant epsilon diagonal = (2.67,2.67,2.67)
+     block, center = (-4.41716,-43.7645,0)
+          size (10,1e+20,1e+20)
+          axes (-0.10042,-0.994945,0), (0.994945,-0.10042,0), (0,0,1)
+          dielectric constant epsilon diagonal = (0.43,0.43,0.43)
+     block, center = (-5.42136,-53.7139,0)
+          size (12,1e+20,1e+20)
+          axes (-0.10042,-0.994945,0), (0.994945,-0.10042,0), (0,0,1)
+          dielectric constant epsilon diagonal = (2.67,2.67,2.67)
+     block, center = (-6.62641,-65.6533,0)
+          size (10,1e+20,1e+20)
+          axes (-0.10042,-0.994945,0), (0.994945,-0.10042,0), (0,0,1)
+          dielectric constant epsilon diagonal = (0.43,0.43,0.43)
+     block, center = (-7.63061,-75.6027,0)
+          size (12,1e+20,1e+20)
+          axes (-0.10042,-0.994945,0), (0.994945,-0.10042,0), (0,0,1)
+          dielectric constant epsilon diagonal = (2.67,2.67,2.67)
+     block, center = (-8.83565,-87.5421,0)
+          size (10,1e+20,1e+20)
+          axes (-0.10042,-0.994945,0), (0.994945,-0.10042,0), (0,0,1)
+          dielectric constant epsilon diagonal = (0.43,0.43,0.43)
+time for set_epsilon = 0.0236404 s
+time for set_conductivity = 0.000262002 s
+time for set_conductivity = 0.000250049 s
+time for set_conductivity = 0.000253149 s
+-----------
+ldos0:, 0.0018796992481203006, 0.0008343795900650101
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0008343795900650101]
+51.973684210526315 nm from emitter at 37.794916583098775 degrees
+-----------
+Initializing structure...
+Splitting into 8 chunks by voxels
+time for choose_chunkdivision = 0.000689103 s
+Working in 2D dimensions.
+Computational cell is 600 x 600 x 0 with resolution 0.1
+     block, center = (25.2763,19.6027,0)
+          size (12,1e+20,1e+20)
+          axes (0.790209,0.612837,0), (-0.612837,0.790209,0), (0,0,1)
+          dielectric constant epsilon diagonal = (2.67,2.67,2.67)
+     block, center = (34.7588,26.9568,0)
+          size (10,1e+20,1e+20)
+          axes (0.790209,0.612837,0), (-0.612837,0.790209,0), (0,0,1)
+          dielectric constant epsilon diagonal = (0.43,0.43,0.43)
+     block, center = (42.6609,33.0851,0)
+          size (12,1e+20,1e+20)
+          axes (0.790209,0.612837,0), (-0.612837,0.790209,0), (0,0,1)
+          dielectric constant epsilon diagonal = (2.67,2.67,2.67)
+     block, center = (52.1434,40.4392,0)
+          size (10,1e+20,1e+20)
+          axes (0.790209,0.612837,0), (-0.612837,0.790209,0), (0,0,1)
+          dielectric constant epsilon diagonal = (0.43,0.43,0.43)
+     block, center = (60.0455,46.5675,0)
+          size (12,1e+20,1e+20)
+          axes (0.790209,0.612837,0), (-0.612837,0.790209,0), (0,0,1)
+          dielectric constant epsilon diagonal = (2.67,2.67,2.67)
+     block, center = (69.528,53.9216,0)
+          size (10,1e+20,1e+20)
+          axes (0.790209,0.612837,0), (-0.612837,0.790209,0), (0,0,1)
+          dielectric constant epsilon diagonal = (0.43,0.43,0.43)
+time for set_epsilon = 0.00919193 s
+time for set_conductivity = 0.000266331 s
+time for set_conductivity = 0.000278123 s
+time for set_conductivity = 0.000250491 s
+-----------
+ldos0:, 0.0018796992481203006, 0.0008070247393457208
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0008070247393457208]
+51.973684210526315 nm from emitter at 123.35179760972689 degrees
+-----------
+Initializing structure...
+Splitting into 8 chunks by voxels
+time for choose_chunkdivision = 0.00050696 s
+Working in 2D dimensions.
+Computational cell is 600 x 600 x 0 with resolution 0.1
+     block, center = (-17.5857,26.719,0)
+          size (12,1e+20,1e+20)
+          axes (-0.549778,0.835311,0), (-0.835311,-0.549778,0), (0,0,1)
+          dielectric constant epsilon diagonal = (2.67,2.67,2.67)
+     block, center = (-24.183,36.7427,0)
+          size (10,1e+20,1e+20)
+          axes (-0.549778,0.835311,0), (-0.835311,-0.549778,0), (0,0,1)
+          dielectric constant epsilon diagonal = (0.43,0.43,0.43)
+     block, center = (-29.6808,45.0958,0)
+          size (12,1e+20,1e+20)
+          axes (-0.549778,0.835311,0), (-0.835311,-0.549778,0), (0,0,1)
+          dielectric constant epsilon diagonal = (2.67,2.67,2.67)
+     block, center = (-36.2781,55.1195,0)
+          size (10,1e+20,1e+20)
+          axes (-0.549778,0.835311,0), (-0.835311,-0.549778,0), (0,0,1)
+          dielectric constant epsilon diagonal = (0.43,0.43,0.43)
+     block, center = (-41.7759,63.4726,0)
+          size (12,1e+20,1e+20)
+          axes (-0.549778,0.835311,0), (-0.835311,-0.549778,0), (0,0,1)
+          dielectric constant epsilon diagonal = (2.67,2.67,2.67)
+     block, center = (-48.3732,73.4963,0)
+          size (10,1e+20,1e+20)
+          axes (-0.549778,0.835311,0), (-0.835311,-0.549778,0), (0,0,1)
+          dielectric constant epsilon diagonal = (0.43,0.43,0.43)
+time for set_epsilon = 0.037227 s
+time for set_conductivity = 0.000244404 s
+time for set_conductivity = 0.000235333 s
+time for set_conductivity = 0.000234227 s
+-----------
+ldos0:, 0.0018796992481203006, 0.0009571023564876272
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0009571023564876272]
+51.973684210526315 nm from emitter at 321.0720047115301 degrees
+-----------
+Initializing structure...
+Splitting into 8 chunks by voxels
+time for choose_chunkdivision = 0.000641197 s
+Working in 2D dimensions.
+Computational cell is 600 x 600 x 0 with resolution 0.1
+     block, center = (24.8837,-20.0987,0)
+          size (12,1e+20,1e+20)
+          axes (0.777936,-0.628343,0), (0.628343,0.777936,0), (0,0,1)
+          dielectric constant epsilon diagonal = (2.67,2.67,2.67)
+     block, center = (34.219,-27.6388,0)
+          size (10,1e+20,1e+20)
+          axes (0.777936,-0.628343,0), (0.628343,0.777936,0), (0,0,1)
+          dielectric constant epsilon diagonal = (0.43,0.43,0.43)
+     block, center = (41.9983,-33.9223,0)
+          size (12,1e+20,1e+20)
+          axes (0.777936,-0.628343,0), (0.628343,0.777936,0), (0,0,1)
+          dielectric constant epsilon diagonal = (2.67,2.67,2.67)
+     block, center = (51.3336,-41.4624,0)
+          size (10,1e+20,1e+20)
+          axes (0.777936,-0.628343,0), (0.628343,0.777936,0), (0,0,1)
+          dielectric constant epsilon diagonal = (0.43,0.43,0.43)
+     block, center = (59.1129,-47.7458,0)
+          size (12,1e+20,1e+20)
+          axes (0.777936,-0.628343,0), (0.628343,0.777936,0), (0,0,1)
+          dielectric constant epsilon diagonal = (2.67,2.67,2.67)
+     block, center = (68.4482,-55.2859,0)
+          size (10,1e+20,1e+20)
+          axes (0.777936,-0.628343,0), (0.628343,0.777936,0), (0,0,1)
+          dielectric constant epsilon diagonal = (0.43,0.43,0.43)
+time for set_epsilon = 0.0344167 s
+time for set_conductivity = 0.000234436 s
+time for set_conductivity = 0.000238042 s
+time for set_conductivity = 0.000229966 s
+-----------
+ldos0:, 0.0018796992481203006, 0.0009829165446399776
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0009829165446399776]
+51.973684210526315 nm from emitter at 133.89409372810528 degrees
+-----------
+Initializing structure...
+Splitting into 8 chunks by voxels
+time for choose_chunkdivision = 0.000636174 s
+Working in 2D dimensions.
+Computational cell is 600 x 600 x 0 with resolution 0.1
+     block, center = (-22.1774,23.0504,0)
+          size (12,1e+20,1e+20)
+          axes (-0.693328,0.720623,0), (-0.720623,-0.693328,0), (0,0,1)
+          dielectric constant epsilon diagonal = (2.67,2.67,2.67)
+     block, center = (-30.4973,31.6979,0)
+          size (10,1e+20,1e+20)
+          axes (-0.693328,0.720623,0), (-0.720623,-0.693328,0), (0,0,1)
+          dielectric constant epsilon diagonal = (0.43,0.43,0.43)
+     block, center = (-37.4306,38.9041,0)
+          size (12,1e+20,1e+20)
+          axes (-0.693328,0.720623,0), (-0.720623,-0.693328,0), (0,0,1)
+          dielectric constant epsilon diagonal = (2.67,2.67,2.67)
+     block, center = (-45.7505,47.5516,0)
+          size (10,1e+20,1e+20)
+          axes (-0.693328,0.720623,0), (-0.720623,-0.693328,0), (0,0,1)
+          dielectric constant epsilon diagonal = (0.43,0.43,0.43)
+     block, center = (-52.6838,54.7578,0)
+          size (12,1e+20,1e+20)
+          axes (-0.693328,0.720623,0), (-0.720623,-0.693328,0), (0,0,1)
+          dielectric constant epsilon diagonal = (2.67,2.67,2.67)
+     block, center = (-61.0037,63.4053,0)
+          size (10,1e+20,1e+20)
+          axes (-0.693328,0.720623,0), (-0.720623,-0.693328,0), (0,0,1)
+          dielectric constant epsilon diagonal = (0.43,0.43,0.43)
+time for set_epsilon = 0.0208922 s
+time for set_conductivity = 0.000248402 s
+time for set_conductivity = 0.000246447 s
+time for set_conductivity = 0.00024449 s
+-----------
+ldos0:, 0.0018796992481203006, 0.0008058250342396377
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0008058250342396377]
+51.973684210526315 nm from emitter at 17.30252029384569 degrees
+-----------
+Initializing structure...
+Splitting into 8 chunks by voxels
+time for choose_chunkdivision = 0.000650914 s
+Working in 2D dimensions.
+Computational cell is 600 x 600 x 0 with resolution 0.1
+     block, center = (30.5394,9.51343,0)
+          size (12,1e+20,1e+20)
+          axes (0.954748,0.297417,0), (-0.297417,0.954748,0), (0,0,1)
+          dielectric constant epsilon diagonal = (2.67,2.67,2.67)
+     block, center = (41.9963,13.0824,0)
+          size (10,1e+20,1e+20)
+          axes (0.954748,0.297417,0), (-0.297417,0.954748,0), (0,0,1)
+          dielectric constant epsilon diagonal = (0.43,0.43,0.43)
+     block, center = (51.5438,16.0566,0)
+          size (12,1e+20,1e+20)
+          axes (0.954748,0.297417,0), (-0.297417,0.954748,0), (0,0,1)
+          dielectric constant epsilon diagonal = (2.67,2.67,2.67)
+     block, center = (63.0008,19.6256,0)
+          size (10,1e+20,1e+20)
+          axes (0.954748,0.297417,0), (-0.297417,0.954748,0), (0,0,1)
+          dielectric constant epsilon diagonal = (0.43,0.43,0.43)
+     block, center = (72.5483,22.5998,0)
+          size (12,1e+20,1e+20)
+          axes (0.954748,0.297417,0), (-0.297417,0.954748,0), (0,0,1)
+          dielectric constant epsilon diagonal = (2.67,2.67,2.67)
+     block, center = (84.0052,26.1688,0)
+          size (10,1e+20,1e+20)
+          axes (0.954748,0.297417,0), (-0.297417,0.954748,0), (0,0,1)
+          dielectric constant epsilon diagonal = (0.43,0.43,0.43)
+time for set_epsilon = 0.0322237 s
+time for set_conductivity = 0.000255025 s
+time for set_conductivity = 0.000254065 s
+time for set_conductivity = 0.000264589 s
+-----------
+ldos0:, 0.0018796992481203006, 0.0009628626215187356
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0009628626215187356]
+51.973684210526315 nm from emitter at 129.9488063864481 degrees
+-----------
+Initializing structure...
+Splitting into 8 chunks by voxels
+time for choose_chunkdivision = 0.000711299 s
+Working in 2D dimensions.
+Computational cell is 600 x 600 x 0 with resolution 0.1
+     block, center = (-20.5388,24.5217,0)
+          size (12,1e+20,1e+20)
+          axes (-0.642103,0.766618,0), (-0.766618,-0.642103,0), (0,0,1)
+          dielectric constant epsilon diagonal = (2.67,2.67,2.67)
+     block, center = (-28.2441,33.7211,0)
+          size (10,1e+20,1e+20)
+          axes (-0.642103,0.766618,0), (-0.766618,-0.642103,0), (0,0,1)
+          dielectric constant epsilon diagonal = (0.43,0.43,0.43)
+     block, center = (-34.6651,41.3873,0)
+          size (12,1e+20,1e+20)
+          axes (-0.642103,0.766618,0), (-0.766618,-0.642103,0), (0,0,1)
+          dielectric constant epsilon diagonal = (2.67,2.67,2.67)
+     block, center = (-42.3703,50.5867,0)
+          size (10,1e+20,1e+20)
+          axes (-0.642103,0.766618,0), (-0.766618,-0.642103,0), (0,0,1)
+          dielectric constant epsilon diagonal = (0.43,0.43,0.43)
+     block, center = (-48.7914,58.2529,0)
+          size (12,1e+20,1e+20)
+          axes (-0.642103,0.766618,0), (-0.766618,-0.642103,0), (0,0,1)
+          dielectric constant epsilon diagonal = (2.67,2.67,2.67)
+     block, center = (-56.4966,67.4523,0)
+          size (10,1e+20,1e+20)
+          axes (-0.642103,0.766618,0), (-0.766618,-0.642103,0), (0,0,1)
+          dielectric constant epsilon diagonal = (0.43,0.43,0.43)
+time for set_epsilon = 0.0269728 s
+time for set_conductivity = 0.0002425 s
+time for set_conductivity = 0.000240745 s
+time for set_conductivity = 0.000246274 s
+-----------
+ldos0:, 0.0018796992481203006, 0.0008145348950656758
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0008145348950656758]
+52.631578947368425 nm from emitter at 315.22746898792235 degrees
+-----------
+Initializing structure...
+Splitting into 8 chunks by voxels
+time for choose_chunkdivision = 0.000639424 s
+Working in 2D dimensions.
+Computational cell is 600 x 600 x 0 with resolution 0.1
+     block, center = (22.9413,-22.7598,0)
+          size (12,1e+20,1e+20)
+          axes (0.709908,-0.704294,0), (0.704294,0.709908,0), (0,0,1)
+          dielectric constant epsilon diagonal = (2.67,2.67,2.67)
+     block, center = (31.4602,-31.2113,0)
+          size (10,1e+20,1e+20)
+          axes (0.709908,-0.704294,0), (0.704294,0.709908,0), (0,0,1)
+          dielectric constant epsilon diagonal = (0.43,0.43,0.43)
+     block, center = (38.5592,-38.2543,0)
+          size (12,1e+20,1e+20)
+          axes (0.709908,-0.704294,0), (0.704294,0.709908,0), (0,0,1)
+          dielectric constant epsilon diagonal = (2.67,2.67,2.67)
+     block, center = (47.0781,-46.7058,0)
+          size (10,1e+20,1e+20)
+          axes (0.709908,-0.704294,0), (0.704294,0.709908,0), (0,0,1)
+          dielectric constant epsilon diagonal = (0.43,0.43,0.43)
+     block, center = (54.1772,-53.7487,0)
+          size (12,1e+20,1e+20)
+          axes (0.709908,-0.704294,0), (0.704294,0.709908,0), (0,0,1)
+          dielectric constant epsilon diagonal = (2.67,2.67,2.67)
+     block, center = (62.6961,-62.2003,0)
+          size (10,1e+20,1e+20)
+          axes (0.709908,-0.704294,0), (0.704294,0.709908,0), (0,0,1)
+          dielectric constant epsilon diagonal = (0.43,0.43,0.43)
+time for set_epsilon = 0.0362925 s
+time for set_conductivity = 0.000229252 s
+time for set_conductivity = 0.000228158 s
+time for set_conductivity = 0.000246556 s
+-----------
+ldos0:, 0.0018796992481203006, 0.0009891965371816253
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0009891965371816253]
+52.631578947368425 nm from emitter at 206.44116040833933 degrees
+-----------
+Initializing structure...
+Splitting into 8 chunks by voxels
+time for choose_chunkdivision = 0.000481526 s
+Working in 2D dimensions.
+Computational cell is 600 x 600 x 0 with resolution 0.1
+     block, center = (-28.9353,-14.3895,0)
+          size (12,1e+20,1e+20)
+          axes (-0.895392,-0.445279,0), (0.445279,-0.895392,0), (0,0,1)
+          dielectric constant epsilon diagonal = (2.67,2.67,2.67)
+     block, center = (-39.68,-19.7329,0)
+          size (10,1e+20,1e+20)
+          axes (-0.895392,-0.445279,0), (0.445279,-0.895392,0), (0,0,1)
+          dielectric constant epsilon diagonal = (0.43,0.43,0.43)
+     block, center = (-48.6339,-24.1857,0)
+          size (12,1e+20,1e+20)
+          axes (-0.895392,-0.445279,0), (0.445279,-0.895392,0), (0,0,1)
+          dielectric constant epsilon diagonal = (2.67,2.67,2.67)
+     block, center = (-59.3786,-29.529,0)
+          size (10,1e+20,1e+20)
+          axes (-0.895392,-0.445279,0), (0.445279,-0.895392,0), (0,0,1)
+          dielectric constant epsilon diagonal = (0.43,0.43,0.43)
+     block, center = (-68.3326,-33.9818,0)
+          size (12,1e+20,1e+20)
+          axes (-0.895392,-0.445279,0), (0.445279,-0.895392,0), (0,0,1)
+          dielectric constant epsilon diagonal = (2.67,2.67,2.67)
+     block, center = (-79.0773,-39.3251,0)
+          size (10,1e+20,1e+20)
+          axes (-0.895392,-0.445279,0), (0.445279,-0.895392,0), (0,0,1)
+          dielectric constant epsilon diagonal = (0.43,0.43,0.43)
+time for set_epsilon = 0.0336837 s
+time for set_conductivity = 0.000264505 s
+time for set_conductivity = 0.000252469 s
+time for set_conductivity = 0.000257151 s
+-----------
+ldos0:, 0.0018796992481203006, 0.0009324438153435266
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0009324438153435266]
+52.631578947368425 nm from emitter at 263.46228476082564 degrees
+-----------
+Initializing structure...
+Splitting into 8 chunks by voxels
+time for choose_chunkdivision = 0.000490868 s
+Working in 2D dimensions.
+Computational cell is 600 x 600 x 0 with resolution 0.1
+     block, center = (-3.67939,-32.1056,0)
+          size (12,1e+20,1e+20)
+          axes (-0.113857,-0.993497,0), (0.993497,-0.113857,0), (0,0,1)
+          dielectric constant epsilon diagonal = (2.67,2.67,2.67)
+     block, center = (-5.04567,-44.0276,0)
+          size (10,1e+20,1e+20)
+          axes (-0.113857,-0.993497,0), (0.993497,-0.113857,0), (0,0,1)
+          dielectric constant epsilon diagonal = (0.43,0.43,0.43)
+     block, center = (-6.18424,-53.9626,0)
+          size (12,1e+20,1e+20)
+          axes (-0.113857,-0.993497,0), (0.993497,-0.113857,0), (0,0,1)
+          dielectric constant epsilon diagonal = (2.67,2.67,2.67)
+     block, center = (-7.55053,-65.8845,0)
+          size (10,1e+20,1e+20)
+          axes (-0.113857,-0.993497,0), (0.993497,-0.113857,0), (0,0,1)
+          dielectric constant epsilon diagonal = (0.43,0.43,0.43)
+     block, center = (-8.6891,-75.8195,0)
+          size (12,1e+20,1e+20)
+          axes (-0.113857,-0.993497,0), (0.993497,-0.113857,0), (0,0,1)
+          dielectric constant epsilon diagonal = (2.67,2.67,2.67)
+     block, center = (-10.0554,-87.7415,0)
+          size (10,1e+20,1e+20)
+          axes (-0.113857,-0.993497,0), (0.993497,-0.113857,0), (0,0,1)
+          dielectric constant epsilon diagonal = (0.43,0.43,0.43)
+time for set_epsilon = 0.0343991 s
+time for set_conductivity = 0.000257049 s
+time for set_conductivity = 0.000242683 s
+time for set_conductivity = 0.000270131 s
+-----------
+ldos0:, 0.0018796992481203006, 0.0011740519080663655
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0011740519080663655]
+52.631578947368425 nm from emitter at 264.2366369095144 degrees
+-----------
+Initializing structure...
+Splitting into 8 chunks by voxels
+time for choose_chunkdivision = 0.00100832 s
+Working in 2D dimensions.
+Computational cell is 600 x 600 x 0 with resolution 0.1
+     block, center = (-3.24516,-32.1524,0)
+          size (12,1e+20,1e+20)
+          axes (-0.10042,-0.994945,0), (0.994945,-0.10042,0), (0,0,1)
+          dielectric constant epsilon diagonal = (2.67,2.67,2.67)
+     block, center = (-4.4502,-44.0918,0)
+          size (10,1e+20,1e+20)
+          axes (-0.10042,-0.994945,0), (0.994945,-0.10042,0), (0,0,1)
+          dielectric constant epsilon diagonal = (0.43,0.43,0.43)
+     block, center = (-5.4544,-54.0412,0)
+          size (12,1e+20,1e+20)
+          axes (-0.10042,-0.994945,0), (0.994945,-0.10042,0), (0,0,1)
+          dielectric constant epsilon diagonal = (2.67,2.67,2.67)
+     block, center = (-6.65944,-65.9806,0)
+          size (10,1e+20,1e+20)
+          axes (-0.10042,-0.994945,0), (0.994945,-0.10042,0), (0,0,1)
+          dielectric constant epsilon diagonal = (0.43,0.43,0.43)
+     block, center = (-7.66364,-75.93,0)
+          size (12,1e+20,1e+20)
+          axes (-0.10042,-0.994945,0), (0.994945,-0.10042,0), (0,0,1)
+          dielectric constant epsilon diagonal = (2.67,2.67,2.67)
+     block, center = (-8.86868,-87.8694,0)
+          size (10,1e+20,1e+20)
+          axes (-0.10042,-0.994945,0), (0.994945,-0.10042,0), (0,0,1)
+          dielectric constant epsilon diagonal = (0.43,0.43,0.43)
+time for set_epsilon = 0.0241183 s
+time for set_conductivity = 0.000252644 s
+time for set_conductivity = 0.000259291 s
+time for set_conductivity = 0.000429863 s
+-----------
+ldos0:, 0.0018796992481203006, 0.0008305220008716662
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0008305220008716662]
+52.631578947368425 nm from emitter at 37.794916583098775 degrees
+-----------
+Initializing structure...
+Splitting into 8 chunks by voxels
+time for choose_chunkdivision = 0.000529728 s
+Working in 2D dimensions.
+Computational cell is 600 x 600 x 0 with resolution 0.1
+     block, center = (25.5362,19.8043,0)
+          size (12,1e+20,1e+20)
+          axes (0.790209,0.612837,0), (-0.612837,0.790209,0), (0,0,1)
+          dielectric constant epsilon diagonal = (2.67,2.67,2.67)
+     block, center = (35.0188,27.1584,0)
+          size (10,1e+20,1e+20)
+          axes (0.790209,0.612837,0), (-0.612837,0.790209,0), (0,0,1)
+          dielectric constant epsilon diagonal = (0.43,0.43,0.43)
+     block, center = (42.9208,33.2867,0)
+          size (12,1e+20,1e+20)
+          axes (0.790209,0.612837,0), (-0.612837,0.790209,0), (0,0,1)
+          dielectric constant epsilon diagonal = (2.67,2.67,2.67)
+     block, center = (52.4034,40.6408,0)
+          size (10,1e+20,1e+20)
+          axes (0.790209,0.612837,0), (-0.612837,0.790209,0), (0,0,1)
+          dielectric constant epsilon diagonal = (0.43,0.43,0.43)
+     block, center = (60.3055,46.7691,0)
+          size (12,1e+20,1e+20)
+          axes (0.790209,0.612837,0), (-0.612837,0.790209,0), (0,0,1)
+          dielectric constant epsilon diagonal = (2.67,2.67,2.67)
+     block, center = (69.788,54.1232,0)
+          size (10,1e+20,1e+20)
+          axes (0.790209,0.612837,0), (-0.612837,0.790209,0), (0,0,1)
+          dielectric constant epsilon diagonal = (0.43,0.43,0.43)
+time for set_epsilon = 0.00898626 s
+time for set_conductivity = 0.000273387 s
+time for set_conductivity = 0.000261474 s
+time for set_conductivity = 0.000264725 s
+-----------
+ldos0:, 0.0018796992481203006, 0.0008071256809787684
+run 0 finished at t = 1500.0 (1500 timesteps)
+[0.0008071256809787684]
+52.631578947368425 nm from emitter at 123.35179760972689 degrees
+-----------
+Initializing structure...
+Splitting into 8 chunks by voxels
+time for choose_chunkdivision = 0.00141985 s
+Working in 2D dimensions.
+Computational cell is 600 x 600 x 0 with resolution 0.1
+     block, center = (-17.7665,26.9937,0)
+          size (12,1e+20,1e+20)
+          axes (-0.549778,0.835311,0), (-0.835311,-0.549778,0), (0,0,1)
+          dielectric constant epsilon diagonal = (2.67,2.67,2.67)
+     block, center = (-24.3639,37.0175,0)
+          size (10,1e+20,1e+20)
+          axes (-0.549778,0.835311,0), (-0.835311,-0.549778,0), (0,0,1)
+          dielectric constant epsilon diagonal = (0.43,0.43,0.43)
+     block, center = (-29.8616,45.3706,0)
+          size (12,1e+20,1e+20)
+          axes (-0.549778,0.835311,0), (-0.835311,-0.549778,0), (0,0,1)
+          dielectric constant epsilon diagonal = (2.67,2.67,2.67)
+     block, center = (-36.459,55.3943,0)
+          size (10,1e+20,1e+20)
+          axes (-0.549778,0.835311,0), (-0.835311,-0.549778,0), (0,0,1)
+          dielectric constant epsilon diagonal = (0.43,0.43,0.43)
+     block, center = (-41.9568,63.7474,0)
+          size (12,1e+20,1e+20)
+          axes (-0.549778,0.835311,0), (-0.835311,-0.549778,0), (0,0,1)
+          dielectric constant epsilon diagonal = (2.67,2.67,2.67)
+     block, center = (-48.5541,73.7711,0)
+          size (10,1e+20,1e+20)
+          axes (-0.549778,0.835311,0), (-0.835311,-0.549778,0), (0,0,1)
+          dielectric constant epsilon diagonal = (0.43,0.43,0.43)
+time for set_epsilon = 0.0315476 s

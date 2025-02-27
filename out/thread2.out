@@ -1,9 +1,11 @@
+2
+8
 1.9642857142857144
 -----------
 Initializing structure...
-time for choose_chunkdivision = 0.00447416 s
+time for choose_chunkdivision = 0.00133085 s
 Working in 2D dimensions.
-Computational cell is 500 x 500 x 0 with resolution 5
+Computational cell is 500 x 500 x 0 with resolution 0.5
      block, center = (1.96429,0,0)
           size (12,1e+20,1e+20)
           axes (1,0,0), (0,1,0), (0,0,1)
@@ -36,17 +38,417 @@ Computational cell is 500 x 500 x 0 with resolution 5
           size (10,1e+20,1e+20)
           axes (1,0,0), (0,1,0), (0,0,1)
           dielectric constant epsilon diagonal = (0.43,0.43,0.43)
-subpixel-averaging is 83.044% done, 0.816834 s remaining
-subpixel-averaging is 80.7743% done, 0.952393 s remaining
-subpixel-averaging is 85.7587% done, 0.664273 s remaining
-time for set_epsilon = 36.0851 s
-time for set_conductivity = 0.99558 s
-time for set_conductivity = 1.25991 s
-time for set_conductivity = 1.65272 s
+time for set_epsilon = 0.375598 s
+time for set_conductivity = 0.00884199 s
+time for set_conductivity = 0.00876904 s
+time for set_conductivity = 0.00891614 s
 -----------
-Meep progress: 0.02/5.0 = 0.4% done in 4.3s, 1063.0s to go
-on time step 2 (time=0.02), 2.1346 s/step
-Meep progress: 0.06/5.0 = 1.2% done in 8.5s, 700.9s to go
-on time step 6 (time=0.06), 1.061 s/step
-Meep progress: 0.11/5.0 = 2.2% done in 13.1s, 581.6s to go
-on time step 11 (time=0.11), 0.913764 s/step
+ldos0:, 0.0018796992481203006, 0.03484347401949248
+run 0 finished at t = 5.0 (5 timesteps)
+2.0102040816326534
+-----------
+Initializing structure...
+time for choose_chunkdivision = 0.00044179 s
+Working in 2D dimensions.
+Computational cell is 500 x 500 x 0 with resolution 0.5
+     block, center = (2.0102,0,0)
+          size (12,1e+20,1e+20)
+          axes (1,0,0), (0,1,0), (0,0,1)
+          dielectric constant epsilon diagonal = (2.67,2.67,2.67)
+     block, center = (14.0102,0,0)
+          size (10,1e+20,1e+20)
+          axes (1,0,0), (0,1,0), (0,0,1)
+          dielectric constant epsilon diagonal = (0.43,0.43,0.43)
+     block, center = (24.0102,0,0)
+          size (12,1e+20,1e+20)
+          axes (1,0,0), (0,1,0), (0,0,1)
+          dielectric constant epsilon diagonal = (2.67,2.67,2.67)
+     block, center = (36.0102,0,0)
+          size (10,1e+20,1e+20)
+          axes (1,0,0), (0,1,0), (0,0,1)
+          dielectric constant epsilon diagonal = (0.43,0.43,0.43)
+     block, center = (46.0102,0,0)
+          size (12,1e+20,1e+20)
+          axes (1,0,0), (0,1,0), (0,0,1)
+          dielectric constant epsilon diagonal = (2.67,2.67,2.67)
+     block, center = (58.0102,0,0)
+          size (10,1e+20,1e+20)
+          axes (1,0,0), (0,1,0), (0,0,1)
+          dielectric constant epsilon diagonal = (0.43,0.43,0.43)
+     block, center = (68.0102,0,0)
+          size (12,1e+20,1e+20)
+          axes (1,0,0), (0,1,0), (0,0,1)
+          dielectric constant epsilon diagonal = (2.67,2.67,2.67)
+     block, center = (80.0102,0,0)
+          size (10,1e+20,1e+20)
+          axes (1,0,0), (0,1,0), (0,0,1)
+          dielectric constant epsilon diagonal = (0.43,0.43,0.43)
+time for set_epsilon = 0.366341 s
+time for set_conductivity = 0.00886393 s
+time for set_conductivity = 0.00883603 s
+time for set_conductivity = 0.00912189 s
+-----------
+ldos0:, 0.0018796992481203006, 0.034843488332026364
+run 0 finished at t = 5.0 (5 timesteps)
+2.056122448979592
+-----------
+Initializing structure...
+time for choose_chunkdivision = 0.000442982 s
+Working in 2D dimensions.
+Computational cell is 500 x 500 x 0 with resolution 0.5
+     block, center = (2.05612,0,0)
+          size (12,1e+20,1e+20)
+          axes (1,0,0), (0,1,0), (0,0,1)
+          dielectric constant epsilon diagonal = (2.67,2.67,2.67)
+     block, center = (14.0561,0,0)
+          size (10,1e+20,1e+20)
+          axes (1,0,0), (0,1,0), (0,0,1)
+          dielectric constant epsilon diagonal = (0.43,0.43,0.43)
+     block, center = (24.0561,0,0)
+          size (12,1e+20,1e+20)
+          axes (1,0,0), (0,1,0), (0,0,1)
+          dielectric constant epsilon diagonal = (2.67,2.67,2.67)
+     block, center = (36.0561,0,0)
+          size (10,1e+20,1e+20)
+          axes (1,0,0), (0,1,0), (0,0,1)
+          dielectric constant epsilon diagonal = (0.43,0.43,0.43)
+     block, center = (46.0561,0,0)
+          size (12,1e+20,1e+20)
+          axes (1,0,0), (0,1,0), (0,0,1)
+          dielectric constant epsilon diagonal = (2.67,2.67,2.67)
+     block, center = (58.0561,0,0)
+          size (10,1e+20,1e+20)
+          axes (1,0,0), (0,1,0), (0,0,1)
+          dielectric constant epsilon diagonal = (0.43,0.43,0.43)
+     block, center = (68.0561,0,0)
+          size (12,1e+20,1e+20)
+          axes (1,0,0), (0,1,0), (0,0,1)
+          dielectric constant epsilon diagonal = (2.67,2.67,2.67)
+     block, center = (80.0561,0,0)
+          size (10,1e+20,1e+20)
+          axes (1,0,0), (0,1,0), (0,0,1)
+          dielectric constant epsilon diagonal = (0.43,0.43,0.43)
+time for set_epsilon = 0.36079 s
+time for set_conductivity = 0.00876594 s
+time for set_conductivity = 0.00858903 s
+time for set_conductivity = 0.00858092 s
+-----------
+ldos0:, 0.0018796992481203006, 0.03484352116146561
+run 0 finished at t = 5.0 (5 timesteps)
+2.1020408163265305
+-----------
+Initializing structure...
+time for choose_chunkdivision = 0.000458002 s
+Working in 2D dimensions.
+Computational cell is 500 x 500 x 0 with resolution 0.5
+     block, center = (2.10204,0,0)
+          size (12,1e+20,1e+20)
+          axes (1,0,0), (0,1,0), (0,0,1)
+          dielectric constant epsilon diagonal = (2.67,2.67,2.67)
+     block, center = (14.102,0,0)
+          size (10,1e+20,1e+20)
+          axes (1,0,0), (0,1,0), (0,0,1)
+          dielectric constant epsilon diagonal = (0.43,0.43,0.43)
+     block, center = (24.102,0,0)
+          size (12,1e+20,1e+20)
+          axes (1,0,0), (0,1,0), (0,0,1)
+          dielectric constant epsilon diagonal = (2.67,2.67,2.67)
+     block, center = (36.102,0,0)
+          size (10,1e+20,1e+20)
+          axes (1,0,0), (0,1,0), (0,0,1)
+          dielectric constant epsilon diagonal = (0.43,0.43,0.43)
+     block, center = (46.102,0,0)
+          size (12,1e+20,1e+20)
+          axes (1,0,0), (0,1,0), (0,0,1)
+          dielectric constant epsilon diagonal = (2.67,2.67,2.67)
+     block, center = (58.102,0,0)
+          size (10,1e+20,1e+20)
+          axes (1,0,0), (0,1,0), (0,0,1)
+          dielectric constant epsilon diagonal = (0.43,0.43,0.43)
+     block, center = (68.102,0,0)
+          size (12,1e+20,1e+20)
+          axes (1,0,0), (0,1,0), (0,0,1)
+          dielectric constant epsilon diagonal = (2.67,2.67,2.67)
+     block, center = (80.102,0,0)
+          size (10,1e+20,1e+20)
+          axes (1,0,0), (0,1,0), (0,0,1)
+          dielectric constant epsilon diagonal = (0.43,0.43,0.43)
+time for set_epsilon = 0.362403 s
+time for set_conductivity = 0.0084331 s
+time for set_conductivity = 0.00858188 s
+time for set_conductivity = 0.00852299 s
+-----------
+ldos0:, 0.0018796992481203006, 0.034843554408358526
+run 0 finished at t = 5.0 (5 timesteps)
+2.1479591836734695
+-----------
+Initializing structure...
+time for choose_chunkdivision = 0.000437975 s
+Working in 2D dimensions.
+Computational cell is 500 x 500 x 0 with resolution 0.5
+     block, center = (2.14796,0,0)
+          size (12,1e+20,1e+20)
+          axes (1,0,0), (0,1,0), (0,0,1)
+          dielectric constant epsilon diagonal = (2.67,2.67,2.67)
+     block, center = (14.148,0,0)
+          size (10,1e+20,1e+20)
+          axes (1,0,0), (0,1,0), (0,0,1)
+          dielectric constant epsilon diagonal = (0.43,0.43,0.43)
+     block, center = (24.148,0,0)
+          size (12,1e+20,1e+20)
+          axes (1,0,0), (0,1,0), (0,0,1)
+          dielectric constant epsilon diagonal = (2.67,2.67,2.67)
+     block, center = (36.148,0,0)
+          size (10,1e+20,1e+20)
+          axes (1,0,0), (0,1,0), (0,0,1)
+          dielectric constant epsilon diagonal = (0.43,0.43,0.43)
+     block, center = (46.148,0,0)
+          size (12,1e+20,1e+20)
+          axes (1,0,0), (0,1,0), (0,0,1)
+          dielectric constant epsilon diagonal = (2.67,2.67,2.67)
+     block, center = (58.148,0,0)
+          size (10,1e+20,1e+20)
+          axes (1,0,0), (0,1,0), (0,0,1)
+          dielectric constant epsilon diagonal = (0.43,0.43,0.43)
+     block, center = (68.148,0,0)
+          size (12,1e+20,1e+20)
+          axes (1,0,0), (0,1,0), (0,0,1)
+          dielectric constant epsilon diagonal = (2.67,2.67,2.67)
+     block, center = (80.148,0,0)
+          size (10,1e+20,1e+20)
+          axes (1,0,0), (0,1,0), (0,0,1)
+          dielectric constant epsilon diagonal = (0.43,0.43,0.43)
+time for set_epsilon = 0.365873 s
+time for set_conductivity = 0.00841212 s
+time for set_conductivity = 0.00877094 s
+time for set_conductivity = 0.00867796 s
+-----------
+ldos0:, 0.0018796992481203006, 0.034843588100761845
+run 0 finished at t = 5.0 (5 timesteps)
+2.1938775510204085
+-----------
+Initializing structure...
+time for choose_chunkdivision = 0.000436068 s
+Working in 2D dimensions.
+Computational cell is 500 x 500 x 0 with resolution 0.5
+     block, center = (2.19388,0,0)
+          size (12,1e+20,1e+20)
+          axes (1,0,0), (0,1,0), (0,0,1)
+          dielectric constant epsilon diagonal = (2.67,2.67,2.67)
+     block, center = (14.1939,0,0)
+          size (10,1e+20,1e+20)
+          axes (1,0,0), (0,1,0), (0,0,1)
+          dielectric constant epsilon diagonal = (0.43,0.43,0.43)
+     block, center = (24.1939,0,0)
+          size (12,1e+20,1e+20)
+          axes (1,0,0), (0,1,0), (0,0,1)
+          dielectric constant epsilon diagonal = (2.67,2.67,2.67)
+     block, center = (36.1939,0,0)
+          size (10,1e+20,1e+20)
+          axes (1,0,0), (0,1,0), (0,0,1)
+          dielectric constant epsilon diagonal = (0.43,0.43,0.43)
+     block, center = (46.1939,0,0)
+          size (12,1e+20,1e+20)
+          axes (1,0,0), (0,1,0), (0,0,1)
+          dielectric constant epsilon diagonal = (2.67,2.67,2.67)
+     block, center = (58.1939,0,0)
+          size (10,1e+20,1e+20)
+          axes (1,0,0), (0,1,0), (0,0,1)
+          dielectric constant epsilon diagonal = (0.43,0.43,0.43)
+     block, center = (68.1939,0,0)
+          size (12,1e+20,1e+20)
+          axes (1,0,0), (0,1,0), (0,0,1)
+          dielectric constant epsilon diagonal = (2.67,2.67,2.67)
+     block, center = (80.1939,0,0)
+          size (10,1e+20,1e+20)
+          axes (1,0,0), (0,1,0), (0,0,1)
+          dielectric constant epsilon diagonal = (0.43,0.43,0.43)
+time for set_epsilon = 0.369112 s
+time for set_conductivity = 0.0087862 s
+time for set_conductivity = 0.00921607 s
+time for set_conductivity = 0.0101981 s
+-----------
+ldos0:, 0.0018796992481203006, 0.03484362226930417
+run 0 finished at t = 5.0 (5 timesteps)
+2.239795918367347
+-----------
+Initializing structure...
+time for choose_chunkdivision = 0.000443935 s
+Working in 2D dimensions.
+Computational cell is 500 x 500 x 0 with resolution 0.5
+     block, center = (2.2398,0,0)
+          size (12,1e+20,1e+20)
+          axes (1,0,0), (0,1,0), (0,0,1)
+          dielectric constant epsilon diagonal = (2.67,2.67,2.67)
+     block, center = (14.2398,0,0)
+          size (10,1e+20,1e+20)
+          axes (1,0,0), (0,1,0), (0,0,1)
+          dielectric constant epsilon diagonal = (0.43,0.43,0.43)
+     block, center = (24.2398,0,0)
+          size (12,1e+20,1e+20)
+          axes (1,0,0), (0,1,0), (0,0,1)
+          dielectric constant epsilon diagonal = (2.67,2.67,2.67)
+     block, center = (36.2398,0,0)
+          size (10,1e+20,1e+20)
+          axes (1,0,0), (0,1,0), (0,0,1)
+          dielectric constant epsilon diagonal = (0.43,0.43,0.43)
+     block, center = (46.2398,0,0)
+          size (12,1e+20,1e+20)
+          axes (1,0,0), (0,1,0), (0,0,1)
+          dielectric constant epsilon diagonal = (2.67,2.67,2.67)
+     block, center = (58.2398,0,0)
+          size (10,1e+20,1e+20)
+          axes (1,0,0), (0,1,0), (0,0,1)
+          dielectric constant epsilon diagonal = (0.43,0.43,0.43)
+     block, center = (68.2398,0,0)
+          size (12,1e+20,1e+20)
+          axes (1,0,0), (0,1,0), (0,0,1)
+          dielectric constant epsilon diagonal = (2.67,2.67,2.67)
+     block, center = (80.2398,0,0)
+          size (10,1e+20,1e+20)
+          axes (1,0,0), (0,1,0), (0,0,1)
+          dielectric constant epsilon diagonal = (0.43,0.43,0.43)
+time for set_epsilon = 0.359122 s
+time for set_conductivity = 0.00864005 s
+time for set_conductivity = 0.00861287 s
+time for set_conductivity = 0.00853992 s
+-----------
+ldos0:, 0.0018796992481203006, 0.0348436569474875
+run 0 finished at t = 5.0 (5 timesteps)
+2.2857142857142856
+-----------
+Initializing structure...
+time for choose_chunkdivision = 0.000463963 s
+Working in 2D dimensions.
+Computational cell is 500 x 500 x 0 with resolution 0.5
+     block, center = (2.28571,0,0)
+          size (12,1e+20,1e+20)
+          axes (1,0,0), (0,1,0), (0,0,1)
+          dielectric constant epsilon diagonal = (2.67,2.67,2.67)
+     block, center = (14.2857,0,0)
+          size (10,1e+20,1e+20)
+          axes (1,0,0), (0,1,0), (0,0,1)
+          dielectric constant epsilon diagonal = (0.43,0.43,0.43)
+     block, center = (24.2857,0,0)
+          size (12,1e+20,1e+20)
+          axes (1,0,0), (0,1,0), (0,0,1)
+          dielectric constant epsilon diagonal = (2.67,2.67,2.67)
+     block, center = (36.2857,0,0)
+          size (10,1e+20,1e+20)
+          axes (1,0,0), (0,1,0), (0,0,1)
+          dielectric constant epsilon diagonal = (0.43,0.43,0.43)
+     block, center = (46.2857,0,0)
+          size (12,1e+20,1e+20)
+          axes (1,0,0), (0,1,0), (0,0,1)
+          dielectric constant epsilon diagonal = (2.67,2.67,2.67)
+     block, center = (58.2857,0,0)
+          size (10,1e+20,1e+20)
+          axes (1,0,0), (0,1,0), (0,0,1)
+          dielectric constant epsilon diagonal = (0.43,0.43,0.43)
+     block, center = (68.2857,0,0)
+          size (12,1e+20,1e+20)
+          axes (1,0,0), (0,1,0), (0,0,1)
+          dielectric constant epsilon diagonal = (2.67,2.67,2.67)
+     block, center = (80.2857,0,0)
+          size (10,1e+20,1e+20)
+          axes (1,0,0), (0,1,0), (0,0,1)
+          dielectric constant epsilon diagonal = (0.43,0.43,0.43)
+time for set_epsilon = 0.362116 s
+time for set_conductivity = 0.00855517 s
+time for set_conductivity = 0.00861406 s
+time for set_conductivity = 0.00874305 s
+-----------
+ldos0:, 0.0018796992481203006, 0.0348436921720324
+run 0 finished at t = 5.0 (5 timesteps)
+2.3316326530612246
+-----------
+Initializing structure...
+time for choose_chunkdivision = 0.000460863 s
+Working in 2D dimensions.
+Computational cell is 500 x 500 x 0 with resolution 0.5
+     block, center = (2.33163,0,0)
+          size (12,1e+20,1e+20)
+          axes (1,0,0), (0,1,0), (0,0,1)
+          dielectric constant epsilon diagonal = (2.67,2.67,2.67)
+     block, center = (14.3316,0,0)
+          size (10,1e+20,1e+20)
+          axes (1,0,0), (0,1,0), (0,0,1)
+          dielectric constant epsilon diagonal = (0.43,0.43,0.43)
+     block, center = (24.3316,0,0)
+          size (12,1e+20,1e+20)
+          axes (1,0,0), (0,1,0), (0,0,1)
+          dielectric constant epsilon diagonal = (2.67,2.67,2.67)
+     block, center = (36.3316,0,0)
+          size (10,1e+20,1e+20)
+          axes (1,0,0), (0,1,0), (0,0,1)
+          dielectric constant epsilon diagonal = (0.43,0.43,0.43)
+     block, center = (46.3316,0,0)
+          size (12,1e+20,1e+20)
+          axes (1,0,0), (0,1,0), (0,0,1)
+          dielectric constant epsilon diagonal = (2.67,2.67,2.67)
+     block, center = (58.3316,0,0)
+          size (10,1e+20,1e+20)
+          axes (1,0,0), (0,1,0), (0,0,1)
+          dielectric constant epsilon diagonal = (0.43,0.43,0.43)
+     block, center = (68.3316,0,0)
+          size (12,1e+20,1e+20)
+          axes (1,0,0), (0,1,0), (0,0,1)
+          dielectric constant epsilon diagonal = (2.67,2.67,2.67)
+     block, center = (80.3316,0,0)
+          size (10,1e+20,1e+20)
+          axes (1,0,0), (0,1,0), (0,0,1)
+          dielectric constant epsilon diagonal = (0.43,0.43,0.43)
+time for set_epsilon = 0.36 s
+time for set_conductivity = 0.00868797 s
+time for set_conductivity = 0.00859499 s
+time for set_conductivity = 0.00846291 s
+-----------
+ldos0:, 0.0018796992481203006, 0.03484372798327391
+run 0 finished at t = 5.0 (5 timesteps)
+2.3775510204081636
+-----------
+Initializing structure...
+time for choose_chunkdivision = 0.000463963 s
+Working in 2D dimensions.
+Computational cell is 500 x 500 x 0 with resolution 0.5
+     block, center = (2.37755,0,0)
+          size (12,1e+20,1e+20)
+          axes (1,0,0), (0,1,0), (0,0,1)
+          dielectric constant epsilon diagonal = (2.67,2.67,2.67)
+     block, center = (14.3776,0,0)
+          size (10,1e+20,1e+20)
+          axes (1,0,0), (0,1,0), (0,0,1)
+          dielectric constant epsilon diagonal = (0.43,0.43,0.43)
+     block, center = (24.3776,0,0)
+          size (12,1e+20,1e+20)
+          axes (1,0,0), (0,1,0), (0,0,1)
+          dielectric constant epsilon diagonal = (2.67,2.67,2.67)
+     block, center = (36.3776,0,0)
+          size (10,1e+20,1e+20)
+          axes (1,0,0), (0,1,0), (0,0,1)
+          dielectric constant epsilon diagonal = (0.43,0.43,0.43)
+     block, center = (46.3776,0,0)
+          size (12,1e+20,1e+20)
+          axes (1,0,0), (0,1,0), (0,0,1)
+          dielectric constant epsilon diagonal = (2.67,2.67,2.67)
+     block, center = (58.3776,0,0)
+          size (10,1e+20,1e+20)
+          axes (1,0,0), (0,1,0), (0,0,1)
+          dielectric constant epsilon diagonal = (0.43,0.43,0.43)
+     block, center = (68.3776,0,0)
+          size (12,1e+20,1e+20)
+          axes (1,0,0), (0,1,0), (0,0,1)
+          dielectric constant epsilon diagonal = (2.67,2.67,2.67)
+     block, center = (80.3776,0,0)
+          size (10,1e+20,1e+20)
+          axes (1,0,0), (0,1,0), (0,0,1)
+          dielectric constant epsilon diagonal = (0.43,0.43,0.43)
+time for set_epsilon = 0.364033 s
+time for set_conductivity = 0.00881195 s
+time for set_conductivity = 0.00850296 s
+time for set_conductivity = 0.00835204 s
+-----------
+ldos0:, 0.0018796992481203006, 0.03484376442561758
+run 0 finished at t = 5.0 (5 timesteps)
+
+Elapsed run time = 6.6063 s
