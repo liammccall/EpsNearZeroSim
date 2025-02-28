@@ -43,7 +43,7 @@ def main():
     size = comm.Get_size()
     start = 50
     end = 100
-    res = [1]#[20, 10, 5, 5]
+    res = [20, 10, 5, 5]
     num_angles = 10
     
     distances = []
