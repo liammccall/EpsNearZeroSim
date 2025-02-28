@@ -6,18 +6,10 @@ import analyses.ldos as ldos
 import analyses.efields as efields
 import numpy as np
 
-wvls = [[500, "plots/multistack500.mp4"],
-        [510, "plots/multistack510.mp4"], 
-        [520, "plots/multistack520.mp4"], 
-        [530, "plots/multistack530.mp4"], 
-        [540, "plots/multistack540.mp4"], 
-        [550, "plots/multistack550.mp4"], 
-        [560, "plots/multistack560.mp4"]]
-
 def multi(source_dist, file_name, wvl = 532, spatial_resolution = 0.1, time_resolution=0.1,
           emptyspace = False, returnval = "LDOS",
           time_len=500, time_res = 1, rot_angle = -20):
-    cell = mp.Vector3(300, 300, 300)
+    cell = mp.Vector3(1000, 1000, 1000)
 
     #all nm
     freq = 1/wvl
@@ -33,25 +25,24 @@ def multi(source_dist, file_name, wvl = 532, spatial_resolution = 0.1, time_reso
 
     rot_rads = np.radians(rot_angle)
 
-    #Uncomment to include APTMS 1 nm layers
     def createLayer(initialOffset, order):
             return [
             mp.Block(
                 mp.Vector3(tio2Width, mp.inf, mp.inf),
-                center=mp.Vector3(((0.5 + order) * tio2Width + 
+                center=mp.Vector3((0.5 + order) * tio2Width + 
                                 #   (0 + 2 * order) * aptmsWidth + 
                                   (0 + order) * auWidth + 
-                                  initialOffset) / np.cos(rot_rads), 0, 0),
+                                  initialOffset, 0, 0).rotate(mp.Vector3(z=1), rot_rads),
                 material=mp.Medium(epsilon=tio2N, D_conductivity=tio2C),
                 e1=mp.Vector3(x=1).rotate(mp.Vector3(z=1),rot_rads),
                 e2=mp.Vector3(y=1).rotate(mp.Vector3(z=1),rot_rads)
             ),
             mp.Block(
                 mp.Vector3(auWidth, mp.inf, mp.inf),
-                center=mp.Vector3(((1.5 + order) * tio2Width + 
+                center=mp.Vector3((1.5 + order) * tio2Width + 
                                 #   (1 + 2 * order) * aptmsWidth + 
                                   (0 + order) * auWidth + 
-                                  initialOffset) / np.cos(rot_rads), 0, 0),
+                                  initialOffset, 0, 0).rotate(mp.Vector3(z=1), rot_rads),
                 material=mp.Medium(epsilon=auN, D_conductivity=auC),
                 e1=mp.Vector3(x=1).rotate(mp.Vector3(z=1),rot_rads),
                 e2=mp.Vector3(y=1).rotate(mp.Vector3(z=1),rot_rads)
@@ -61,7 +52,7 @@ def multi(source_dist, file_name, wvl = 532, spatial_resolution = 0.1, time_reso
     geometry = []
     if not emptyspace:
         for i in range(0, 3, 1):
-            geometry.extend(createLayer(source_dist / 2, i))
+            geometry.extend(createLayer(source_dist, i))
 
 
     beam_x0 = mp.Vector3(200, 0, 0)  # beam focus (relative to source center)
@@ -72,7 +63,7 @@ def multi(source_dist, file_name, wvl = 532, spatial_resolution = 0.1, time_reso
     sources = [
         mp.GaussianBeamSource(
             src=mp.ContinuousSource(freq),
-            center=mp.Vector3(-source_dist / 2),
+            center=mp.Vector3(0),
             size=mp.Vector3(0, source_size, source_size),
             beam_x0=beam_x0,
             beam_kdir=beam_kdir,
@@ -81,7 +72,7 @@ def multi(source_dist, file_name, wvl = 532, spatial_resolution = 0.1, time_reso
         )
     ]
 
-    pml_thickness = 25
+    pml_thickness = 200
     pml_layers = [mp.PML(pml_thickness)]
 
     sim = mp.Simulation(
