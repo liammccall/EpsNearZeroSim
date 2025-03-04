@@ -6,7 +6,7 @@ import analyses.ldos as ldos
 import analyses.efields as efields
 import numpy as np
 
-def multi(source_dist, file_name, wvl = 532, spatial_resolution = 0.1, time_resolution=0.1,
+def multi(source_dist, file_name, wvl = 532, spatial_resolution = 1, time_resolution=0.25,
           emptyspace = False, returnval = "LDOS",
           time_len=500, time_res = 1, rot_angle = -20):
     cell = mp.Vector3(1000, 1000, 1000)
@@ -61,15 +61,7 @@ def multi(source_dist, file_name, wvl = 532, spatial_resolution = 0.1, time_reso
     beam_E0 = mp.Vector3(0, 1, 0)
     source_size = 100
     sources = [
-        mp.GaussianBeamSource(
-            src=mp.ContinuousSource(freq),
-            center=mp.Vector3(0),
-            size=mp.Vector3(0, source_size, source_size),
-            beam_x0=beam_x0,
-            beam_kdir=beam_kdir,
-            beam_w0=beam_w0,
-            beam_E0=beam_E0,
-        )
+        mp.Source(mp.GaussianSource(freq, fwidth=freq / 4), component=mp.Ey, center=mp.Vector3())
     ]
 
     pml_thickness = 200
