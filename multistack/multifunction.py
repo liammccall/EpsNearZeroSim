@@ -6,7 +6,11 @@ import analyses.ldos as ldos
 import analyses.efields as efields
 import numpy as np
 
+<<<<<<< HEAD
 def multi(source_dist, file_name, wvl = 532, spatial_resolution = 1, time_resolution=0.25,
+=======
+def multi(source_dist, file_name, wvl = 532, spatial_resolution = 0.5, time_resolution=0.1,
+>>>>>>> fb9e845 (prerefactor)
           emptyspace = False, returnval = "LDOS",
           time_len=500, time_res = 1, rot_angle = -20):
     cell = mp.Vector3(1000, 1000, 1000)
