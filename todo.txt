@@ -1,0 +1,6 @@
+3d pillar geometry
+lorentz material (multi frequency)
+3d ldos curve
+nRET curve
+average enhancement
+multiple angle enhancement
