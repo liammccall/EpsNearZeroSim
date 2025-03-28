@@ -1,6 +1,7 @@
-3d pillar geometry
-lorentz material (multi frequency)
+continuous decay curve sum, find exponential fit
 3d ldos curve
 nRET curve
+3d pillar geometry
+lorentz material (multi frequency)
 average enhancement
 multiple angle enhancement
