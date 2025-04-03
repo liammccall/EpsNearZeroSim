@@ -17,5 +17,8 @@ $(EXEC): $(OBJ)
 clean:
 	rm -f $(OBJ) $(EXEC)
 
+check-syntax:
+	$(CXX) -fsyntax-only $(SOURCES)
+
 run: $(EXEC)
 	mpirun -np 4 ./$(EXEC)
