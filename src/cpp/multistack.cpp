@@ -68,6 +68,10 @@ int compare_point(fields &f1, fields &f2, const vec &p) {
   return 1;
 }
 
+double get_geometry(){
+  grid_volume gv = voltwo(600, 600);
+}
+
 int test_metal(double eps(const vec &), int splitting) {
   double a = 10.0;
   double ttot = 17.0;
@@ -318,7 +322,7 @@ int main(int argc, char **argv) {
   initialize mpi(argc, argv);
   verbosity = 0;
   master_printf("Testing 2D...\n");
-
+  
   for (int s = 2; s < 4; s++)
     if (!test_pml(one, s)) meep::abort("error in test_pml vacuum\n");
 
