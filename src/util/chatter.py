@@ -1,12 +1,12 @@
 def scaleNm(nm):
     match nm:
         case "pm":
-            return 1e3
+            return 1e-3
         case "nm":
             return 1e1
         case "um":
-            return 1e-3
+            return 1e3
         case "mm":
-            return 1e-6
+            return 1e6
         case "m":
-            return 1e-9
+            return 1e9

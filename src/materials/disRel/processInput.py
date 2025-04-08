@@ -7,7 +7,7 @@ import materials.disRel.lorentzfit as lf
 import util.chatter as chat
 
 
-def getFitted(datasource : str, wl_r : tuple[float, float], wl_units : str, num_lorentzians = 4, num_repeat = 10, imaginary_weight = 4):
+def getFitted(datasource : str, wl_r : tuple[float, float], wl_units : str, num_lorentzians = 4, num_repeat = 10, imaginary_weight = 4, eps_inf = 1.1):
     
     mydata = np.genfromtxt(datasource, delimiter=",")[1:-1]
     n = mydata[:, 1] + 1j * mydata[:, 2]
@@ -16,7 +16,7 @@ def getFitted(datasource : str, wl_r : tuple[float, float], wl_units : str, num_
     # Fitting parameter: the instantaneous (infinite frequency) dielectric.
     # Should be > 1.0 for stability and chosen such that
     # np.amin(np.real(eps)) is     ~1.0.  eps is defined below.
-    eps_inf = 1.1
+    # eps_inf = 1.1
 
     eps = np.square(n) - eps_inf
     
