@@ -2,6 +2,7 @@ import meep as mp
 import numpy as np
 import matplotlib as mpl
 
+# import disRel.processInput as pi
 import materials.disRel.processInput as pi
 
 def fitMaterial(datasource : str, wl_r : tuple[float, float], wl_units : str,
@@ -69,32 +70,32 @@ def plotMaterial(material : mp.Medium, freqs_reduced, eps_reduced, wl_reduced):
     fig.savefig("figs/eps_fit_sample.png", dpi=150, bbox_inches="tight")
     
     
-def loadMaterial(name : str):
-    eps_inf = 1.1
+# def loadMaterial(name : str):
+#     eps_inf = 1.1
     
-    ps, idx_opt = np.load("bin\\mats\\" + name + ".npy")
-    # Define a `Medium` class object using the optimal fitting parameters.
-    E_susceptibilities = []
+#     ps, idx_opt = np.load("bin\\mats\\" + name + ".npy")
+#     # Define a `Medium` class object using the optimal fitting parameters.
+#     E_susceptibilities = []
 
-    for n in range(num_lorentzians):
-        mymaterial_freq = ps[idx_opt][3 * n + 1]
-        mymaterial_gamma = ps[idx_opt][3 * n + 2]
+#     for n in range(num_lorentzians):
+#         mymaterial_freq = ps[idx_opt][3 * n + 1]
+#         mymaterial_gamma = ps[idx_opt][3 * n + 2]
 
-        if mymaterial_freq == 0:
-            mymaterial_sigma = ps[idx_opt][3 * n + 0]
-            E_susceptibilities.append(
-                mp.DrudeSusceptibility(
-                    frequency=1.0, gamma=mymaterial_gamma, sigma=mymaterial_sigma
-                )
-            )
-        else:
-            mymaterial_sigma = ps[idx_opt][3 * n + 0] / mymaterial_freq**2
-            E_susceptibilities.append(
-                mp.LorentzianSusceptibility(
-                    frequency=mymaterial_freq,
-                    gamma=mymaterial_gamma,
-                    sigma=mymaterial_sigma,
-                )
-            )
+#         if mymaterial_freq == 0:
+#             mymaterial_sigma = ps[idx_opt][3 * n + 0]
+#             E_susceptibilities.append(
+#                 mp.DrudeSusceptibility(
+#                     frequency=1.0, gamma=mymaterial_gamma, sigma=mymaterial_sigma
+#                 )
+#             )
+#         else:
+#             mymaterial_sigma = ps[idx_opt][3 * n + 0] / mymaterial_freq**2
+#             E_susceptibilities.append(
+#                 mp.LorentzianSusceptibility(
+#                     frequency=mymaterial_freq,
+#                     gamma=mymaterial_gamma,
+#                     sigma=mymaterial_sigma,
+#                 )
+#             )
     
-    return mp.Medium(epsilon=eps_inf, E_susceptibilities=E_susceptibilities)
+#     return mp.Medium(epsilon=eps_inf, E_susceptibilities=E_susceptibilities)
