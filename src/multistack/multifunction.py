@@ -5,26 +5,44 @@ import matplotlib.pyplot as plt
 import analyses.ldos as ldos
 import analyses.efields as efields
 import analyses.cwfields as cwfields
+import analyses.modes as modes
 import numpy as np
 
+from meep.materials import Au as meepAu
 
-def multi(source_dist, file_name, wvl = 532, spatial_resolution = 1, time_resolution=0.01,
-          emptyspace = False, returnval = "LDOS",
-          time_len=25, time_res = 0.1, rot_angle = 0):
-    cell = mp.Vector3(600, 600, 0)  
+def get_source_dict(freq):
+    return {
+       "Ex": mp.Source(mp.GaussianSource(freq, fwidth = freq / 5), component = mp.Ex, center = mp.Vector3()),
+       "Ey": mp.Source(mp.GaussianSource(freq, fwidth = freq / 5), component = mp.Ey, center = mp.Vector3()),
+       "Ez": mp.Source(mp.GaussianSource(freq, fwidth = freq / 5), component = mp.Ez, center = mp.Vector3()),
+       "Hx": mp.Source(mp.GaussianSource(freq, fwidth = freq / 5), component = mp.Hx, center = mp.Vector3()),
+       "Hy": mp.Source(mp.GaussianSource(freq, fwidth = freq / 5), component = mp.Hy, center = mp.Vector3()),
+       "Hz": mp.Source(mp.GaussianSource(freq, fwidth = freq / 5), component = mp.Hz, center = mp.Vector3())
+    }
+
+def multi(source_dist, file_name, wvl = 0.553, spatial_resolution = 1000, time_resolution=0.1,
+          emptyspace = False, returnval = "LDOS", pml = False, glass = False,
+          time_len=25, time_res = 0.1, rot_angle = 0, polarizations = ["Ex", "Ey", "Ez"]):
+    cell = mp.Vector3(0.6, 0.6, 0)  
 
     #all nm
     freq = 1/wvl
 
-    tio2N = 2.67
-    tio2K = 0
-    tio2C = 0
-    tio2Width = 12
-    auN =  0.43
-    auK =  2.455
-    auC =  2 * math.pi * freq * auK / auN
-    auWidth = 10
+    # tio2N = 2.67
+    # tio2K = 0
+    # tio2C = 0
+    tio2mat = mp.Medium(epsilon = 4.855)
+    tio2Width = 0.012
+    # auN =  0.43
+    # auK =  2.455
+    # auC =  2 * math.pi * freq * auK / auN
+    auMat = meepAu
+    auWidth = 0.010
 
+    if(glass):
+        tio2mat = mp.Medium(epsilon = 1.52**2)
+        auMat = mp.Medium(epsilon = 1.52**2)
+    
     rot_rads = np.radians(rot_angle)
 
     #Uncomment to include APTMS 1 nm layers
@@ -36,7 +54,7 @@ def multi(source_dist, file_name, wvl = 532, spatial_resolution = 1, time_resolu
                                 #   (0 + 2 * order) * aptmsWidth + 
                                   (0 + order) * auWidth + 
                                   initialOffset, 0, 0).rotate(mp.Vector3(z=1), rot_rads),
-                material=mp.Medium(epsilon=tio2N, D_conductivity=tio2C),
+                material=tio2mat,
                 e1=mp.Vector3(x=1).rotate(mp.Vector3(z=1),rot_rads),
                 e2=mp.Vector3(y=1).rotate(mp.Vector3(z=1),rot_rads)
             ),
@@ -46,7 +64,7 @@ def multi(source_dist, file_name, wvl = 532, spatial_resolution = 1, time_resolu
                                 #   (1 + 2 * order) * aptmsWidth + 
                                   (0.5 + order) * auWidth + 
                                   initialOffset, 0, 0).rotate(mp.Vector3(z=1), rot_rads),
-                material=mp.Medium(epsilon=auN, D_conductivity=auC),
+                material=auMat,
                 e1=mp.Vector3(x=1).rotate(mp.Vector3(z=1),rot_rads),
                 e2=mp.Vector3(y=1).rotate(mp.Vector3(z=1),rot_rads)
             )
@@ -75,23 +93,15 @@ def multi(source_dist, file_name, wvl = 532, spatial_resolution = 1, time_resolu
     #     )
     # ]
 
-    sources = [
-        mp.Source(mp.ContinuousSource(freq), component = mp.Hx, center = mp.Vector3()),
-        mp.Source(mp.ContinuousSource(freq), component = mp.Hy, center = mp.Vector3()),
-        mp.Source(mp.ContinuousSource(freq), component = mp.Hz, center = mp.Vector3()),
-        # mp.Source(mp.ContinuousSource(freq), component = mp.Ex, center = mp.Vector3()),
-        # mp.Source(mp.ContinuousSource(freq), component = mp.Ey, center = mp.Vector3()),
-        # mp.Source(mp.ContinuousSource(freq), component = mp.Ez, center = mp.Vector3()),
-    #    mp.Source(mp.GaussianSource(freq, fwidth = freq / 20), component = mp.Hx, center = mp.Vector3()),
-    #    mp.Source(mp.GaussianSource(freq, fwidth = freq / 20), component = mp.Hy, center = mp.Vector3()),
-    #    mp.Source(mp.GaussianSource(freq, fwidth = freq / 20), component = mp.Hz, center = mp.Vector3()),
-    #    mp.Source(mp.GaussianSource(freq, fwidth = freq / 20), component = mp.Ex, center = mp.Vector3()),
-    #    mp.Source(mp.GaussianSource(freq, fwidth = freq / 20), component = mp.Ey, center = mp.Vector3()),
-    #    mp.Source(mp.GaussianSource(freq, fwidth = freq / 20), component = mp.Ez, center = mp.Vector3())
-    ]
+    sources = []
     
-    pml_thickness = 200
+    for pol in polarizations:
+        sources.append(get_source_dict(freq)[pol])
+    
+    pml_thickness = 0.2
     pml_layers = [mp.Absorber(pml_thickness)]
+    if(pml):
+        pml_layers = [mp.PML(pml_thickness)]
 
     sim = mp.Simulation(
         cell_size=cell,
@@ -104,18 +114,19 @@ def multi(source_dist, file_name, wvl = 532, spatial_resolution = 1, time_resolu
         Courant=time_resolution
     )
 
-    dna_length = 7.3
-    
-    
+    dna_length = 0.0073
     framerate = 10
     cmap = 'RdBu'
-    non_pml_vol = mp.Volume(mp.Vector3(), mp.Vector3(cell.x - 2 * pml_thickness, cell.y - 2 * pml_thickness))
-    
+    #tmp
+    # non_pml_vol = mp.Volume(mp.Vector3(), mp.Vector3(cell.x - 2 * pml_thickness, cell.y - 2 * pml_thickness))
+    non_pml_vol = mp.Volume(mp.Vector3(), mp.Vector3(source_dist, source_dist))
     match returnval:
         case "LDOS":
             return ldos.evaluate(sim, freq)
         case "CW":
             return cwfields.evaluate(sim, non_pml_vol, cmap, file_name)
+        case "Modes":
+            return modes.evaluate(sim, non_pml_vol, freq)
         case "EField":
             return efields.evaluate(sim, time_len, time_res, framerate, cmap, file_name)
         case _:

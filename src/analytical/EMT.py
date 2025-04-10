@@ -24,7 +24,7 @@ def bogdanovx_wvl(wvl):
     return np.real(bogdanovx(e_au_q(wvl), e_tio2_q(wvl), 10, 12))
 
 def bogdanovx_wvl_mp(wvl):
-    return np.real(bogdanovx(Au.epsilon(1 / wvl)[0, 0], e_tio2_q(wvl), 10, 12)) #e_tio2_q(wvl)
+    return np.real(bogdanovx(Au.epsilon(1 / wvl)[0, 0], 4.6, 10, 12)) #e_tio2_q(wvl)
 
 def bogdanovz(e1, e2, d1, d2):
     return e1 * e2 * (d1 + d2) / (e1 * d1 + e2 * d2)#(d1 + d2) / ((d1/e1) + (d2/e2))
@@ -100,9 +100,6 @@ get_perp_basis(exp_enz_re)
 get_perp_basis(exp_enz_im)
 # exp_enz_im = exp_enz_im.drop(exp_enz_im.columns[[2, 4, 6, 8]], axis = 1)
 
-print(exp_enz_re.head())
-print(exp_enz_im.head())
-
 enz_spline_perp_re = interp.UnivariateSpline(exp_enz_re.index, exp_enz_re["Perpendicular"])
 enz_spline_para_re = interp.UnivariateSpline(exp_enz_re.index, exp_enz_re["Parallel"])
 enz_spline_perp_im = interp.UnivariateSpline(exp_enz_im.index, exp_enz_im["Perpendicular"])
@@ -140,8 +137,8 @@ print(enz_point)
 plt.axhline(0)
 plt.axvline(enz_point)
 # print(len([eps[0, 0] for eps in Au.epsilon(1 / wvl_grid)]))
-plt.plot(wvl_grid, np.real(bogdanovx([eps[0, 0] for eps in Au.epsilon(1 / wvl_grid)], e_tio2_q(wvl_grid), 10, 12)), label="BogdanovX") # parallel
-plt.plot(wvl_grid, np.imag(bogdanovx([eps[0, 0] for eps in Au.epsilon(1 / wvl_grid)], e_tio2_q(wvl_grid), 10, 12)), label="BogdanovX", linestyle="--") # parallel
+plt.plot(wvl_grid, np.real(bogdanovx([eps[0, 0] for eps in Au.epsilon(1 / wvl_grid)], 4.6, 10, 12)), label="BogdanovX") # parallel
+plt.plot(wvl_grid, np.imag(bogdanovx([eps[0, 0] for eps in Au.epsilon(1 / wvl_grid)], 4.6, 10, 12)), label="BogdanovX", linestyle="--") # parallel
 plt.plot(wvl_grid, enz_spline_para_re(wvl_grid), label="Experimental")
 plt.plot(wvl_grid, enz_spline_para_im(wvl_grid), label="Experimental", linestyle="--")
 plt.xlim(0.4, 0.8)
