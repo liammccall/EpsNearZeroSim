@@ -10,7 +10,7 @@ from mpi4py import MPI
 import numpy as np
 import os
 import sys
-from git import Repo
+# from git import Repo
 
 og_std = sys.stdout
 
@@ -41,11 +41,12 @@ def worker_process(distances, rank):
 
 def git_push(repo_loc, message):
     try:
-        repo = Repo(repo_loc)
-        repo.git.add(update=True)
-        repo.index.commit(message)
-        origin = repo.remote(name='origin')
-        origin.push()
+        # repo = Repo(repo_loc)
+        # repo.git.add(update=True)
+        # repo.index.commit(message)
+        # origin = repo.remote(name='origin')
+        # origin.push()
+        pass
     except:
         print('Some error occured while pushing the code')
 
